@@ -1,9 +1,11 @@
-baseURL = ""
+baseURL = "https://xypnox.github.io/blag/"
 title = "The Blag"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
 theme = "minimo"
+
+publishDir = "docs"
 
 disqusShortname = ""
 googleAnalytics = ""

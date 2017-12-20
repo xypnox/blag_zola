@@ -43,3 +43,15 @@ Then this year December 2017, I bought an XPS 15 for college. It was worth a for
 I still am not perfectly happy with UMate and I think a few things can be improved here and there, But its far better than Windows. In fact UMate launches Atom in less than 2 seconds while Windows takes a good load of 12 seconds (on a hyper powerful laptop).
 
 So this was my tale with Linux. Hope you liked it.
+
+
+Some Code test:
+
+```c
+#include<stdlib.h>
+
+int main(int argc, char const *argv[]) {
+    printf("Cool As hell\n", );
+    return 0;
+}
+```
