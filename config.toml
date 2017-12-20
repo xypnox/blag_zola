@@ -80,9 +80,8 @@ page = "/:slug/"
 
 [[menu.main]]
     name = "Home"
-    pre = "<i class='fa fa-home'></i>"
     weight = -100
-    url = "/index.html"
+    url = "/"
 
 [[menu.main]]
 name = "Repo"
