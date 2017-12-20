@@ -20,3 +20,9 @@ body, button, input, select, textarea {
 .entry-content {
     font-family: "Crimson Text", "Times New Roman", serif;
 }
+
+@media only screen and (max-width: 500px) and (orientation: portrait) {
+    body, button, input, select, textarea {
+        font-size: 1.25em;
+    }
+}
