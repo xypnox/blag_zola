@@ -1,0 +1,22 @@
+.header::after {
+    border-color: #33df97;
+}
+.footer::before {
+    border-color: #33df97;
+}
+.title, h1, h2, h3, h4, h5, h6 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.header-info .title {
+    text-transform: none;
+}
+body, button, input, select, textarea {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 1.4em;
+}
+
+.entry-content {
+    font-family: "Crimson Text", "Times New Roman", serif;
+}

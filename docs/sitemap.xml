@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://xypnox.github.io/blag/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://xypnox.github.io/blag/posts/my-experience-with-linux/</loc>
     <lastmod>2017-12-20T22:59:52+05:30</lastmod>
   </url>
@@ -14,6 +18,11 @@
   
   <url>
     <loc>https://xypnox.github.io/blag/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xypnox.github.io/blag/page/</loc>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on The Blag</title>
+    <link>https://xypnox.github.io/blag/page/</link>
+    <description>Recent content in Pages on The Blag</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://xypnox.github.io/blag/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://xypnox.github.io/blag/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/about/</guid>
+      <description>I am Aditya Vikram Singh.
+I am a Physics Student at IIT Kharagpur.
+You can reach me at various social sites. Github</description>
+    </item>
+    
+  </channel>
+</rss>

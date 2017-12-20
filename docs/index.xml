@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>About</title>
+      <link>https://xypnox.github.io/blag/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/about/</guid>
+      <description>I am Aditya Vikram Singh.
+I am a Physics Student at IIT Kharagpur.
+You can reach me at various social sites. Github</description>
+    </item>
+    
+    <item>
       <title>My experience with Linux</title>
       <link>https://xypnox.github.io/blag/posts/my-experience-with-linux/</link>
       <pubDate>Wed, 20 Dec 2017 22:59:52 +0530</pubDate>
