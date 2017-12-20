@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Blag</title>
-    <link>https://xypnox.github.io/blag/</link>
-    <description>Recent content on The Blag</description>
+    <title>Posts on The Blag</title>
+    <link>https://xypnox.github.io/blag/posts/</link>
+    <description>Recent content in Posts on The Blag</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 20 Dec 2017 22:59:52 +0530</lastBuildDate>
     
-	<atom:link href="https://xypnox.github.io/blag/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xypnox.github.io/blag/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

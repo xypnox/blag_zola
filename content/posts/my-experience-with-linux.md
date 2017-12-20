@@ -1,10 +1,8 @@
 ---
 title: "My experience with Linux"
 date: 2017-12-20T22:59:52+05:30
-draft: true
+draft: flase
 ---
-
-Hi,
 
 I would like to share My Linux experience here and how I finally ended with Ubuntu Mate.
 
