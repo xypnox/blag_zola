@@ -7,7 +7,7 @@ theme = "minimo"
 
 publishDir = "docs"
 
-disqusShortname = ""
+disqusShortname = "xypnox-blag"
 googleAnalytics = ""
 
 Paginate = 5
