@@ -60,7 +60,7 @@ page = "" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-email = "xypnox@gmail.com"
+email = "xypnox @ gmail . com"
 facebook = "xypnox"
 github = "xypnox"
 instagram = "xypnox"
