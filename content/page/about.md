@@ -11,10 +11,10 @@ I am a Physics Student at IIT Kharagpur.
 
 You can reach me at various social sites.
 
-- [Github](https://github.com/xypnox)
-- [Facebook](https://facebook.com/xypnox)
-- [Twitter](https://twitter.com/xypnox)
+- [Github](https://github.com/xypnox/)
+- [Facebook](https://facebook.com/xypnox/)
+- [Twitter](https://twitter.com/xypnox/)
 - [Telegram](https://t.me/xypnox) <== text me here
-- [Instagram](https://instagram.com/xypnox)
+- [Instagram](https://instagram.com/xypnox/)
 
 You can also email me at xypnox @ gmail . com (Be smart and remove those spaces ;))
