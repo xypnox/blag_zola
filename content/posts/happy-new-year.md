@@ -14,4 +14,6 @@ Thats pretty much it.
 
 If you want the full res image you can get it from [imgur](https://imgur.com/a/EM7Qs)
 
-Share the image if you like it, Also add the link to this post. i.e. https://xypnox.github.io/blag/posts/happy-new-year/
+Share the image if you like it, Also add the link to this post.
+
+i.e. `https://git.io/vbbwB`
