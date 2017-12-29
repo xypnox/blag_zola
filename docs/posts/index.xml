@@ -5,10 +5,22 @@
     <link>https://xypnox.github.io/blag/posts/</link>
     <description>Recent content in Posts on The Blag</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Dec 2017 22:59:52 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2017 13:35:04 +0530</lastBuildDate>
     
 	<atom:link href="https://xypnox.github.io/blag/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Happy New Year</title>
+      <link>https://xypnox.github.io/blag/posts/happy-new-year/</link>
+      <pubDate>Fri, 29 Dec 2017 13:35:04 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/posts/happy-new-year/</guid>
+      <description>Happy New Year
+Thats pretty much it.
+If you want the full res image you can get it from imgur
+Share the image if you like it, Also add the link to this post. i.e. https://</description>
+    </item>
     
     <item>
       <title>My experience with Linux</title>
