@@ -2,7 +2,7 @@
 title: "Lonely"
 date: 2018-01-16T00:05:29+05:30
 draft: false
-cover:  
+cover:
     image: /blag/images/lonely.jpg
     caption: Photo by Brannon Naito on Unsplash
 
