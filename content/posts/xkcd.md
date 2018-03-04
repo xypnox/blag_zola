@@ -6,7 +6,6 @@ cover:
     image: /blag/images/angular_momentum.jpg
     caption: Angular Momentum
     style: normal
-
 ---
 
 Some of the best XKCDs, there are many more at : [xkcd.com](https://xkcd.com/)
