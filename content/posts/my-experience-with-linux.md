@@ -1,7 +1,7 @@
 ---
 title: "My experience with Linux"
 date: 2017-12-20T22:59:52+05:30
-draft: flase
+draft: false
 cover:  
     image: /blag/images/penguins-cover.jpg
     caption: Penguins! The ever present symbol of Linux | Photo by Yuriy Rzhemovskiy on Unsplash

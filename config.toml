@@ -15,6 +15,9 @@ preserveTaxonomyNames = true
 
 enableRobotsTXT = true # generate robots.txt
 
+# Emoji Support
+enableEmoji = true
+
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences = true
 
@@ -36,6 +39,13 @@ prefix = ""
 holder = "@xypnox"
 startYear = "2017"
 suffix = ""
+
+[params.sidebar]
+enable = false
+
+[params.widgets]
+homepage = ["recent_posts"]
+sidebar = ["about","taxonomy_cloud"]
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
@@ -79,9 +89,9 @@ tag = "tags"
 page = "/:slug/"
 
 [[menu.main]]
-    name = "Home"
-    weight = -100
-    url = "/"
+name = "Home"
+weight = -100
+url = "/"
 
 [[menu.main]]
 name = "Repo"
