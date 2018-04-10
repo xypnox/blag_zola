@@ -6,7 +6,9 @@ cover:
     image: /blag/images/penguins-cover.jpg
     caption: Penguins! The ever present symbol of Linux | Photo by Yuriy Rzhemovskiy on Unsplash
     style: wide
-
+tags:
+    - linux
+    - programming
 ---
 
 I would like to share My Linux experience here and how I finally ended with Ubuntu Mate.

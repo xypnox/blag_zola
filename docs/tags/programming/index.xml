@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on The Blag</title>
+    <link>https://xypnox.github.io/blag/tags/programming/</link>
+    <description>Recent content in Programming on The Blag</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Dec 2017 22:59:52 +0530</lastBuildDate>
+    
+	<atom:link href="https://xypnox.github.io/blag/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My experience with Linux</title>
+      <link>https://xypnox.github.io/blag/posts/my-experience-with-linux/</link>
+      <pubDate>Wed, 20 Dec 2017 22:59:52 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/posts/my-experience-with-linux/</guid>
+      <description>I would like to share My Linux experience here and how I finally ended with Ubuntu Mate.
+I am an Indian college fresher now (20 Dec 2017).
+I got my first computer when I was in 3rd Standard (aged 7 or 8). It was a HCL PC preloaded with Windows XP. But somehow the seller had removed the orignal activated one, and installed another pirated version of XP with several softwares.</description>
+    </item>
+    
+  </channel>
+</rss>

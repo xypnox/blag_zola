@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comic on The Blag</title>
+    <link>https://xypnox.github.io/blag/tags/comic/</link>
+    <description>Recent content in Comic on The Blag</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 04 Mar 2018 15:30:01 +0530</lastBuildDate>
+    
+	<atom:link href="https://xypnox.github.io/blag/tags/comic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>XKCD</title>
+      <link>https://xypnox.github.io/blag/posts/xkcd/</link>
+      <pubDate>Sun, 04 Mar 2018 15:30:01 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/posts/xkcd/</guid>
+      <description> Some of the best XKCDs, there are many more at : xkcd.com
+PS: Its my favorite webcomic!
+Angular Size Ancient Stars Altitude Approximations Beliefs Compass and Straightedge Complex Conjugate Convincing Creepy #RelatableAF </description>
+    </item>
+    
+  </channel>
+</rss>

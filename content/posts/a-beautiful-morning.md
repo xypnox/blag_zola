@@ -2,6 +2,8 @@
 title: "A Beautiful Morning"
 date: 2018-02-08T19:36:28+05:30
 draft: false
+tags:
+    - poem
 ---
 
 Today was a beautiful morning  

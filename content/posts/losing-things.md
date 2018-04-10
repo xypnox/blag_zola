@@ -1,7 +1,7 @@
 ---
 title: "Losing Things"
 date: 2018-04-10T20:50:51+05:30
-draft: true
+draft: false
 tags:
     - comic
     - fun
@@ -11,4 +11,6 @@ tags:
 
 ![The Comic](/blag/images/comic-losing-things.png)
 
-The Comic I recently created, Enjoy!
+We all lose things all the time, sometimes they are simple things such as an eraser, but many a times we lose significant things. I created this graph to plot the relation between how hard it is to loose something and how much hurt we feel when the thing is lost!
+
+Enjoy! (And probably share if you like it)

@@ -46,13 +46,37 @@
   </url>
   
   <url>
+    <loc>https://xypnox.github.io/blag/tags/comic/</loc>
+    <lastmod>2018-03-04T15:30:01+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xypnox.github.io/blag/tags/fun/</loc>
+    <lastmod>2018-03-04T15:30:01+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xypnox.github.io/blag/tags/life/</loc>
+    <lastmod>2017-12-29T13:35:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xypnox.github.io/blag/tags/linux/</loc>
+    <lastmod>2017-12-20T22:59:52+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xypnox.github.io/blag/page/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xypnox.github.io/blag/tags/poem/</loc>
-    <lastmod>2018-01-16T00:05:29+05:30</lastmod>
+    <lastmod>2018-02-08T19:36:28+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -63,8 +87,14 @@
   </url>
   
   <url>
+    <loc>https://xypnox.github.io/blag/tags/programming/</loc>
+    <lastmod>2017-12-20T22:59:52+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xypnox.github.io/blag/tags/</loc>
-    <lastmod>2018-01-16T00:05:29+05:30</lastmod>
+    <lastmod>2018-03-04T15:30:01+05:30</lastmod>
     <priority>0</priority>
   </url>
   

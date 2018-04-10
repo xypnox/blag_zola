@@ -5,17 +5,62 @@
     <link>https://xypnox.github.io/blag/tags/</link>
     <description>Recent content in Tags on The Blag</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 16 Jan 2018 00:05:29 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 04 Mar 2018 15:30:01 +0530</lastBuildDate>
     
 	<atom:link href="https://xypnox.github.io/blag/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Comic</title>
+      <link>https://xypnox.github.io/blag/tags/comic/</link>
+      <pubDate>Sun, 04 Mar 2018 15:30:01 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/comic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fun</title>
+      <link>https://xypnox.github.io/blag/tags/fun/</link>
+      <pubDate>Sun, 04 Mar 2018 15:30:01 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://xypnox.github.io/blag/tags/life/</link>
+      <pubDate>Fri, 29 Dec 2017 13:35:04 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://xypnox.github.io/blag/tags/linux/</link>
+      <pubDate>Wed, 20 Dec 2017 22:59:52 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Poem</title>
       <link>https://xypnox.github.io/blag/tags/poem/</link>
-      <pubDate>Tue, 16 Jan 2018 00:05:29 +0530</pubDate>
+      <pubDate>Thu, 08 Feb 2018 19:36:28 +0530</pubDate>
       
       <guid>https://xypnox.github.io/blag/tags/poem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://xypnox.github.io/blag/tags/programming/</link>
+      <pubDate>Wed, 20 Dec 2017 22:59:52 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/programming/</guid>
       <description></description>
     </item>
     

@@ -5,7 +5,8 @@ draft: false
 cover:  
     image: /blag/images/new-year.png
     caption: A Happy New Year Post, Quote from Brainyquotes | Photo by Karl Magnuson on Unsplash, edited by me :)
-
+tags:
+    - life
 ---
 
 Happy New Year
