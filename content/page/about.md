@@ -5,9 +5,12 @@ menu: main
 weight: -50
 comments: false
 ---
-I am Aditya Vikram Singh.
+
+I am Aditya Vikram Singh aka `xypnox`.
 
 I am a Physics Student at IIT Kharagpur.
+
+You can find my website/portfolio at [xypnox.github.io](https://xypnox.github.io)
 
 You can reach me at various social sites.
 
