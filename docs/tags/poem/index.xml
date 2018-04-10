@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poem on The Blag</title>
+    <link>https://xypnox.github.io/blag/tags/poem/</link>
+    <description>Recent content in Poem on The Blag</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 16 Jan 2018 00:05:29 +0530</lastBuildDate>
+    
+	<atom:link href="https://xypnox.github.io/blag/tags/poem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lonely</title>
+      <link>https://xypnox.github.io/blag/posts/lonely/</link>
+      <pubDate>Tue, 16 Jan 2018 00:05:29 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/posts/lonely/</guid>
+      <description>I see you down the street, alone
+Walking slowly towards me
+In the cold hazy wind
+That twirls your hair lightly
+Your eyes stare the drab pavement
+Your light steps make no sound
+You slightly move your hand to remove
+The falling hair from your pale face
+And my heart skips a beat
+For a moment you lift your eyes
+And we gaze at each other
+I smile, but you have already looked away</description>
+    </item>
+    
+  </channel>
+</rss>

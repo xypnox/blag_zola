@@ -51,6 +51,12 @@
   </url>
   
   <url>
+    <loc>https://xypnox.github.io/blag/tags/poem/</loc>
+    <lastmod>2018-01-16T00:05:29+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xypnox.github.io/blag/posts/</loc>
     <lastmod>2018-03-04T15:30:01+05:30</lastmod>
     <priority>0</priority>
@@ -58,6 +64,7 @@
   
   <url>
     <loc>https://xypnox.github.io/blag/tags/</loc>
+    <lastmod>2018-01-16T00:05:29+05:30</lastmod>
     <priority>0</priority>
   </url>
   
