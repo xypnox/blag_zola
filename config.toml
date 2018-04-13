@@ -10,7 +10,7 @@ publishDir = "docs"
 disqusShortname = "xypnox-blag"
 googleAnalytics = ""
 
-Paginate = 10
+Paginate = 8
 preserveTaxonomyNames = true
 
 enableRobotsTXT = true # generate robots.txt
@@ -94,8 +94,13 @@ weight = -100
 url = "/"
 
 [[menu.main]]
+name = "Posts"
+weight = -99
+url = "/posts/"
+
+[[menu.main]]
 name = "Repo"
-weight = -10
+weight = 10
 identifier = "repository"
 url = "https://github.com/xypnox/blag"
 
