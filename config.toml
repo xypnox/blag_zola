@@ -56,6 +56,8 @@ recentPostsLength = 4
 hideSocialMenu = false
 showReadingTime = true
 noTermCloudShuffle = false
+accentColor = "#33df97"
+
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs

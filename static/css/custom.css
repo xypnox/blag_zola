@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700,700i|Josefin+Sans:300,400');
 
+/* Removed due to accent color addition in config.toml
+
 .header .sep-after::after, .footer .sep-before::before, .entry-content a:focus, .entry-content a:hover {
     border-bottom-color: #33df97;
-}
+} */
 
 .main-menu ul li{
     transition: 0.4s;
