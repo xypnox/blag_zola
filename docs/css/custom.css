@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700,700i|Josefin+Sans:300,400');
 
-/* .header .sep-after::after, .footer .sep-before::before, .entry-content a:focus, .entry-content a:hover {
+/* Removed due to accent color addition in config.toml
+
+.header .sep-after::after, .footer .sep-before::before, .entry-content a:focus, .entry-content a:hover {
     border-bottom-color: #33df97;
 } */
 
@@ -39,4 +41,8 @@ body, button, input, select, textarea {
     body, button, input, select, textarea {
         font-size: 1.0em;
     }
+}
+
+.taxonomy-cloud li {
+    font-weight: bold;
 }

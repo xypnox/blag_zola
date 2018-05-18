@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='I have had troubles installing fonts in Linux. Although its far easier than Windows where the only way to install a bunch of fonts is to open the file and click install fonts. In Linux however, you can copy your fonts to ~/.fonts or /usr/share/fonts and they will be recognized by all the applications. But can this process be improved or streamlined?
+The main problem that I was facing was that while many sites offered fonts for free they were usually zipped/archived.'>
+<meta name='theme-color' content='#33df97'>
+
+<meta property='og:title' content='Fontstaller • The Blag'>
+<meta property='og:description' content='I have had troubles installing fonts in Linux. Although its far easier than Windows where the only way to install a bunch of fonts is to open the file and click install fonts. In Linux however, you can copy your fonts to ~/.fonts or /usr/share/fonts and they will be recognized by all the applications. But can this process be improved or streamlined?
+The main problem that I was facing was that while many sites offered fonts for free they were usually zipped/archived.'>
+<meta property='og:url' content='https://xypnox.github.io/blag/posts/fontstaller/'>
+<meta property='og:site_name' content='The Blag'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://xypnox.github.io/blag/images/fontstaller-cover.jpg'><meta property='article:section' content='Posts'><meta property='article:tag' content='linux'><meta property='article:tag' content='programming'><meta property='article:published_time' content='2018-05-18T12:02:55&#43;05:30'/><meta property='article:modified_time' content='2018-05-18T12:02:55&#43;05:30'/><meta name='twitter:card' content='summary_large_image'><meta property='twitter:image' content='https://xypnox.github.io/blag/images/fontstaller-cover.jpg'>
+
+<meta name="generator" content="Hugo 0.40.2" />
+
+  <title>Fontstaller • The Blag</title>
+  <link rel='canonical' href='https://xypnox.github.io/blag/posts/fontstaller/'>
+  
+  
+  <link rel='icon' href='/blag/favicon.ico'>
+<link rel='stylesheet' href='/blag/assets/css/main.b0a0b202.css'><link rel='stylesheet' href='/blag/css/custom.css'><style>
+:root{--color-accent:#33df97;}
+</style>
+
+</head>
+
+
+<body class='page type-posts has-cover'>
+
+  <div class='site'>
+
+    <a class='screen-reader-text' href='#content'>Skip to Content</a>
+
+    <div class='main'>
+
+      <nav id='main-menu' class='menu main-menu' aria-label='Main Menu'>
+  <div class='container'>
+    
+    <ul><li class='item'>
+        <a href='/blag/'>Home</a>
+      </li><li class='item'>
+        <a href='/blag/posts/'>Posts</a>
+      </li><li class='item'>
+        <a href='/blag/tags/'>Tags</a>
+      </li><li class='item'>
+        <a href='/blag/quotes/'>Quotes</a>
+      </li><li class='item'>
+        <a href='/blag/about/'>About</a>
+      </li><li class='item'>
+        <a href='https://github.com/xypnox/blag'>Repo</a>
+      </li></ul>
+  </div>
+</nav>
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><p class='site-title title'>The Blag</p><p class='desc site-desc'>My Blag, a collection of Physics, Computing and Philosophy</p>
+          </div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<article lang='en' class='entry'>
+  <header class='header entry-header'>
+  <div class='container sep-after'>
+    <div class='header-info'>
+      <h1 class='title'>Fontstaller</h1>
+      
+
+    </div>
+    
+<div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2018-05-18T12:02:55&#43;05:30'>2018, May 18</time>
+</span>
+
+  
+  
+<span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+  
+</svg>
+3 mins read
+</span>
+
+
+</div>
+
+
+  </div>
+</header>
+
+  <div class='entry-cover'>
+  <figure class='container cover-full'>
+    <img src='/blag/images/fontstaller-cover.jpg'/>
+    
+      
+    
+  </figure>
+</div>
+  
+
+  <div class='container entry-content'>
+  
+
+<p>I have had troubles installing fonts in Linux. Although its far easier than Windows where the only way to install a bunch of fonts is to open the file and click install fonts. In Linux however, you can copy your fonts to <code>~/.fonts</code> or <code>/usr/share/fonts</code> and they will be recognized by all the applications. But can this process be improved or streamlined?</p>
+
+<p>The main problem that I was facing was that while many sites offered fonts for free they were usually zipped/archived. Which meant that they would have to be manually unarchived one by one to install the fonts, which considering the number of fonts (36!) I wanted to install at the time was way too much. So clearly I needed a script to unzip and copy the font files in <code>~/.fonts</code>. The problem was that although the <code>unzip</code> command is fairly straightforward and could be used I didn&rsquo;t have much control over it.</p>
+
+<p>So I searched some more and stumbled upon the fact that python comes preloaded with a zip archive reading library named <code>zipfile</code>. And I could use it to spin up a small python script to make the extraction process &ldquo;smart&rdquo;. By smart, I mean that the program could differentiate between a directory containing fonts and archives containing fonts. It can also work with nested directory structure and even detect whether a font has been preinstalled or not.</p>
+
+<h2 id="the-program-itself-fontstaller">The program itself: FontStaller</h2>
+
+<p><img src="https://raw.githubusercontent.com/xypnox/fontstaller/master/fontstaller-logo.png" alt="Logo" /></p>
+
+<blockquote>
+<p>You can find the code in the GitHub repo <a href="https://github.com/xypnox/fontstaller/" target="_blank">xypnox/fontstaller</a>.</p>
+</blockquote>
+
+<p>At the default settings, the Fontstaller script installs the fonts located in the folder <code>fonts</code> in the current directory. It installs all the zips that have a font file. Or any (sub - sub &hellip;) subdirectory (ies) that have a font file (generally ttf, otf).</p>
+
+<p>The fonts are by default copied to the folder <code>~/.fonts</code>. An interesting point to note is that the directory structure of your initial <code>fonts</code> folder is <em>not</em> preserved. This is to simplify distinguishing already installed fonts. This way the script can easily check only folder names in <code>~/.fonts</code> and doesn&rsquo;t have to deal with subdirectory structure.</p>
+
+<p>There are a few command line options to tweak the behavior of the script, they are mentioned as follows:</p>
+
+<table>
+<thead>
+<tr>
+<th>argument</th>
+<th>default</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>-h, --help</td>
+<td></td>
+<td>show help message and exit</td>
+</tr>
+
+<tr>
+<td>--fdir</td>
+<td>&lsquo;fonts&rsquo;</td>
+<td>directory containing fonts</td>
+</tr>
+
+<tr>
+<td>--idir</td>
+<td>&lsquo;~/.fonts&rsquo;</td>
+<td>directory in which fonts will be installed</td>
+</tr>
+
+<tr>
+<td>--ignorezip</td>
+<td></td>
+<td>Ignore zipped files</td>
+</tr>
+</tbody>
+</table>
+
+<p>I know there are few bugs that still exist. Such as the fact that the script doesn&rsquo;t deal well with subdirectory structure in the archived files. However, it is still quite useful.</p>
+
+<p>If you are interested in the fonts I was installing, check this <a href="https://github.com/xypnox/fontstaller/releases/download/v1.0.0/fonts.zip" target="_blank">archived zip</a></p>
+
+<hr />
+
+<h2 id="tricks">Tricks</h2>
+
+<p>I learned a few new tricks about python scripting that I would share here.</p>
+
+<h3 id="splitting-and-slicing-simultaneously">Splitting and slicing simultaneously</h3>
+
+<p>You split and slice simultaneously by just splicing the output of Splitting command. For example, the line in my code that uses it is :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">idir <span style="color:#f92672">=</span> args<span style="color:#f92672">.</span>idir <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> zfile<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#39;/&#39;</span>)[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][:<span style="color:#f92672">-</span><span style="color:#ae81ff">4</span>]</code></pre></div>
+<p>Here I needed only the name of the archive without the <code>.zip</code> extension. So I first split the string using <code>/</code> then slice the last element till the fifth last character. Pretty neat.</p>
+
+<h3 id="parsing-command-line-parameters-in-python">Parsing command-line parameters in python</h3>
+
+<p>I know its quite dumb to say it&rsquo;s a trick but it took me several readings of Manual and a few different command line parsing methods to flat this one out. I finally ended up using the <code>argparse</code> package which is a little hard, to begin with, but offers a great amount of flexibility and nice user experience such as auto-generated <code>help</code> command!</p>
+
+<p>It is too much, to begin with, so I will simply link to its Manual page in Python : <a href="https://docs.python.org/3.6/library/argparse.html" target="_blank">Argparse</a>.</p>
+
+</div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'>
+  <div class='tags'>
+  <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+  
+</svg>
+</span>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/blag/tags/linux'>Linux</a>, <a class='tag' href='/blag/tags/programming'>Programming</a></div>
+
+  </div>
+</footer>
+
+
+</article>
+
+<nav class='entry-nav'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='/blag/posts/misfits/'>
+        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+  
+</svg>
+ Previous</span>
+        <span class='screen-reader-text'>Previous post: </span>Misfits</a>
+    </div></div>
+</nav>
+
+
+
+
+      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'>
+          <section class='widget widget-social_menu sep-after'><nav aria-label='Social Menu'>
+    <ul><li>
+        <a href='https://github.com/xypnox' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Github account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://facebook.com/xypnox' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Facebook account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://twitter.com/xypnox' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Twitter account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://instagram.com/xypnox' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Instagram account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+  <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='mailto:xypnox%20@%20gmail%20.%20com' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Contact via Email</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+  <polyline points="22,6 12,13 2,6"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://t.me/xypnox' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Telegram account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="m 22.05,1.577 c -0.393,-0.016 -0.784,0.08 -1.117,0.235 -0.484,0.186 -4.92,1.902 -9.41,3.64 C 9.263,6.325 7.005,7.198 5.267,7.867 3.53,8.537 2.222,9.035 2.153,9.059 c -0.46,0.16 -1.082,0.362 -1.61,0.984 -0.79581202,1.058365 0.21077405,1.964825 1.004,2.499 1.76,0.564 3.58,1.102 5.087,1.608 0.556,1.96 1.09,3.927 1.618,5.89 0.174,0.394 0.553,0.54 0.944,0.544 l -0.002,0.02 c 0,0 0.307,0.03 0.606,-0.042 0.3,-0.07 0.677,-0.244 1.02,-0.565 0.377,-0.354 1.4,-1.36 1.98,-1.928 l 4.37,3.226 0.035,0.02 c 0,0 0.484,0.34 1.192,0.388 0.354,0.024 0.82,-0.044 1.22,-0.337 0.403,-0.294 0.67,-0.767 0.795,-1.307 0.374,-1.63 2.853,-13.427 3.276,-15.38 L 23.676,4.725 C 23.972,3.625 23.863,2.617 23.18,2.02 22.838,1.723 22.444,1.593 22.05,1.576 Z"/>
+  
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</section>
+          <div class='copyright'>
+  <p> &copy; 2017-2018 @xypnox </p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><script>window.__public_path__='\/blag\/assets\/js\/'</script>
+
+<script src='/blag/assets/js/main.53e19345.js'></script><script src='/blag/js/custom.js'></script>
+</body>
+
+</html>
+
