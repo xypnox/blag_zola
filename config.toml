@@ -101,6 +101,11 @@ weight = -99
 url = "/posts/"
 
 [[menu.main]]
+name = "Tags"
+weight = -90
+url = "/tags/"
+
+[[menu.main]]
 name = "Repo"
 weight = 10
 identifier = "repository"

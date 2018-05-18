@@ -42,3 +42,7 @@ body, button, input, select, textarea {
         font-size: 1.0em;
     }
 }
+
+.taxonomy-cloud li {
+    font-weight: bold;
+}
