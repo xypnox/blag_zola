@@ -40,6 +40,9 @@ holder = "@xypnox"
 startYear = "2017"
 suffix = ""
 
+[params.comments]
+enable = true
+
 [params.sidebar]
 enable = false
 
