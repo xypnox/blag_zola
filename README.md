@@ -20,4 +20,4 @@ To add a new article use
 hugo new content\<name for file>
 ```
 
-Fir questions related to Hugo visit hugo's [docs](https://gohugo.io/documentation/) and for minimo visit their [repository](https://github.com/MunifTanjim/minimo).
+For questions related to Hugo visit hugo's [docs](https://gohugo.io/documentation/) and for minimo visit their [repository](https://github.com/MunifTanjim/minimo).
