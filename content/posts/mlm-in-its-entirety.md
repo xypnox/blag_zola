@@ -30,4 +30,23 @@ MLMs offer several products from a wide variety focused on the group they aim to
 - Essential oils
 - Tourist packages
 - Herbal Teas
--
+- Fashion Accessories
+
+# The Scam with me
+
+## The Offer
+The products that I was served were marketed as an educational package. The first package consisted of 84 "Computer Courses" and some 150+ articles about life, management etc. There was also a Language learning course. The other package consisted of simple Computer courses and 2 suit length (I don't know if these are complete suits or just the suit length cloth).
+
+The packages cost as given below:
+- Educational package - 16815/-
+- Appearance package - 16821/-
+
+A notable thing is that the Appearance package, which includes the suit length, also included 25 Computer courses. **25** courses just about MS Office and basic tools.
+
+Which meant that the orignal Educational package had only (84-25 = ) 59 courses related to programming.
+
+## Side Benefits (the actual selling point)
+
+Anyone with a working brain would easily refuse the absurdly priced packages. And there came the mastertrick of the whole scam. The people who explained the scheme went through the description of packages in a flash. Briefly mentioning the large amount of Content and only noting the price once during the whole conversation.
+
+They quickly moved to introduce the so called "Team" part of the scam. Here they offer a free of cost opportunity to join there team. After joining I must _recruit_ (essentially sell the packages to) two people. And recruiting them I will get 2700/- or something similar. This continues when they _recruit_ more people.
