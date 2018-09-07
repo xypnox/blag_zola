@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://xypnox.github.io/blag/why-xypnox/</loc>
+    <lastmod>2018-09-07T22:10:55+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xypnox.github.io/blag/posts/design-tips/</loc>
     <lastmod>2018-05-25T22:49:01+05:30</lastmod>
   </url>
@@ -97,6 +102,7 @@
   
   <url>
     <loc>https://xypnox.github.io/blag/page/</loc>
+    <lastmod>2018-09-07T22:10:55+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -132,7 +138,7 @@
   
   <url>
     <loc>https://xypnox.github.io/blag/</loc>
-    <lastmod>2018-05-25T22:49:01+05:30</lastmod>
+    <lastmod>2018-09-07T22:10:55+05:30</lastmod>
     <priority>0</priority>
   </url>
   
