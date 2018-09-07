@@ -6,7 +6,7 @@ weight: -50
 comments: false
 ---
 
-I am Aditya Vikram Singh aka `xypnox`.
+I am Aditya Vikram Singh aka `xypnox`. Know about the story of getting the name [here](../why-xypnox).
 
 I am a Physics Student at IIT Kharagpur.
 
