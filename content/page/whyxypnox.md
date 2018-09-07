@@ -1,7 +1,7 @@
 ---
 title: Why xypnox?
 description: The tale of me getting the mysterious name xypnox
-date: 2018-09-07T22:00:55+05:30
+date: 2018-09-07T22:10:55+05:30
 comments: true
 menu: none
 cover:
