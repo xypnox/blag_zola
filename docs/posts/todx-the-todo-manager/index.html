@@ -130,7 +130,7 @@ Backstory I recently switched to i3 windows manager just to try it out. And I lo
 
 <p>I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal. Most of the work except web browsing can be done through the terminal in an efficient way. But i3 is a topic for another post.</p>
 
-<p>I was using TicTick for managing my todos till this point. Since TickTick doesn&rsquo;t have a native linux interface, it was a pain to use on the desktop. Sure it had extensions for both chrome and firefox and had great sync capabilities but if you wanted to use it you had to open a whole browser and use the mouse to open the TickTick extension. It took a lot of time just to add a todo, which <em>should</em> be a very easy task in and of itself.</p>
+<p>I was using TickTick for managing my todos till this point. Since TickTick doesn&rsquo;t have a native linux interface, it was a pain to use on the desktop. Sure it had extensions for both chrome and firefox and had great sync capabilities but if you wanted to use it you had to open a whole browser and use the mouse to open the TickTick extension. It took a lot of time just to add a todo, which <em>should</em> be a very easy task in and of itself.</p>
 
 <p>Hence I started looking for a commandline todo app that could sync to Android. It should be simple and fast, thats it, and guess what I couldn&rsquo;t find one single app that could do it. Most apps didn&rsquo;t even have a native linux app let alone cli. Those fast cli apps were mostly single bash or python scripts and could not sync at all. The GUI todo apps for linux were essentially like text editors huge and clunky.</p>
 
@@ -204,6 +204,8 @@ Are you sure buddy? <span style="color:#f92672">[</span>Y/n<span style="color:#f
 <p>Todx is simple yes, but not basic.</p>
 
 <h2 id="advanced-commands">Advanced commands</h2>
+
+<p>You mave have noted the absence of quotes while using the <code>todx add</code> command. You can definetly do <code>todx add &quot;Some todo&quot;</code> but it takes time to add those quotes and it doesn&rsquo;t feel elegant. Hence todx is designed in a way to eliminate the need for the quotes. You can always use quotes if you want to be more pragmatic.</p>
 
 <p>You can use <code>-a</code> instead of <code>add</code> and <code>-m</code> instead of <code>mark</code>.</p>
 

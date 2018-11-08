@@ -18,7 +18,7 @@ So, I have been working this past few weeks on a todo application using commandl
 
 I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal. Most of the work except web browsing can be done through the terminal in an efficient way. But i3 is a topic for another post. 
 
-I was using TicTick for managing my todos till this point. Since TickTick doesn't have a native linux interface, it was a pain to use on the desktop. Sure it had extensions for both chrome and firefox and had great sync capabilities but if you wanted to use it you had to open a whole browser and use the mouse to open the TickTick extension. It took a lot of time just to add a todo, which _should_ be a very easy task in and of itself.
+I was using TickTick for managing my todos till this point. Since TickTick doesn't have a native linux interface, it was a pain to use on the desktop. Sure it had extensions for both chrome and firefox and had great sync capabilities but if you wanted to use it you had to open a whole browser and use the mouse to open the TickTick extension. It took a lot of time just to add a todo, which _should_ be a very easy task in and of itself.
 
 Hence I started looking for a commandline todo app that could sync to Android. It should be simple and fast, thats it, and guess what I couldn't find one single app that could do it. Most apps didn't even have a native linux app let alone cli. Those fast cli apps were mostly single bash or python scripts and could not sync at all. The GUI todo apps for linux were essentially like text editors huge and clunky.
 
@@ -121,6 +121,8 @@ This much is everything you need for a simple basic commandline todo app.
 Todx is simple yes, but not basic.
 
 ## Advanced commands
+
+You mave have noted the absence of quotes while using the `todx add` command. You can definetly do `todx add "Some todo"` but it takes time to add those quotes and it doesn't feel elegant. Hence todx is designed in a way to eliminate the need for the quotes. You can always use quotes if you want to be more pragmatic.
 
 You can use `-a` instead of `add` and `-m` instead of `mark`.
 
