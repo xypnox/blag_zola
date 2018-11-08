@@ -11,13 +11,14 @@
     
     
     <item>
-      <title>Todx : The Todo Manager</title>
+      <title>TodX : The Todo Manager</title>
       <link>https://xypnox.github.io/blag/posts/todx-the-todo-manager/</link>
       <pubDate>Fri, 09 Nov 2018 00:31:37 +0530</pubDate>
       
       <guid>https://xypnox.github.io/blag/posts/todx-the-todo-manager/</guid>
       <description>So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.
-Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal. Most of the work except web browsing can be done through the terminal in an efficient way.</description>
+ The project&amp;rsquo;s source code is available at GitHub
+ Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal.</description>
     </item>
     
     <item>

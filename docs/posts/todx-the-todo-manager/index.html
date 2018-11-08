@@ -5,19 +5,21 @@
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.
-Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal. Most of the work except web browsing can be done through the terminal in an efficient way.'>
+ The project&rsquo;s source code is available at GitHub
+ Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal.'>
 <meta name='theme-color' content='#33df97'>
 
-<meta property='og:title' content='Todx : The Todo Manager • The Blag'>
+<meta property='og:title' content='TodX : The Todo Manager • The Blag'>
 <meta property='og:description' content='So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.
-Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal. Most of the work except web browsing can be done through the terminal in an efficient way.'>
+ The project&rsquo;s source code is available at GitHub
+ Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal.'>
 <meta property='og:url' content='https://xypnox.github.io/blag/posts/todx-the-todo-manager/'>
 <meta property='og:site_name' content='The Blag'>
 <meta property='og:type' content='article'><meta property='og:image' content='http://www.optipess.com/comics/2018-09-28-927_To-Do_SQ.png'><meta property='article:section' content='posts'><meta property='article:tag' content='project'><meta property='article:tag' content='todx'><meta property='article:tag' content='python'><meta property='article:published_time' content='2018-11-09T00:31:37&#43;05:30'/><meta property='article:modified_time' content='2018-11-09T00:31:37&#43;05:30'/><meta name='twitter:card' content='summary_large_image'><meta property='twitter:image' content='http://www.optipess.com/comics/2018-09-28-927_To-Do_SQ.png'><meta property='twitter:image:alt' content='Credit - optipess.com'>
 
 <meta name="generator" content="Hugo 0.50" />
 
-  <title>Todx : The Todo Manager • The Blag</title>
+  <title>TodX : The Todo Manager • The Blag</title>
   <link rel='canonical' href='https://xypnox.github.io/blag/posts/todx-the-todo-manager/'>
   
   
@@ -72,7 +74,7 @@ Backstory I recently switched to i3 windows manager just to try it out. And I lo
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Todx : The Todo Manager</h1>
+      <h1 class='title'>TodX : The Todo Manager</h1>
       
 
     </div>
@@ -125,6 +127,10 @@ Backstory I recently switched to i3 windows manager just to try it out. And I lo
   
 
 <p>So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.</p>
+
+<blockquote>
+<p>The project&rsquo;s source code is available at <a href="https://github.com/xypnox/todxpy/" target="_blank">GitHub</a></p>
+</blockquote>
 
 <h2 id="backstory">Backstory</h2>
 
@@ -201,7 +207,7 @@ Are you sure buddy? <span style="color:#f92672">[</span>Y/n<span style="color:#f
 
 <p>This much is everything you need for a simple basic commandline todo app.</p>
 
-<p>Todx is simple yes, but not basic.</p>
+<p>TodX is simple yes, but not basic.</p>
 
 <h2 id="advanced-commands">Advanced commands</h2>
 
@@ -230,7 +236,7 @@ Are you sure buddy? <span style="color:#f92672">[</span>Y/n<span style="color:#f
 <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx view +project
 + project
 ☐  Make science project </code></pre></div>
-<h3 id="sync-ability">Sync Ability</h3>
+<h3 id="sync">Sync</h3>
 
 <p>All the data of todx is stored in a single <code>data.json</code> file (in linux located at <code>~/.local/share/todx/data.json</code>). Since this file is a json, it can be easily synced with a remote server and can be used in any other app that might support the json format. Android and Web apps can de made that use this extendability.</p>
 
@@ -252,18 +258,18 @@ Are you sure buddy? <span style="color:#f92672">[</span>Y/n<span style="color:#f
 
 <p>I also learnt how to process command line parameters and install the package as a binary rather than just a library.</p>
 
-<p>And finally I got to learn about the python packaging tools. I learnt how to make a package and how to publish it to pypi. Fun fact : Todx is listed in the <a href="https://pypi.org/project/todx/" target="_blank">pypi</a>. Making a python package takes some getting used to and can be daunting for many beginners. I almost quit my plan putting the package on pypi in the process. Perhaps I would make a blogpost describing the process.</p>
+<p>And finally I got to learn about the python packaging tools. I learnt how to make a package and how to publish it to pypi. Fun fact : TodX is listed in the <a href="https://pypi.org/project/todx/" target="_blank">pypi</a>. Making a python package takes some getting used to and can be daunting for many beginners. I almost quit my plan putting the package on pypi in the process. Perhaps I would make a blogpost describing the process.</p>
 
-<h2 id="the-future">The future?</h2>
+<h2 id="the-future">The Future?</h2>
 
-<p>Indeed this is just the beginning of Todx. I have several plans about todx which I would like to implement as soon as I get time to work on it. Some of them include:</p>
+<p>Indeed this is just the beginning of TodX. I have several plans about todx which I would like to implement as soon as I get time to work on it. Some of them include:</p>
 
 <ul>
 <li>Making a server and syncing <code>data.json</code></li>
 <li>Adding tests</li>
 <li>Adding tty colors to make the program more beautiful</li>
 <li>Adding created time and due date with support for notifications</li>
-<li>Hopefully creating a simple android app to sync with (currently Todx runs nicely in <a href="https://termux.com/" target="_blank">Termux</a>)</li>
+<li>Hopefully creating a simple android app to sync with (currently TodX runs nicely in <a href="https://termux.com/" target="_blank">Termux</a>)</li>
 </ul>
 
 </div>

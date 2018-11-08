@@ -1,5 +1,5 @@
 ---
-title: "Todx : The Todo Manager"
+title: "TodX : The Todo Manager"
 date: 2018-11-09T00:31:37+05:30
 draft: false
 cover:  
@@ -13,6 +13,8 @@ tags:
 ---
 
 So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.
+
+> The project's source code is available at [GitHub](https://github.com/xypnox/todxpy/)
 
 ## Backstory
 
@@ -118,7 +120,7 @@ Just run `todx` or `todx view` to check that you have successfully deleted a tod
 
 This much is everything you need for a simple basic commandline todo app. 
 
-Todx is simple yes, but not basic.
+TodX is simple yes, but not basic.
 
 ## Advanced commands
 
@@ -167,7 +169,7 @@ $ todx view +project
 ☐  Make science project 
 ```
 
-### Sync Ability
+### Sync
 
 All the data of todx is stored in a single `data.json` file (in linux located at `~/.local/share/todx/data.json`). Since this file is a json, it can be easily synced with a remote server and can be used in any other app that might support the json format. Android and Web apps can de made that use this extendability.
 
@@ -190,15 +192,15 @@ Next I got to know about [appdirs](https://github.com/ActiveState/appdirs) packa
 
 I also learnt how to process command line parameters and install the package as a binary rather than just a library.
 
-And finally I got to learn about the python packaging tools. I learnt how to make a package and how to publish it to pypi. Fun fact : Todx is listed in the [pypi](https://pypi.org/project/todx/). Making a python package takes some getting used to and can be daunting for many beginners. I almost quit my plan putting the package on pypi in the process. Perhaps I would make a blogpost describing the process.
+And finally I got to learn about the python packaging tools. I learnt how to make a package and how to publish it to pypi. Fun fact : TodX is listed in the [pypi](https://pypi.org/project/todx/). Making a python package takes some getting used to and can be daunting for many beginners. I almost quit my plan putting the package on pypi in the process. Perhaps I would make a blogpost describing the process.
 
 
-## The future?
+## The Future?
 
-Indeed this is just the beginning of Todx. I have several plans about todx which I would like to implement as soon as I get time to work on it. Some of them include:
+Indeed this is just the beginning of TodX. I have several plans about todx which I would like to implement as soon as I get time to work on it. Some of them include:
 
 - Making a server and syncing `data.json`
 - Adding tests
 - Adding tty colors to make the program more beautiful
 - Adding created time and due date with support for notifications
-- Hopefully creating a simple android app to sync with (currently Todx runs nicely in [Termux](https://termux.com/))
+- Hopefully creating a simple android app to sync with (currently TodX runs nicely in [Termux](https://termux.com/))
