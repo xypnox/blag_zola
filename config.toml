@@ -20,6 +20,8 @@ enableEmoji = true
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences = true
+PygmentsStyle = "monokailight"
+# pygmentsUseClasses = true
 
 # Missing translations will default to this content language
 defaultContentLanguage = "en"

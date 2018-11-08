@@ -46,3 +46,11 @@ body, button, input, select, textarea {
 .taxonomy-cloud li {
     font-weight: bold;
 }
+
+b, strong {
+	font-weight: bold;
+}
+
+code, kbd, pre, samp, var {
+    border: none;
+}

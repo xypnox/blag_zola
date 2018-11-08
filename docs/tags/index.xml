@@ -5,13 +5,12 @@
     <link>https://xypnox.github.io/blag/tags/</link>
     <description>Recent content in Tags on The Blag</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Apr 2018 20:50:51 +0530</lastBuildDate>
     
 	<atom:link href="https://xypnox.github.io/blag/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Comic</title>
+      <title>comic</title>
       <link>https://xypnox.github.io/blag/tags/comic/</link>
       <pubDate>Tue, 10 Apr 2018 20:50:51 +0530</pubDate>
       
@@ -20,7 +19,7 @@
     </item>
     
     <item>
-      <title>Design</title>
+      <title>design</title>
       <link>https://xypnox.github.io/blag/tags/design/</link>
       <pubDate>Fri, 25 May 2018 22:49:01 +0530</pubDate>
       
@@ -29,7 +28,7 @@
     </item>
     
     <item>
-      <title>Fun</title>
+      <title>fun</title>
       <link>https://xypnox.github.io/blag/tags/fun/</link>
       <pubDate>Tue, 10 Apr 2018 20:50:51 +0530</pubDate>
       
@@ -38,7 +37,7 @@
     </item>
     
     <item>
-      <title>Life</title>
+      <title>life</title>
       <link>https://xypnox.github.io/blag/tags/life/</link>
       <pubDate>Fri, 29 Dec 2017 13:35:04 +0530</pubDate>
       
@@ -47,7 +46,7 @@
     </item>
     
     <item>
-      <title>Linux</title>
+      <title>linux</title>
       <link>https://xypnox.github.io/blag/tags/linux/</link>
       <pubDate>Fri, 18 May 2018 12:02:55 +0530</pubDate>
       
@@ -56,7 +55,7 @@
     </item>
     
     <item>
-      <title>Poem</title>
+      <title>poem</title>
       <link>https://xypnox.github.io/blag/tags/poem/</link>
       <pubDate>Thu, 08 Feb 2018 19:36:28 +0530</pubDate>
       
@@ -65,7 +64,7 @@
     </item>
     
     <item>
-      <title>Programming</title>
+      <title>programming</title>
       <link>https://xypnox.github.io/blag/tags/programming/</link>
       <pubDate>Fri, 25 May 2018 22:49:01 +0530</pubDate>
       
@@ -74,11 +73,38 @@
     </item>
     
     <item>
-      <title>Quotes</title>
+      <title>project</title>
+      <link>https://xypnox.github.io/blag/tags/project/</link>
+      <pubDate>Fri, 09 Nov 2018 00:31:37 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://xypnox.github.io/blag/tags/python/</link>
+      <pubDate>Fri, 09 Nov 2018 00:31:37 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quotes</title>
       <link>https://xypnox.github.io/blag/tags/quotes/</link>
       <pubDate>Thu, 12 Apr 2018 00:01:59 +0530</pubDate>
       
       <guid>https://xypnox.github.io/blag/tags/quotes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>todx</title>
+      <link>https://xypnox.github.io/blag/tags/todx/</link>
+      <pubDate>Fri, 09 Nov 2018 00:31:37 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/todx/</guid>
       <description></description>
     </item>
     
