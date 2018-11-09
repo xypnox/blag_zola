@@ -51,6 +51,7 @@ enable = false
 [params.widgets]
 homepage = ["recent_posts"]
 sidebar = ["about","taxonomy_cloud"]
+footer = ["social_menu"]
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
@@ -84,8 +85,8 @@ instagram = "xypnox"
 twitter = "xypnox"
 telegram = "xypnox"
 
-[params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","telegram"]
+# [params.social.config]
+# platforms = ["github","facebook","twitter","instagram","email","telegram"]
 
 [taxonomies]
 author = "authors"
