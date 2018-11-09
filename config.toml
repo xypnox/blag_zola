@@ -34,7 +34,7 @@ title404 = "This Dimension contains nothing!!!"
 favicon = "favicon.ico"
 customCSS = ["css/custom.css"]
 customJS = ["js/custom.js"]
-gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+gopher = "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/c4dd5cc3521fadd21ac3f5a55c5139e3b90eedc8.png" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
