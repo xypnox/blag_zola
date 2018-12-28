@@ -28,6 +28,10 @@ body, button, input, select, textarea {
     font-size: 1.4em;
 }
 
+time {
+    font-weight: normal;
+}
+
 .entry-content {
     font-family: "Crimson Text", "Times New Roman", serif;
 }
@@ -53,4 +57,15 @@ b, strong {
 
 code, kbd, pre, samp, var {
     border: none;
+}
+
+.home .widget-recent_posts .item {
+    display: inherit;
+    margin-top: 2rem;
+}
+
+.home .widget-recent_posts .item-title a {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #263238;
 }
