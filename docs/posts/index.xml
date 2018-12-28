@@ -5,10 +5,19 @@
     <link>https://xypnox.github.io/blag/posts/</link>
     <description>Recent content in Posts on The Blag</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Nov 2018 00:31:37 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 12 Dec 2018 20:41:28 +0530</lastBuildDate>
     
 	<atom:link href="https://xypnox.github.io/blag/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Elderling Realm</title>
+      <link>https://xypnox.github.io/blag/posts/the-elderling-realm/</link>
+      <pubDate>Wed, 12 Dec 2018 20:41:28 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/posts/the-elderling-realm/</guid>
+      <description>The elderling realm is not a single book. It is not even a series of books, it is a universe in which several series written by the author Robin Hobb take place. I completed three series out of five main series released till now. And I have thoroughly enjoyed her work. The books are very easy to recommend and are considered classics among recent fantasy novels. I will try to keep this review as free from spoilers as I can.</description>
+    </item>
     
     <item>
       <title>TodX : The Todo Manager</title>
