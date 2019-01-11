@@ -6,18 +6,20 @@ weight: -50
 comments: false
 ---
 
-I am Aditya Vikram Singh aka `xypnox`. Know about the story of getting the name [here](../why-xypnox).
+I am a Physics undergraduate student at IIT Kharagpur. I have interest in
+Programming, Open Source, Physics and Gadgets. My other name is Aditya Vikram Singh. Know about the story of getting the name [here](../why-xypnox).
 
-I am a Physics Student at IIT Kharagpur.
 
-You can find my website/portfolio at [xypnox.github.io](https://xypnox.github.io)
+> Science is art and art is science, there are no exceptions.
 
-You can reach me at various social sites.
+You can find my website/portfolio at [xypnox.com](https://www.xypnox.com/)
+
+You can reach me here:
 
 - [Github](https://github.com/xypnox/)
-- [Facebook](https://facebook.com/xypnox/)
 - [Twitter](https://twitter.com/xypnox/)
 - [Telegram](https://t.me/xypnox) <== text me here
 - [Instagram](https://instagram.com/xypnox/)
+- [Facebook](https://facebook.com/xypnox/)
 
-You can also email me at xypnox @ gmail . com (Be smart and remove those spaces ;))
+You can also email me at xypnox @ gmail . com (Be smart and remove those spaces ;)) or me @ xypnox.com
