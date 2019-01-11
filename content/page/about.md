@@ -23,3 +23,5 @@ You can reach me here:
 - [Facebook](https://facebook.com/xypnox/)
 
 You can also email me at xypnox @ gmail . com (Be smart and remove those spaces ;)) or me @ xypnox.com
+
+This blog is Open Source and the code is availabe at [Github](https://github.com/xypnox/blag/).
