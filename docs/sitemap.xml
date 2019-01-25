@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://xypnox.github.io/blag/posts/moving-notes-to-github/</loc>
+    <lastmod>2019-01-25T22:39:53+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xypnox.github.io/blag/posts/the-elderling-realm/</loc>
     <lastmod>2018-12-12T20:41:28+05:30</lastmod>
   </url>
@@ -88,7 +93,7 @@
   
   <url>
     <loc>https://xypnox.github.io/blag/posts/</loc>
-    <lastmod>2018-12-12T20:41:28+05:30</lastmod>
+    <lastmod>2019-01-25T22:39:53+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -99,7 +104,7 @@
   
   <url>
     <loc>https://xypnox.github.io/blag/</loc>
-    <lastmod>2018-12-12T20:41:28+05:30</lastmod>
+    <lastmod>2019-01-25T22:39:53+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -140,6 +145,12 @@
   </url>
   
   <url>
+    <loc>https://xypnox.github.io/blag/tags/notes/</loc>
+    <lastmod>2019-01-25T22:39:53+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xypnox.github.io/blag/tags/poem/</loc>
     <lastmod>2018-02-08T19:36:28+05:30</lastmod>
     <priority>0</priority>
@@ -147,13 +158,13 @@
   
   <url>
     <loc>https://xypnox.github.io/blag/tags/programming/</loc>
-    <lastmod>2018-05-25T22:49:01+05:30</lastmod>
+    <lastmod>2019-01-25T22:39:53+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xypnox.github.io/blag/tags/project/</loc>
-    <lastmod>2018-11-09T00:31:37+05:30</lastmod>
+    <lastmod>2019-01-25T22:39:53+05:30</lastmod>
     <priority>0</priority>
   </url>
   

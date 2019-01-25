@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>project on The Blag</title>
-    <link>https://xypnox.github.io/blag/tags/project/</link>
-    <description>Recent content in project on The Blag</description>
+    <title>notes on The Blag</title>
+    <link>https://xypnox.github.io/blag/tags/notes/</link>
+    <description>Recent content in notes on The Blag</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 25 Jan 2019 22:39:53 +0530</lastBuildDate>
     
-	<atom:link href="https://xypnox.github.io/blag/tags/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xypnox.github.io/blag/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,17 +17,6 @@
       
       <guid>https://xypnox.github.io/blag/posts/moving-notes-to-github/</guid>
       <description>I never had a unified place to store notes earlier. I usually just remembered important things and wrote down the other things anywhere I liked. But after a year in college I could not keep on remembering everything. I should make it clear early on that I do not take extensive notes. I only jot down things that I find important like thoughts, quotes, project ideas, some literature etc. I had always looked for a simple note taking solution.</description>
-    </item>
-    
-    <item>
-      <title>TodX : The Todo Manager</title>
-      <link>https://xypnox.github.io/blag/posts/todx-the-todo-manager/</link>
-      <pubDate>Fri, 09 Nov 2018 00:31:37 +0530</pubDate>
-      
-      <guid>https://xypnox.github.io/blag/posts/todx-the-todo-manager/</guid>
-      <description>So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.
- The project&amp;rsquo;s source code is available at GitHub
- Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal.</description>
     </item>
     
   </channel>
