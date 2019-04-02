@@ -8,11 +8,11 @@
 
 .main-menu ul li{
     transition: 0.4s;
-    border-bottom: 1px solid #00000000;
+    border-bottom: 2px solid #00000000;
 }
 
 .main-menu ul li:hover{
-    border-bottom: 1px solid #33df97;
+    border-bottom: 2px solid #33df97;
 }
 
 .title, h1, h2, h3, h4, h5, h6 {
