@@ -3,14 +3,14 @@ title = "The Blag"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
-theme = "minimo"
+theme = "blag-theme"
 
 publishDir = "docs"
 
 disqusShortname = "xypnox-blag"
 googleAnalytics = ""
 
-Paginate = 8
+Paginate = 10
 preserveTaxonomyNames = true
 
 enableRobotsTXT = true # generate robots.txt
