@@ -7,10 +7,19 @@ comments: false
 ---
 
 I am a Physics undergraduate student at IIT Kharagpur. I have interest in
-Programming, Open Source, Physics and Gadgets. My other name is Aditya Vikram Singh. Know about the story of getting the name [here](../why-xypnox).
+Programming, Open Source, Physics and Gadgets. My other name is Aditya Vikram Singh.
 
+### FAQs
 
-> Science is art and art is science, there are no exceptions.
+#### [Why xypnox?](../why-xypnox)
+
+#### [Why Blag?](https://xkcd.com/148/)
+
+#### How is this blag made?
+
+This blag is made through a static site generator called hugo. The theme I am currently using is called [blag-theme](https://github.com/xypnox/blag-theme).
+
+---
 
 You can find my website/portfolio at [xypnox.com](https://www.xypnox.com/)
 
