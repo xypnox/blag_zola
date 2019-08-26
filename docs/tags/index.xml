@@ -5,10 +5,19 @@
     <link>https://xypnox.github.io/blag/tags/</link>
     <description>Recent content in Tags on The Blag</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 15 May 2019 15:43:25 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2019 23:05:44 +0530</lastBuildDate>
     
 	<atom:link href="https://xypnox.github.io/blag/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>design</title>
+      <link>https://xypnox.github.io/blag/tags/design/</link>
+      <pubDate>Mon, 26 Aug 2019 23:05:44 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/design/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>linux</title>
@@ -97,15 +106,6 @@
       <pubDate>Fri, 09 Nov 2018 00:31:37 +0530</pubDate>
       
       <guid>https://xypnox.github.io/blag/tags/todx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>design</title>
-      <link>https://xypnox.github.io/blag/tags/design/</link>
-      <pubDate>Fri, 25 May 2018 22:49:01 +0530</pubDate>
-      
-      <guid>https://xypnox.github.io/blag/tags/design/</guid>
       <description></description>
     </item>
     

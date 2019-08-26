@@ -5,7 +5,7 @@
     <link>https://xypnox.github.io/blag/</link>
     <description>Recent content on The Blag</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 15 May 2019 15:43:25 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2019 23:05:44 +0530</lastBuildDate>
     
 	<atom:link href="https://xypnox.github.io/blag/index.xml" rel="self" type="application/rss+xml" />
     
@@ -29,11 +29,22 @@ Development is one percent inspiration and 99 percent documentation.</descriptio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://xypnox.github.io/blag/about/</guid>
-      <description>I am a Physics undergraduate student at IIT Kharagpur. I have interest in Programming, Open Source, Physics and Gadgets. My other name is Aditya Vikram Singh. Know about the story of getting the name here.
- Science is art and art is science, there are no exceptions.
- You can find my website/portfolio at xypnox.com
+      <description>I am a Physics undergraduate student at IIT Kharagpur. I have interest in Programming, Open Source, Physics and Gadgets. My other name is Aditya Vikram Singh.
+FAQs Why xypnox? Why Blag? How is this blag made? This blag is made through a static site generator called hugo. The theme I am currently using is called blag-theme.
+You can find my website/portfolio at xypnox.com
 You can reach me here:
  Github Twitter Telegram &amp;lt;== text me here Instagram Facebook  You can also email me at xypnox @ gmail .</description>
+    </item>
+    
+    <item>
+      <title>Designing a Poster</title>
+      <link>https://xypnox.github.io/blag/posts/designing-a-poster/</link>
+      <pubDate>Mon, 26 Aug 2019 23:05:44 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/posts/designing-a-poster/</guid>
+      <description>To design a good poster, you have to design 100 bad posters first.
+ I have been making posters for a couple of years. And I have learned a lot, not just about how to make a good poster, but also why most posters are bad. And here I present a minimal guide on how to make nice posters.
+I should say upfront that I am not a great designer.</description>
     </item>
     
     <item>

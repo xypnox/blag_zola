@@ -15,14 +15,14 @@
 <meta property='og:site_name' content='The Blag'>
 <meta property='og:type' content='article'><meta property='og:image' content='http://www.optipess.com/comics/2018-09-28-927_To-Do_SQ.png'><meta property='article:section' content='posts'><meta property='article:tag' content='project'><meta property='article:tag' content='todx'><meta property='article:tag' content='python'><meta property='article:published_time' content='2018-11-09T00:31:37&#43;05:30'/><meta property='article:modified_time' content='2018-11-09T00:31:37&#43;05:30'/><meta name='twitter:card' content='summary_large_image'><meta property='twitter:image' content='http://www.optipess.com/comics/2018-09-28-927_To-Do_SQ.png'><meta property='twitter:image:alt' content='Credit - optipess.com'>
 
-<meta name="generator" content="Hugo 0.55.6" />
+<meta name="generator" content="Hugo 0.57.2" />
 
   <title>TodX : The Todo Manager • The Blag</title>
   <link rel='canonical' href='https://xypnox.github.io/blag/posts/todx-the-todo-manager/'>
   
   
   <link rel='icon' href='/blag/favicon.ico'>
-<link rel='stylesheet' href='/blag/assets/css/main.a1cfa1da.css'><link rel='stylesheet' href='/blag/css/custom.css'><style>
+<link rel='stylesheet' href='/blag/assets/css/main.d3d6b531.css'><link rel='stylesheet' href='/blag/css/custom.css'><style>
 :root{--color-accent:#33df97;}
 </style>
 
@@ -145,52 +145,52 @@
 <p>You can install todx using pip:</p>
 
 <p>If you are using Ubuntu or a Ubuntu based distro:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pip3 install todx</code></pre></div>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pip3 install todx</code></pre></div>
 <p>otherwise:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pip install todx</code></pre></div>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pip install todx</code></pre></div>
 <blockquote>
 <p>By default Ubuntu&rsquo;s pip is for python2 and hence we need pip3 to install the todx for python3</p>
 </blockquote>
 
 <p>To check if it installed correctly run the command:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx --version</code></pre></div>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx --version</code></pre></div>
 <p>It should return something like <code>TodX v0.1.2</code>. If it shows any error message file an Issue in the <a href="https://github.com/xypnox/todxpy/issues" target="_blank">github repo</a>.</p>
 
 <h2 id="usage">Usage</h2>
 
 <p>You can view your todos using the simple command:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx</code></pre></div>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx</code></pre></div>
 <p>If you have just installed todx, you wont get any output.</p>
 
 <p>To add a new todo run:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add Make a great website
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add Make a great website
 Added todo:  ☐  Make a great website</code></pre></div>
 <p>This will add a new todo &ldquo;Make a great website&rdquo;. You can run <code>todx</code> again to see that the new todo has been added. The empty box <code>☐</code> is not a missing unicode charecter, it is a checkbox and it indicates that the todo has not been marked yet.</p>
 
 <p>To mark a todo run:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx mark
-<span style="color:#ae81ff">0</span> ☐  Make a great website 
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx mark
+<span style="color:#f99b15">0</span> ☐  Make a great website 
 
-Which todo you want to mark: <span style="color:#ae81ff">0</span>
+Which todo you want to mark: <span style="color:#f99b15">0</span>
 What is your new status: v</code></pre></div>
 <p>This command lists the todos with indexes and asks which todo to mark. Here we choose the <code>0</code> and then the command asks what the status you want to be.</p>
 
 <p>Here we have chosen <code>v</code> since it closely resembles the tick. When todx displays the todos it changes the <code>v</code> to a <code>☑</code>. Neat. But what if you prefer <code>☒</code>? Just use <code>x</code> instead of <code>v</code>. To unmark a todo just use a space in the status.</p>
 
 <p>Now if you run <code>todx</code> you will see that once you marked your todo you can&rsquo;t see it. This is because by default <code>todx</code> only shows unmarked, in other words, not done todos. If you want to view all the todos, marked and unmarked you can run:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx view
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx view
 ☑  Make a great website </code></pre></div>
 <p>Now lets create another todo:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add oops i did it again</code></pre></div>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add oops i did it again</code></pre></div>
 <p>Oh no. I didn&rsquo;t wish to create this todo.</p>
 
 <p>You can delete it using:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx del
-<span style="color:#ae81ff">0</span> ☑  Make a great website 
-<span style="color:#ae81ff">1</span> ☐  oops i did it again 
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx del
+<span style="color:#f99b15">0</span> ☑  Make a great website 
+<span style="color:#f99b15">1</span> ☐  oops i did it again 
 
-Which todo you want to delete: <span style="color:#ae81ff">1</span>
-Are you sure buddy? <span style="color:#f92672">[</span>Y/n<span style="color:#f92672">]</span> Y</code></pre></div>
+Which todo you want to delete: <span style="color:#f99b15">1</span>
+Are you sure buddy? <span style="color:#5bc4bf">[</span>Y/n<span style="color:#5bc4bf">]</span> Y</code></pre></div>
 <p>You select your todo just like in the <code>todx mark</code> command. And then it confirms wether you really want to delete your todo. (ProTip: If you just press Enter at the confirmation, it assumes yes)</p>
 
 <p>Just run <code>todx</code> or <code>todx view</code> to check that you have successfully deleted a todo. There is no trash feature yet so the deleted todo <strong>cannot</strong> be recovered.</p>
@@ -212,18 +212,18 @@ Are you sure buddy? <span style="color:#f92672">[</span>Y/n<span style="color:#f
 <p>To simplify this problem, todx uses <strong>tags</strong>. Each tag starts with a <code>+</code> followed by a word, if there are several words use dashes to join them. You can add a tag to a todo while creating it by simply writing <code>+tagname</code> anywhere after the add command. (Although it is recommended to add them at the last since it is how they are displayed)</p>
 
 <p>So lets add a todo with a tag:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add Complete math homework +school</code></pre></div>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add Complete math homework +school</code></pre></div>
 <p>When you view the todos:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx
 ☐  Complete math homework  +school</code></pre></div>
 <p>Let us add another todo:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add Make science project +school +projects </code></pre></div>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add Make science project +school +projects </code></pre></div>
 <p>Now to view todos of only <code>project</code> tag, use the command:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx +project
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx +project
 + project
 ☐  Make science project </code></pre></div>
 <p>Wow, It only displays undone todos of tag project. What if you want to view all todos? Just run:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx view +project
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx view +project
 + project
 ☐  Make science project </code></pre></div>
 <h3 id="sync">Sync</h3>
@@ -398,7 +398,7 @@ Are you sure buddy? <span style="color:#f92672">[</span>Y/n<span style="color:#f
     </div>
   </div><script>window.__assets_js_src="/blag/assets/js/"</script>
 
-<script src='/blag/assets/js/main.e738e9de.js'></script><script src='/blag/js/custom.js'></script>
+<script src='/blag/assets/js/main.d5896f57.js'></script><script src='/blag/js/custom.js'></script>
 
 </body>
 

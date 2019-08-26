@@ -13,14 +13,14 @@ The main problem that I was facing was that while many sites offered fonts for f
 <meta property='og:site_name' content='The Blag'>
 <meta property='og:type' content='article'><meta property='og:image' content='https://xypnox.github.io/blag/images/fontstaller-cover.jpg'><meta property='article:section' content='posts'><meta property='article:tag' content='linux'><meta property='article:tag' content='programming'><meta property='article:published_time' content='2018-05-18T12:02:55&#43;05:30'/><meta property='article:modified_time' content='2018-05-18T12:02:55&#43;05:30'/><meta name='twitter:card' content='summary_large_image'><meta property='twitter:image' content='https://xypnox.github.io/blag/images/fontstaller-cover.jpg'>
 
-<meta name="generator" content="Hugo 0.55.6" />
+<meta name="generator" content="Hugo 0.57.2" />
 
   <title>Fontstaller • The Blag</title>
   <link rel='canonical' href='https://xypnox.github.io/blag/posts/fontstaller/'>
   
   
   <link rel='icon' href='/blag/favicon.ico'>
-<link rel='stylesheet' href='/blag/assets/css/main.a1cfa1da.css'><link rel='stylesheet' href='/blag/css/custom.css'><style>
+<link rel='stylesheet' href='/blag/assets/css/main.d3d6b531.css'><link rel='stylesheet' href='/blag/css/custom.css'><style>
 :root{--color-accent:#33df97;}
 </style>
 
@@ -179,7 +179,7 @@ The main problem that I was facing was that while many sites offered fonts for f
 <h3 id="splitting-and-slicing-simultaneously">Splitting and slicing simultaneously</h3>
 
 <p>You split and slice simultaneously by just splicing the output of Splitting command. For example, the line in my code that uses it is :</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">idir</span> <span style="color:#f92672">=</span> <span style="color:#111">args</span><span style="color:#f92672">.</span><span style="color:#111">idir</span> <span style="color:#f92672">+</span> <span style="color:#d88200">&#39;/&#39;</span> <span style="color:#f92672">+</span> <span style="color:#111">zfile</span><span style="color:#f92672">.</span><span style="color:#111">split</span><span style="color:#111">(</span><span style="color:#d88200">&#39;/&#39;</span><span style="color:#111">)[</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#111">][:</span><span style="color:#f92672">-</span><span style="color:#ae81ff">4</span><span style="color:#111">]</span></code></pre></div>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">idir <span style="color:#5bc4bf">=</span> args<span style="color:#5bc4bf">.</span>idir <span style="color:#5bc4bf">+</span> <span style="color:#48b685">&#39;/&#39;</span> <span style="color:#5bc4bf">+</span> zfile<span style="color:#5bc4bf">.</span>split(<span style="color:#48b685">&#39;/&#39;</span>)[<span style="color:#5bc4bf">-</span><span style="color:#f99b15">1</span>][:<span style="color:#5bc4bf">-</span><span style="color:#f99b15">4</span>]</code></pre></div>
 <p>Here I needed only the name of the archive without the <code>.zip</code> extension. So I first split the string using <code>/</code> then slice the last element till the fifth last character. Pretty neat.</p>
 
 <h3 id="parsing-command-line-parameters-in-python">Parsing command-line parameters in python</h3>
@@ -324,7 +324,7 @@ The main problem that I was facing was that while many sites offered fonts for f
     </div>
   </div><script>window.__assets_js_src="/blag/assets/js/"</script>
 
-<script src='/blag/assets/js/main.e738e9de.js'></script><script src='/blag/js/custom.js'></script>
+<script src='/blag/assets/js/main.d5896f57.js'></script><script src='/blag/js/custom.js'></script>
 
 </body>
 
