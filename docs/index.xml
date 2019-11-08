@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Blag</title>
     <link>https://xypnox.github.io/blag/</link>
     <description>Recent content on The Blag</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 26 Aug 2019 23:05:44 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 08 Nov 2019 18:23:30 +0530</lastBuildDate>
     
 	<atom:link href="https://xypnox.github.io/blag/index.xml" rel="self" type="application/rss+xml" />
     
@@ -34,6 +34,21 @@ FAQs Why xypnox? Why Blag? How is this blag made? This blag is made through a st
 You can find my website/portfolio at xypnox.com
 You can reach me here:
  Github Twitter Telegram &amp;lt;== text me here Instagram Facebook  You can also email me at xypnox @ gmail .</description>
+    </item>
+    
+    <item>
+      <title>Nettigritty Fraud</title>
+      <link>https://xypnox.github.io/blag/posts/nettigritty-fraud/</link>
+      <pubDate>Fri, 08 Nov 2019 18:23:30 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/posts/nettigritty-fraud/</guid>
+      <description>Just so everyone knows
+ Date: Fri, 8 Nov 2019 18:19:02 +0530
+Subject: I am deeply unsatisfied with your business policy
+To: support@nettigritty.com
+Cc: mail@hackinout.co
+Hi Nettigritty,
+Your company is an awesome company, it has great services and exceptional policies, including the one to give free domains to the Hackathon participants, so that they may utilize it. And if what they make is successful, they will gladly pay the registration fees after the first year.</description>
     </item>
     
     <item>
