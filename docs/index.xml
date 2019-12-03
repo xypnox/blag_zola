@@ -5,7 +5,7 @@
     <link>https://xypnox.github.io/blag/</link>
     <description>Recent content on The Blag</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 08 Nov 2019 18:23:30 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2019 19:48:28 +0530</lastBuildDate>
     
 	<atom:link href="https://xypnox.github.io/blag/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
       
       <guid>https://xypnox.github.io/blag/quotes/</guid>
       <description>These are a collection of Quotes, some mine, some salvaged from others.
- I don&amp;rsquo;t mind your thinking slowly; I mind your speaking faster than you think. - Wolfgang Pauli
+ I don&#39;t mind your thinking slowly; I mind your speaking faster than you think. - Wolfgang Pauli
 Sometimes, we have to take the paths we hate the most to get to places we most like. - @xypnox
 With great power comes great trouble. Responsibility comes later. - @xypnox
 Development is one percent inspiration and 99 percent documentation.</description>
@@ -31,9 +31,20 @@ Development is one percent inspiration and 99 percent documentation.</descriptio
       <guid>https://xypnox.github.io/blag/about/</guid>
       <description>I am a Physics undergraduate student at IIT Kharagpur. I have interest in Programming, Open Source, Physics and Gadgets. My other name is Aditya Vikram Singh.
 FAQs Why xypnox? Why Blag? How is this blag made? This blag is made through a static site generator called hugo. The theme I am currently using is called blag-theme.
-You can find my website/portfolio at xypnox.com
+ You can find my website/portfolio at xypnox.com
 You can reach me here:
  Github Twitter Telegram &amp;lt;== text me here Instagram Facebook  You can also email me at xypnox @ gmail .</description>
+    </item>
+    
+    <item>
+      <title>Visualizing a problem in Chess</title>
+      <link>https://xypnox.github.io/blag/posts/chessproblems/</link>
+      <pubDate>Tue, 03 Dec 2019 19:48:28 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/posts/chessproblems/</guid>
+      <description>So I was interested in this chess puzzle:
+In this very peculiar position we have to place the black king to a square such that it is not in check and with white being next to move black gets mated in the maximum number of moves. That is white takes most moves to mate black.
+To solve such a problem, we can take help of our friend Stockfish. Using the online chess website Lichess&#39;s analysis and editor features, we can determine the number of moves to mate for all the available squares.</description>
     </item>
     
     <item>
@@ -47,7 +58,7 @@ You can reach me here:
 Subject: I am deeply unsatisfied with your business policy
 To: support@nettigritty.com
 Cc: mail@hackinout.co
-Hi Nettigritty,
+ Hi Nettigritty,
 Your company is an awesome company, it has great services and exceptional policies, including the one to give free domains to the Hackathon participants, so that they may utilize it. And if what they make is successful, they will gladly pay the registration fees after the first year.</description>
     </item>
     
@@ -84,7 +95,7 @@ And I forget to swim
 When I need to.
 I inhale the water
 Knowing all well,
-that it isn&amp;rsquo;t well.
+that it isn&#39;t well.
 And then I cry,
 Try to find faults
 In others when I am wrong,
@@ -110,14 +121,14 @@ and that hurt
 their swag level.
 The first of the two
 used the pen far and few
-the second didn&amp;rsquo;t.
+the second didn&#39;t.
 He abused the pen
 to scratches and scuffs
 having no care at all,
 for him, it was
 just another pen.
 Days passed, Weeks passed.
-The first&amp;rsquo;s pen shinned,
+The first&#39;s pen shinned,
 where the seconds dulled.</description>
     </item>
     
@@ -146,8 +157,8 @@ where the seconds dulled.</description>
       
       <guid>https://xypnox.github.io/blag/posts/todx-the-todo-manager/</guid>
       <description>So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.
- The project&amp;rsquo;s source code is available at GitHub
- Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal.</description>
+ The project&#39;s source code is available at GitHub
+ Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal. Most of the work except web browsing can be done through the terminal in an efficient way.</description>
     </item>
     
     <item>
@@ -187,7 +198,7 @@ The main problem that I was facing was that while many sites offered fonts for f
       
       <guid>https://xypnox.github.io/blag/posts/misfits/</guid>
       <description>Here is one of the greatest quotes I know of.
-&amp;ldquo;Here&amp;rsquo;s to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They&amp;rsquo;re not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can&amp;rsquo;t do is ignore them. Because they change things.</description>
+&amp;ldquo;Here&#39;s to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They&#39;re not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can&#39;t do is ignore them. Because they change things.</description>
     </item>
     
     <item>
@@ -207,7 +218,7 @@ Enjoy! (And probably share if you like it)</description>
       <pubDate>Sun, 04 Mar 2018 15:30:01 +0530</pubDate>
       
       <guid>https://xypnox.github.io/blag/posts/xkcd/</guid>
-      <description> Some of the best XKCDs, there are many more at : xkcd.com
+      <description>Some of the best XKCDs, there are many more at : xkcd.com
 PS: Its my favorite webcomic!
 Angular Size Ancient Stars Altitude Approximations Beliefs Compass and Straightedge Complex Conjugate Convincing Creepy #RelatableAF </description>
     </item>
@@ -227,8 +238,8 @@ The breeze was cool and calm,
 Just enough to ruffle your hair.
 But in the midst of the heavenly morning,
 I was sad, and desolated.
-Because all the beauty of the world couldn&amp;rsquo;t match yours,
-And all the grief of the world couldn&amp;rsquo;t match mine.</description>
+Because all the beauty of the world couldn&#39;t match yours,
+And all the grief of the world couldn&#39;t match mine.</description>
     </item>
     
     <item>

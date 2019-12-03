@@ -3,19 +3,19 @@
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.
- The project&rsquo;s source code is available at GitHub
- Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal.'>
+ The project&#39;s source code is available at GitHub
+ Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal. Most of the work except web browsing can be done through the terminal in an efficient way.'>
 <meta name='theme-color' content='#33df97'>
 
 <meta property='og:title' content='TodX : The Todo Manager • The Blag'>
 <meta property='og:description' content='So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.
- The project&rsquo;s source code is available at GitHub
- Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal.'>
+ The project&#39;s source code is available at GitHub
+ Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal. Most of the work except web browsing can be done through the terminal in an efficient way.'>
 <meta property='og:url' content='https://xypnox.github.io/blag/posts/todx-the-todo-manager/'>
 <meta property='og:site_name' content='The Blag'>
 <meta property='og:type' content='article'><meta property='og:image' content='http://www.optipess.com/comics/2018-09-28-927_To-Do_SQ.png'><meta property='article:section' content='posts'><meta property='article:tag' content='project'><meta property='article:tag' content='todx'><meta property='article:tag' content='python'><meta property='article:published_time' content='2018-11-09T00:31:37&#43;05:30'/><meta property='article:modified_time' content='2018-11-09T00:31:37&#43;05:30'/><meta name='twitter:card' content='summary_large_image'><meta property='twitter:image' content='http://www.optipess.com/comics/2018-09-28-927_To-Do_SQ.png'><meta property='twitter:image:alt' content='Credit - optipess.com'>
 
-<meta name="generator" content="Hugo 0.59.1" />
+<meta name="generator" content="Hugo 0.60.1" />
 
   <title>TodX : The Todo Manager • The Blag</title>
   <link rel='canonical' href='https://xypnox.github.io/blag/posts/todx-the-todo-manager/'>
@@ -114,152 +114,107 @@
   
 
   <div class='container entry-content'>
-  
-
-<p>So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.</p>
-
+  <p>So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.</p>
 <blockquote>
-<p>The project&rsquo;s source code is available at <a href="https://github.com/xypnox/todxpy/" target="_blank">GitHub</a></p>
+<p>The project's source code is available at <a href="https://github.com/xypnox/todxpy/">GitHub</a></p>
 </blockquote>
-
 <h2 id="backstory">Backstory</h2>
-
 <p>I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal. Most of the work except web browsing can be done through the terminal in an efficient way. But i3 is a topic for another post.</p>
-
-<p>I was using TickTick for managing my todos till this point. Since TickTick doesn&rsquo;t have a native linux interface, it was a pain to use on the desktop. Sure it had extensions for both chrome and firefox and had great sync capabilities but if you wanted to use it you had to open a whole browser and use the mouse to open the TickTick extension. It took a lot of time just to add a todo, which <em>should</em> be a very easy task in and of itself.</p>
-
-<p>Hence I started looking for a commandline todo app that could sync to Android. It should be simple and fast, thats it, and guess what I couldn&rsquo;t find one single app that could do it. Most apps didn&rsquo;t even have a native linux app let alone cli. Those fast cli apps were mostly single bash or python scripts and could not sync at all. The GUI todo apps for linux were essentially like text editors huge and clunky.</p>
-
+<p>I was using TickTick for managing my todos till this point. Since TickTick doesn't have a native linux interface, it was a pain to use on the desktop. Sure it had extensions for both chrome and firefox and had great sync capabilities but if you wanted to use it you had to open a whole browser and use the mouse to open the TickTick extension. It took a lot of time just to add a todo, which <em>should</em> be a very easy task in and of itself.</p>
+<p>Hence I started looking for a commandline todo app that could sync to Android. It should be simple and fast, thats it, and guess what I couldn't find one single app that could do it. Most apps didn't even have a native linux app let alone cli. Those fast cli apps were mostly single bash or python scripts and could not sync at all. The GUI todo apps for linux were essentially like text editors huge and clunky.</p>
 <p>Hence I set forth to make one of my own which centered on speed, ease of use, sync capability and customizability. And it should obviously be crossplatform.</p>
-
 <blockquote>
-<p>Sync doesn&rsquo;t work yet</p>
+<p>Sync doesn't work yet</p>
 </blockquote>
-
 <h2 id="installation">Installation</h2>
-
 <blockquote>
-<p>Command enetered in terminal have a <code>$</code> before them. The output of the terminal doesn&rsquo;t have the <code>$</code>.</p>
+<p>Command enetered in terminal have a <code>$</code> before them. The output of the terminal doesn't have the <code>$</code>.</p>
 </blockquote>
-
 <p>You can install todx using pip:</p>
-
 <p>If you are using Ubuntu or a Ubuntu based distro:</p>
-<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pip3 install todx</code></pre></div>
-<p>otherwise:</p>
-<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pip install todx</code></pre></div>
-<blockquote>
-<p>By default Ubuntu&rsquo;s pip is for python2 and hence we need pip3 to install the todx for python3</p>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pip3 install todx
+</code></pre></div><p>otherwise:</p>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pip install todx
+</code></pre></div><blockquote>
+<p>By default Ubuntu's pip is for python2 and hence we need pip3 to install the todx for python3</p>
 </blockquote>
-
 <p>To check if it installed correctly run the command:</p>
-<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx --version</code></pre></div>
-<p>It should return something like <code>TodX v0.1.2</code>. If it shows any error message file an Issue in the <a href="https://github.com/xypnox/todxpy/issues" target="_blank">github repo</a>.</p>
-
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx --version
+</code></pre></div><p>It should return something like <code>TodX v0.1.2</code>. If it shows any error message file an Issue in the <a href="https://github.com/xypnox/todxpy/issues">github repo</a>.</p>
 <h2 id="usage">Usage</h2>
-
 <p>You can view your todos using the simple command:</p>
-<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx</code></pre></div>
-<p>If you have just installed todx, you wont get any output.</p>
-
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx
+</code></pre></div><p>If you have just installed todx, you wont get any output.</p>
 <p>To add a new todo run:</p>
 <div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add Make a great website
-Added todo:  ☐  Make a great website</code></pre></div>
-<p>This will add a new todo &ldquo;Make a great website&rdquo;. You can run <code>todx</code> again to see that the new todo has been added. The empty box <code>☐</code> is not a missing unicode charecter, it is a checkbox and it indicates that the todo has not been marked yet.</p>
-
+Added todo:  ☐  Make a great website
+</code></pre></div><p>This will add a new todo &ldquo;Make a great website&rdquo;. You can run <code>todx</code> again to see that the new todo has been added. The empty box <code>☐</code> is not a missing unicode charecter, it is a checkbox and it indicates that the todo has not been marked yet.</p>
 <p>To mark a todo run:</p>
 <div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx mark
 <span style="color:#f99b15">0</span> ☐  Make a great website 
 
 Which todo you want to mark: <span style="color:#f99b15">0</span>
-What is your new status: v</code></pre></div>
-<p>This command lists the todos with indexes and asks which todo to mark. Here we choose the <code>0</code> and then the command asks what the status you want to be.</p>
-
+What is your new status: v
+</code></pre></div><p>This command lists the todos with indexes and asks which todo to mark. Here we choose the <code>0</code> and then the command asks what the status you want to be.</p>
 <p>Here we have chosen <code>v</code> since it closely resembles the tick. When todx displays the todos it changes the <code>v</code> to a <code>☑</code>. Neat. But what if you prefer <code>☒</code>? Just use <code>x</code> instead of <code>v</code>. To unmark a todo just use a space in the status.</p>
-
-<p>Now if you run <code>todx</code> you will see that once you marked your todo you can&rsquo;t see it. This is because by default <code>todx</code> only shows unmarked, in other words, not done todos. If you want to view all the todos, marked and unmarked you can run:</p>
+<p>Now if you run <code>todx</code> you will see that once you marked your todo you can't see it. This is because by default <code>todx</code> only shows unmarked, in other words, not done todos. If you want to view all the todos, marked and unmarked you can run:</p>
 <div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx view
-☑  Make a great website </code></pre></div>
-<p>Now lets create another todo:</p>
-<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add oops i did it again</code></pre></div>
-<p>Oh no. I didn&rsquo;t wish to create this todo.</p>
-
+☑  Make a great website 
+</code></pre></div><p>Now lets create another todo:</p>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add oops i did it again
+</code></pre></div><p>Oh no. I didn't wish to create this todo.</p>
 <p>You can delete it using:</p>
 <div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx del
 <span style="color:#f99b15">0</span> ☑  Make a great website 
 <span style="color:#f99b15">1</span> ☐  oops i did it again 
 
 Which todo you want to delete: <span style="color:#f99b15">1</span>
-Are you sure buddy? <span style="color:#5bc4bf">[</span>Y/n<span style="color:#5bc4bf">]</span> Y</code></pre></div>
-<p>You select your todo just like in the <code>todx mark</code> command. And then it confirms wether you really want to delete your todo. (ProTip: If you just press Enter at the confirmation, it assumes yes)</p>
-
+Are you sure buddy? <span style="color:#5bc4bf">[</span>Y/n<span style="color:#5bc4bf">]</span> Y
+</code></pre></div><p>You select your todo just like in the <code>todx mark</code> command. And then it confirms wether you really want to delete your todo. (ProTip: If you just press Enter at the confirmation, it assumes yes)</p>
 <p>Just run <code>todx</code> or <code>todx view</code> to check that you have successfully deleted a todo. There is no trash feature yet so the deleted todo <strong>cannot</strong> be recovered.</p>
-
 <p>This much is everything you need for a simple basic commandline todo app.</p>
-
 <p>TodX is simple yes, but not basic.</p>
-
 <h2 id="advanced-commands">Advanced commands</h2>
-
-<p>You mave have noted the absence of quotes while using the <code>todx add</code> command. You can definetly do <code>todx add &quot;Some todo&quot;</code> but it takes time to add those quotes and it doesn&rsquo;t feel elegant. Hence todx is designed in a way to eliminate the need for the quotes. You can always use quotes if you want to be more pragmatic.</p>
-
+<p>You mave have noted the absence of quotes while using the <code>todx add</code> command. You can definetly do <code>todx add &quot;Some todo&quot;</code> but it takes time to add those quotes and it doesn't feel elegant. Hence todx is designed in a way to eliminate the need for the quotes. You can always use quotes if you want to be more pragmatic.</p>
 <p>You can use <code>-a</code> instead of <code>add</code> and <code>-m</code> instead of <code>mark</code>.</p>
-
 <h3 id="tags">Tags</h3>
-
 <p>Let us say you want to organize your todos. Say that you want to sepearate your homework todos from your personal projects. It would be nice to have two different todo lists for both. But maybe you might have two lists of <em>holiday</em> and <em>thing to buy</em>, now if you want to add a todo <em>Buy a swimsuit</em> You may want to add it to both of your lists, but this will introduce redundancy.</p>
-
 <p>To simplify this problem, todx uses <strong>tags</strong>. Each tag starts with a <code>+</code> followed by a word, if there are several words use dashes to join them. You can add a tag to a todo while creating it by simply writing <code>+tagname</code> anywhere after the add command. (Although it is recommended to add them at the last since it is how they are displayed)</p>
-
 <p>So lets add a todo with a tag:</p>
-<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add Complete math homework +school</code></pre></div>
-<p>When you view the todos:</p>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add Complete math homework +school
+</code></pre></div><p>When you view the todos:</p>
 <div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx
-☐  Complete math homework  +school</code></pre></div>
-<p>Let us add another todo:</p>
-<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add Make science project +school +projects </code></pre></div>
-<p>Now to view todos of only <code>project</code> tag, use the command:</p>
+☐  Complete math homework  +school
+</code></pre></div><p>Let us add another todo:</p>
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add Make science project +school +projects 
+</code></pre></div><p>Now to view todos of only <code>project</code> tag, use the command:</p>
 <div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx +project
 + project
-☐  Make science project </code></pre></div>
-<p>Wow, It only displays undone todos of tag project. What if you want to view all todos? Just run:</p>
+☐  Make science project 
+</code></pre></div><p>Wow, It only displays undone todos of tag project. What if you want to view all todos? Just run:</p>
 <div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx view +project
 + project
-☐  Make science project </code></pre></div>
-<h3 id="sync">Sync</h3>
-
+☐  Make science project 
+</code></pre></div><h3 id="sync">Sync</h3>
 <p>All the data of todx is stored in a single <code>data.json</code> file (in linux located at <code>~/.local/share/todx/data.json</code>). Since this file is a json, it can be easily synced with a remote server and can be used in any other app that might support the json format. Android and Web apps can de made that use this extendability.</p>
-
 <h3 id="customizability">Customizability</h3>
-
 <p>Currently things like done markers that define which status elements are marked as done and unicode charecter replacements (<code>☐</code>, <code>☑</code> etc) are stored in <code>settings.py</code> in the main code. I intend to make a <code>settings.json</code> file similar to <code>data.json</code> to add user customizability.</p>
-
 <h2 id="the-bash-setup">The Bash setup</h2>
-
 <p>Since <code>todx</code> is commandline tool we can easily mix and match it with other commandline tools to create beautiful things. I created a simple script to run everytime I start my terminal telling me the current weather, a smal quote and my todos. Here is a screenshot:</p>
-
-<p><img src="/blag/images/todx-setup-bash.png" alt="" /></p>
-
+<p><img src="/blag/images/todx-setup-bash.png" alt=""></p>
 <h2 id="what-i-learnt">What I learnt</h2>
-
 <p>It was and is an exhilarating project. I leant a lot of new stuff and revised old python skills in the process. Firstly I got to finally and successfully save and load data from json files into userdefined python objects.</p>
-
-<p>Next I got to know about <a href="https://github.com/ActiveState/appdirs" target="_blank">appdirs</a> package which let me use default os directories to save datafiles.</p>
-
+<p>Next I got to know about <a href="https://github.com/ActiveState/appdirs">appdirs</a> package which let me use default os directories to save datafiles.</p>
 <p>I also learnt how to process command line parameters and install the package as a binary rather than just a library.</p>
-
-<p>And finally I got to learn about the python packaging tools. I learnt how to make a package and how to publish it to pypi. Fun fact : TodX is listed in the <a href="https://pypi.org/project/todx/" target="_blank">pypi</a>. Making a python package takes some getting used to and can be daunting for many beginners. I almost quit my plan putting the package on pypi in the process. Perhaps I would make a blogpost describing the process.</p>
-
+<p>And finally I got to learn about the python packaging tools. I learnt how to make a package and how to publish it to pypi. Fun fact : TodX is listed in the <a href="https://pypi.org/project/todx/">pypi</a>. Making a python package takes some getting used to and can be daunting for many beginners. I almost quit my plan putting the package on pypi in the process. Perhaps I would make a blogpost describing the process.</p>
 <h2 id="the-future">The Future?</h2>
-
 <p>Indeed this is just the beginning of TodX. I have several plans about todx which I would like to implement as soon as I get time to work on it. Some of them include:</p>
-
 <ul>
 <li>Making a server and syncing <code>data.json</code></li>
 <li>Adding tests</li>
 <li>Adding tty colors to make the program more beautiful</li>
 <li>Adding created time and due date with support for notifications</li>
-<li>Hopefully creating a simple android app to sync with (currently TodX runs nicely in <a href="https://termux.com/" target="_blank">Termux</a>)</li>
+<li>Hopefully creating a simple android app to sync with (currently TodX runs nicely in <a href="https://termux.com/">Termux</a>)</li>
 </ul>
 
 </div>

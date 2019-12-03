@@ -5,10 +5,37 @@
     <link>https://xypnox.github.io/blag/tags/</link>
     <description>Recent content in Tags on The Blag</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 26 Aug 2019 23:05:44 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2019 19:48:28 +0530</lastBuildDate>
     
 	<atom:link href="https://xypnox.github.io/blag/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blender</title>
+      <link>https://xypnox.github.io/blag/tags/blender/</link>
+      <pubDate>Tue, 03 Dec 2019 19:48:28 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/blender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chess</title>
+      <link>https://xypnox.github.io/blag/tags/chess/</link>
+      <pubDate>Tue, 03 Dec 2019 19:48:28 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/chess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://xypnox.github.io/blag/tags/tech/</link>
+      <pubDate>Tue, 03 Dec 2019 19:48:28 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/tech/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>design</title>
@@ -25,15 +52,6 @@
       <pubDate>Wed, 15 May 2019 15:43:25 +0530</pubDate>
       
       <guid>https://xypnox.github.io/blag/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://xypnox.github.io/blag/tags/tech/</link>
-      <pubDate>Wed, 15 May 2019 15:43:25 +0530</pubDate>
-      
-      <guid>https://xypnox.github.io/blag/tags/tech/</guid>
       <description></description>
     </item>
     
