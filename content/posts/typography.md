@@ -13,7 +13,7 @@ tags:
 
 **Typography** is the art and technique of arranging type. It is the method used to make text readable, legible, beautiful and meaningful. Good typography is readable. No matter how stylish and polished your font is, if it isn't readable no one is gonna *read* it.
 
-> The beauty of type lies in its utility; prettiness without readability serves neither the author not reader. - James Felici
+> The beauty of type lies in its utility; prettiness without readability serves neither the author nor reader. - James Felici
 
 The main way in which we style our texts is with fonts. Fonts are more or less a complete set of glyphs for characters that can be used to render the text.
 
