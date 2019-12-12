@@ -23,9 +23,9 @@ There are a ton of things related to typography including: stroke stem ligature 
 
 ## The basics
 
-> Less is more
+Use as little as required. This is a general advice while designing anything however this is especially true for typography. Many people go over the board when they discover the plethora of fonts available at their disposition, and they use every font they can find. Which ends up looking quite ugly.
 
-Use as little as required. This is a general advice while designing anything however this is especially true for typography. Many people go over the board when they discover the plethora of fonts available at their disposition, and they use every font they can find. Which ends up looking quite ugly. 
+> Less is more 
 
 *See which fonts go together, try to use a few or even a single font family. You can use styles such as caps, italics, weight, color etc to differentiate the text.*
 
@@ -46,8 +46,6 @@ Color is a sensitive topic. Some people like this color some that. In typography
 ![](https://i.imgur.com/bGjS8Ca.png)
 
 ## Personal Picks
-
-> “Type is a beautiful group of letters, not a group of beautiful letters.” - Matthew Carter  
 
 Here are a list of fonts that I really like. They are all free to use for everything.
 
@@ -125,5 +123,7 @@ I also have [a gist](https://gist.github.com/xypnox/b1364330ef326172b2f84a89d08e
 ---
 
 There are tons of more theory and practice in the field of typography, you can even go ahead and make your own font, [like I did](https://github.com/xypnox/Oliver/). But I feel that I have covered the most important aspects of typography here. And the provided links and resources are enough for a head-start.
+
+> “Type is a beautiful group of letters, not a group of beautiful letters.” - Matthew Carter  
 
 *As always, suggestions and additions are welcome.*
