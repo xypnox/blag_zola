@@ -5,10 +5,19 @@
     <link>https://xypnox.github.io/blag/tags/</link>
     <description>Recent content in Tags on The Blag</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 12 Dec 2019 19:26:01 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2020 13:27:35 +0530</lastBuildDate>
     
 	<atom:link href="https://xypnox.github.io/blag/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>life</title>
+      <link>https://xypnox.github.io/blag/tags/life/</link>
+      <pubDate>Sun, 29 Mar 2020 13:27:35 +0530</pubDate>
+      
+      <guid>https://xypnox.github.io/blag/tags/life/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>design</title>
@@ -160,15 +169,6 @@
       <pubDate>Tue, 10 Apr 2018 20:50:51 +0530</pubDate>
       
       <guid>https://xypnox.github.io/blag/tags/fun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>life</title>
-      <link>https://xypnox.github.io/blag/tags/life/</link>
-      <pubDate>Fri, 29 Dec 2017 13:35:04 +0530</pubDate>
-      
-      <guid>https://xypnox.github.io/blag/tags/life/</guid>
       <description></description>
     </item>
     

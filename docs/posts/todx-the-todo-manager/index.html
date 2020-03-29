@@ -3,19 +3,19 @@
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.
- The project&#39;s source code is available at GitHub
+ The project&rsquo;s source code is available at GitHub
  Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal. Most of the work except web browsing can be done through the terminal in an efficient way.'>
 <meta name='theme-color' content='#33df97'>
 
 <meta property='og:title' content='TodX : The Todo Manager • The Blag'>
 <meta property='og:description' content='So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.
- The project&#39;s source code is available at GitHub
+ The project&rsquo;s source code is available at GitHub
  Backstory I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal. Most of the work except web browsing can be done through the terminal in an efficient way.'>
 <meta property='og:url' content='https://xypnox.github.io/blag/posts/todx-the-todo-manager/'>
 <meta property='og:site_name' content='The Blag'>
 <meta property='og:type' content='article'><meta property='og:image' content='http://www.optipess.com/comics/2018-09-28-927_To-Do_SQ.png'><meta property='article:section' content='posts'><meta property='article:tag' content='project'><meta property='article:tag' content='todx'><meta property='article:tag' content='python'><meta property='article:published_time' content='2018-11-09T00:31:37&#43;05:30'/><meta property='article:modified_time' content='2018-11-09T00:31:37&#43;05:30'/><meta name='twitter:card' content='summary_large_image'><meta property='twitter:image' content='http://www.optipess.com/comics/2018-09-28-927_To-Do_SQ.png'><meta property='twitter:image:alt' content='Credit - optipess.com'>
 
-<meta name="generator" content="Hugo 0.61.0" />
+<meta name="generator" content="Hugo 0.68.3" />
 
   <title>TodX : The Todo Manager • The Blag</title>
   <link rel='canonical' href='https://xypnox.github.io/blag/posts/todx-the-todo-manager/'>
@@ -116,19 +116,19 @@
   <div class='container entry-content'>
   <p>So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.</p>
 <blockquote>
-<p>The project's source code is available at <a href="https://github.com/xypnox/todxpy/">GitHub</a></p>
+<p>The project&rsquo;s source code is available at <a href="https://github.com/xypnox/todxpy/">GitHub</a></p>
 </blockquote>
 <h2 id="backstory">Backstory</h2>
 <p>I recently switched to i3 windows manager just to try it out. And I loved it. I have now become used to living in the terminal. Most of the work except web browsing can be done through the terminal in an efficient way. But i3 is a topic for another post.</p>
-<p>I was using TickTick for managing my todos till this point. Since TickTick doesn't have a native linux interface, it was a pain to use on the desktop. Sure it had extensions for both chrome and firefox and had great sync capabilities but if you wanted to use it you had to open a whole browser and use the mouse to open the TickTick extension. It took a lot of time just to add a todo, which <em>should</em> be a very easy task in and of itself.</p>
-<p>Hence I started looking for a commandline todo app that could sync to Android. It should be simple and fast, thats it, and guess what I couldn't find one single app that could do it. Most apps didn't even have a native linux app let alone cli. Those fast cli apps were mostly single bash or python scripts and could not sync at all. The GUI todo apps for linux were essentially like text editors huge and clunky.</p>
+<p>I was using TickTick for managing my todos till this point. Since TickTick doesn&rsquo;t have a native linux interface, it was a pain to use on the desktop. Sure it had extensions for both chrome and firefox and had great sync capabilities but if you wanted to use it you had to open a whole browser and use the mouse to open the TickTick extension. It took a lot of time just to add a todo, which <em>should</em> be a very easy task in and of itself.</p>
+<p>Hence I started looking for a commandline todo app that could sync to Android. It should be simple and fast, thats it, and guess what I couldn&rsquo;t find one single app that could do it. Most apps didn&rsquo;t even have a native linux app let alone cli. Those fast cli apps were mostly single bash or python scripts and could not sync at all. The GUI todo apps for linux were essentially like text editors huge and clunky.</p>
 <p>Hence I set forth to make one of my own which centered on speed, ease of use, sync capability and customizability. And it should obviously be crossplatform.</p>
 <blockquote>
-<p>Sync doesn't work yet</p>
+<p>Sync doesn&rsquo;t work yet</p>
 </blockquote>
 <h2 id="installation">Installation</h2>
 <blockquote>
-<p>Command enetered in terminal have a <code>$</code> before them. The output of the terminal doesn't have the <code>$</code>.</p>
+<p>Command enetered in terminal have a <code>$</code> before them. The output of the terminal doesn&rsquo;t have the <code>$</code>.</p>
 </blockquote>
 <p>You can install todx using pip:</p>
 <p>If you are using Ubuntu or a Ubuntu based distro:</p>
@@ -136,7 +136,7 @@
 </code></pre></div><p>otherwise:</p>
 <div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pip install todx
 </code></pre></div><blockquote>
-<p>By default Ubuntu's pip is for python2 and hence we need pip3 to install the todx for python3</p>
+<p>By default Ubuntu&rsquo;s pip is for python2 and hence we need pip3 to install the todx for python3</p>
 </blockquote>
 <p>To check if it installed correctly run the command:</p>
 <div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx --version
@@ -157,12 +157,12 @@ Which todo you want to mark: <span style="color:#f99b15">0</span>
 What is your new status: v
 </code></pre></div><p>This command lists the todos with indexes and asks which todo to mark. Here we choose the <code>0</code> and then the command asks what the status you want to be.</p>
 <p>Here we have chosen <code>v</code> since it closely resembles the tick. When todx displays the todos it changes the <code>v</code> to a <code>☑</code>. Neat. But what if you prefer <code>☒</code>? Just use <code>x</code> instead of <code>v</code>. To unmark a todo just use a space in the status.</p>
-<p>Now if you run <code>todx</code> you will see that once you marked your todo you can't see it. This is because by default <code>todx</code> only shows unmarked, in other words, not done todos. If you want to view all the todos, marked and unmarked you can run:</p>
+<p>Now if you run <code>todx</code> you will see that once you marked your todo you can&rsquo;t see it. This is because by default <code>todx</code> only shows unmarked, in other words, not done todos. If you want to view all the todos, marked and unmarked you can run:</p>
 <div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx view
 ☑  Make a great website 
 </code></pre></div><p>Now lets create another todo:</p>
 <div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx add oops i did it again
-</code></pre></div><p>Oh no. I didn't wish to create this todo.</p>
+</code></pre></div><p>Oh no. I didn&rsquo;t wish to create this todo.</p>
 <p>You can delete it using:</p>
 <div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ todx del
 <span style="color:#f99b15">0</span> ☑  Make a great website 
@@ -175,7 +175,7 @@ Are you sure buddy? <span style="color:#5bc4bf">[</span>Y/n<span style="color:#5
 <p>This much is everything you need for a simple basic commandline todo app.</p>
 <p>TodX is simple yes, but not basic.</p>
 <h2 id="advanced-commands">Advanced commands</h2>
-<p>You mave have noted the absence of quotes while using the <code>todx add</code> command. You can definetly do <code>todx add &quot;Some todo&quot;</code> but it takes time to add those quotes and it doesn't feel elegant. Hence todx is designed in a way to eliminate the need for the quotes. You can always use quotes if you want to be more pragmatic.</p>
+<p>You mave have noted the absence of quotes while using the <code>todx add</code> command. You can definetly do <code>todx add &quot;Some todo&quot;</code> but it takes time to add those quotes and it doesn&rsquo;t feel elegant. Hence todx is designed in a way to eliminate the need for the quotes. You can always use quotes if you want to be more pragmatic.</p>
 <p>You can use <code>-a</code> instead of <code>add</code> and <code>-m</code> instead of <code>mark</code>.</p>
 <h3 id="tags">Tags</h3>
 <p>Let us say you want to organize your todos. Say that you want to sepearate your homework todos from your personal projects. It would be nice to have two different todo lists for both. But maybe you might have two lists of <em>holiday</em> and <em>thing to buy</em>, now if you want to add a todo <em>Buy a swimsuit</em> You may want to add it to both of your lists, but this will introduce redundancy.</p>
@@ -344,7 +344,7 @@ Are you sure buddy? <span style="color:#5bc4bf">[</span>Y/n<span style="color:#5
       </li></ul>
   </nav>
 </section><div class='copyright'>
-  <p> &copy; 2017-2019 @xypnox </p>
+  <p> &copy; 2017-2020 @xypnox </p>
 </div>
 
         </div>

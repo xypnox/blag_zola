@@ -13,7 +13,7 @@ The main problem that I was facing was that while many sites offered fonts for f
 <meta property='og:site_name' content='The Blag'>
 <meta property='og:type' content='article'><meta property='og:image' content='https://xypnox.github.io/blag/images/fontstaller-cover.jpg'><meta property='article:section' content='posts'><meta property='article:tag' content='linux'><meta property='article:tag' content='programming'><meta property='article:published_time' content='2018-05-18T12:02:55&#43;05:30'/><meta property='article:modified_time' content='2018-05-18T12:02:55&#43;05:30'/><meta name='twitter:card' content='summary_large_image'><meta property='twitter:image' content='https://xypnox.github.io/blag/images/fontstaller-cover.jpg'>
 
-<meta name="generator" content="Hugo 0.61.0" />
+<meta name="generator" content="Hugo 0.68.3" />
 
   <title>Fontstaller • The Blag</title>
   <link rel='canonical' href='https://xypnox.github.io/blag/posts/fontstaller/'>
@@ -109,7 +109,7 @@ The main problem that I was facing was that while many sites offered fonts for f
 
   <div class='container entry-content'>
   <p>I have had troubles installing fonts in Linux. Although its far easier than Windows where the only way to install a bunch of fonts is to open the file and click install fonts. In Linux however, you can copy your fonts to <code>~/.fonts</code> or <code>/usr/share/fonts</code> and they will be recognized by all the applications. But can this process be improved or streamlined?</p>
-<p>The main problem that I was facing was that while many sites offered fonts for free they were usually zipped/archived. Which meant that they would have to be manually unarchived one by one to install the fonts, which considering the number of fonts (36!) I wanted to install at the time was way too much. So clearly I needed a script to unzip and copy the font files in <code>~/.fonts</code>. The problem was that although the <code>unzip</code> command is fairly straightforward and could be used I didn't have much control over it.</p>
+<p>The main problem that I was facing was that while many sites offered fonts for free they were usually zipped/archived. Which meant that they would have to be manually unarchived one by one to install the fonts, which considering the number of fonts (36!) I wanted to install at the time was way too much. So clearly I needed a script to unzip and copy the font files in <code>~/.fonts</code>. The problem was that although the <code>unzip</code> command is fairly straightforward and could be used I didn&rsquo;t have much control over it.</p>
 <p>So I searched some more and stumbled upon the fact that python comes preloaded with a zip archive reading library named <code>zipfile</code>. And I could use it to spin up a small python script to make the extraction process &ldquo;smart&rdquo;. By smart, I mean that the program could differentiate between a directory containing fonts and archives containing fonts. It can also work with nested directory structure and even detect whether a font has been preinstalled or not.</p>
 <h2 id="the-program-itself-fontstaller">The program itself: FontStaller</h2>
 <p><img src="https://raw.githubusercontent.com/xypnox/fontstaller/master/fontstaller-logo.png" alt="Logo"></p>
@@ -117,7 +117,7 @@ The main problem that I was facing was that while many sites offered fonts for f
 <p>You can find the code in the GitHub repo <a href="https://github.com/xypnox/fontstaller/">xypnox/fontstaller</a>.</p>
 </blockquote>
 <p>At the default settings, the Fontstaller script installs the fonts located in the folder <code>fonts</code> in the current directory. It installs all the zips that have a font file. Or any (sub - sub &hellip;) subdirectory (ies) that have a font file (generally ttf, otf).</p>
-<p>The fonts are by default copied to the folder <code>~/.fonts</code>. An interesting point to note is that the directory structure of your initial <code>fonts</code> folder is <em>not</em> preserved. This is to simplify distinguishing already installed fonts. This way the script can easily check only folder names in <code>~/.fonts</code> and doesn't have to deal with subdirectory structure.</p>
+<p>The fonts are by default copied to the folder <code>~/.fonts</code>. An interesting point to note is that the directory structure of your initial <code>fonts</code> folder is <em>not</em> preserved. This is to simplify distinguishing already installed fonts. This way the script can easily check only folder names in <code>~/.fonts</code> and doesn&rsquo;t have to deal with subdirectory structure.</p>
 <p>There are a few command line options to tweak the behavior of the script, they are mentioned as follows:</p>
 <table>
 <thead>
@@ -150,17 +150,17 @@ The main problem that I was facing was that while many sites offered fonts for f
 </tr>
 </tbody>
 </table>
-<p>I know there are few bugs that still exist. Such as the fact that the script doesn't deal well with subdirectory structure in the archived files. However, it is still quite useful.</p>
+<p>I know there are few bugs that still exist. Such as the fact that the script doesn&rsquo;t deal well with subdirectory structure in the archived files. However, it is still quite useful.</p>
 <p>If you are interested in the fonts I was installing, check this <a href="https://github.com/xypnox/fontstaller/releases/download/v1.0.0/fonts.zip">archived zip</a></p>
 <hr>
 <h2 id="tricks">Tricks</h2>
 <p>I learned a few new tricks about python scripting that I would share here.</p>
 <h3 id="splitting-and-slicing-simultaneously">Splitting and slicing simultaneously</h3>
 <p>You split and slice simultaneously by just splicing the output of Splitting command. For example, the line in my code that uses it is :</p>
-<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">idir <span style="color:#5bc4bf">=</span> args<span style="color:#5bc4bf">.</span>idir <span style="color:#5bc4bf">+</span> <span style="color:#48b685"></span><span style="color:#48b685">&#39;</span><span style="color:#48b685">/</span><span style="color:#48b685">&#39;</span> <span style="color:#5bc4bf">+</span> zfile<span style="color:#5bc4bf">.</span>split(<span style="color:#48b685"></span><span style="color:#48b685">&#39;</span><span style="color:#48b685">/</span><span style="color:#48b685">&#39;</span>)[<span style="color:#5bc4bf">-</span><span style="color:#f99b15">1</span>][:<span style="color:#5bc4bf">-</span><span style="color:#f99b15">4</span>]
+<div class="highlight"><pre style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">idir <span style="color:#5bc4bf">=</span> args<span style="color:#5bc4bf">.</span>idir <span style="color:#5bc4bf">+</span> <span style="color:#48b685">&#39;/&#39;</span> <span style="color:#5bc4bf">+</span> zfile<span style="color:#5bc4bf">.</span>split(<span style="color:#48b685">&#39;/&#39;</span>)[<span style="color:#5bc4bf">-</span><span style="color:#f99b15">1</span>][:<span style="color:#5bc4bf">-</span><span style="color:#f99b15">4</span>]
 </code></pre></div><p>Here I needed only the name of the archive without the <code>.zip</code> extension. So I first split the string using <code>/</code> then slice the last element till the fifth last character. Pretty neat.</p>
 <h3 id="parsing-command-line-parameters-in-python">Parsing command-line parameters in python</h3>
-<p>I know its quite dumb to say it's a trick but it took me several readings of Manual and a few different command line parsing methods to flat this one out. I finally ended up using the <code>argparse</code> package which is a little hard, to begin with, but offers a great amount of flexibility and nice user experience such as auto-generated <code>help</code> command!</p>
+<p>I know its quite dumb to say it&rsquo;s a trick but it took me several readings of Manual and a few different command line parsing methods to flat this one out. I finally ended up using the <code>argparse</code> package which is a little hard, to begin with, but offers a great amount of flexibility and nice user experience such as auto-generated <code>help</code> command!</p>
 <p>It is too much, to begin with, so I will simply link to its Manual page in Python : <a href="https://docs.python.org/3.6/library/argparse.html">Argparse</a>.</p>
 
 </div>
@@ -290,7 +290,7 @@ The main problem that I was facing was that while many sites offered fonts for f
       </li></ul>
   </nav>
 </section><div class='copyright'>
-  <p> &copy; 2017-2019 @xypnox </p>
+  <p> &copy; 2017-2020 @xypnox </p>
 </div>
 
         </div>
