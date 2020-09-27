@@ -1,0 +1,45 @@
+#header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    font-family: Chancery, cursive, LiSu, sans-serif;
+    font-weight: 400;
+
+    a {
+      color: #34495e;
+      font-size: 48px;
+    }
+  }
+
+  .menu {
+    align-self: flex-start;
+    font-family: $decoration-font-family;
+
+    ul {
+      display: inline-block;
+      padding-right: 25px;
+
+      li {
+        display: inline-block;
+        margin-right: 5px;
+        @include underline-from-center;
+
+        a {
+          color: #34495e;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+@include max-screen() {
+  #header {
+    .logo, .menu {
+      display: none;
+    }
+    padding: 50px 0 0;
+    text-align: center;
+  }
+}
