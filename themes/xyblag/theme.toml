@@ -1,24 +1,24 @@
-name = "even"
-description = "A robust, elegant dark theme"
+name = "xyblag"
+description = "A robust, elegant theme for xypnox's blag"
 license = "MIT"
-homepage = "https://github.com/getzola/even"
-min_version = "0.11.0"
-demo = "https://zola-even.netlify.com"
+homepage = "https://github.com/xypnox/blag"
+min_version = "0.1.0"
+demo = ""
 
 [extra]
-even_menu = [
+blog_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/categories", name = "Categories"},
     {url = "$BASE_URL/tags", name = "Tags"},
     {url = "$BASE_URL/about", name = "About"},
 ]
-even_title = "Even"
+blog_title = "Even"
 
 [author]
-name = "Vincent Prouillet"
-homepage = "https://www.vincentprouillet.com"
+name = "xypnox"
+homepage = "https://www.xypnox.com"
 
 [original]
-author =  "olOwOlo"
-homepage = "https://blog.olowolo.com/example-site/"
-repo = "https://github.com/olOwOlo/hugo-theme-even"
+author = "Vincent Prouillet"
+homepage = "https://zola-even.netlify.com"
+repo = "https://github.com/getzola/even"

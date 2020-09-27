@@ -11,5 +11,27 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+theme = "xyblag"
+
+title = "The Blag"
+description = ""
+
+generate_feed = true
+
+taxonomies = [
+    # You can enable/disable RSS
+    {name = "categories", rss = true},
+    {name = "tags", rss = true},
+]
+
 [extra]
 # Put all your custom variables here
+author = "xypnox"
+blog_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/about", name = "About"},
+]
+
+blog_title = "The Blag"
