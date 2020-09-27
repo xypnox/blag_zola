@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+      <title>The Blag - Visualizing a problem in Chess</title>
+
+      
+        <link rel="alternate" type="application/atom+xml" title="RSS" href="https://www.xypnox.com/blag/atom.xml">
+      
+
+      
+          <script type="text/javascript" src="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;slideout.min.js" ></script>
+          
+      
+
+      
+          <link rel="stylesheet" href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;site.css">
+          
+      
+
+      
+      
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div id="mobile-navbar" class="mobile-navbar">
+              <div class="mobile-header-logo">
+                <a href="/" class="logo">The Blag</a>
+              </div>
+              <div class="mobile-navbar-icon icon-out">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+            <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
+              <ul class="mobile-menu-list">
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;">
+                            Home
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;&#x2F;categories">
+                            Categories
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;&#x2F;tags">
+                            Tags
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;&#x2F;about">
+                            About
+                        </a>
+                    </li>
+                
+              </ul>
+            </nav>
+
+            <header id="header">
+                <div class="logo"><a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;">The Blag</a></div>
+                <nav class="menu">
+                    <ul>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;">
+                                    Home
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;&#x2F;categories">
+                                    Categories
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;&#x2F;tags">
+                                    Tags
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;&#x2F;about">
+                                    About
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <div class="content" id="mobile-panel">
+                    
+
+
+<div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title">Contents</h2>
+    <div class="post-toc-content always-active">
+        <nav id="TableOfContents">
+            <ul>
+                
+                <li>
+                    <a href="https://www.xypnox.com/blag/posts/chessproblems/#extras" class="toc-link">Extras</a>
+                    
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+<article class="post">
+    
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;posts&#x2F;chessproblems&#x2F;">Visualizing a problem in Chess</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">2019-12-03</span>
+            
+        </div>
+    </header>
+
+    <div class="post-content">
+      <p>cover:
+image: /blag/images/chess-problems.png
+style: wide
+caption: Rendered using Blender
+tags: - tech - blender - chess</p>
+<p>So I was interested in this chess puzzle:</p>
+<p><img src="https://i.imgur.com/PyhIvWY.png" alt="" /></p>
+<p>In this very peculiar position we have to place the black king to a square such that <em>it is not in check</em> and with white being next to move <em>black gets mated in the maximum number of moves</em>. That is white takes most moves to mate black.</p>
+<p>To solve such a problem, we can take help of our friend <a href="https://stockfishchess.org/">Stockfish</a>. Using the online chess website <a href="https://lichess.org/">Lichess's</a> <a href="https://lichess.org/analysis/8/8/8/4k3/8/8/PPPK4/RNBQ4_w_-_-_0_1">analysis</a> and <a href="https://lichess.org/editor/8/8/8/4k3/8/8/PPPK4/RNBQ4_w_-_-_0_1">editor</a> features, we can determine the number of moves to mate for all the available squares.</p>
+<p>Doing such an analysis and collecting the data we get the following chart:</p>
+<p><img src="https://i.imgur.com/IfyWR5U.jpg" alt="" /></p>
+<p>Which seems quite interesting and promising as we can then deduce that the <em>safest</em> place for the black king is in the <em>upper right center</em> of the board. Moreover, we see that the squares near the pieces and the edge of the board have lower values as they are places where the black king gets checkmated quickly.</p>
+<p>We can then create a 3D representation of this data by giving the squares the height of the numbers in them. Using some <a href="https://www.blender.org/">blender</a> magic we get the following in 3D:</p>
+<p><img src="https://i.imgur.com/TSqTVhE.png" alt="" /></p>
+<p>Which is quite nice to look at. The 4 squares with value of 8 can be seen to dominate and they are surrounded by squares of gradually decreasing height. The transparency gives the feel of volume, and a look on squares hidden from view.</p>
+<p>A bit more playing at blender's materials and shading we can beautify the image further:</p>
+<p><img src="https://i.imgur.com/JYfzd9w.png" alt="" /></p>
+<p>I went ahead and created the white pieces for reference to the problem and we get:</p>
+<p><img src="https://i.imgur.com/MJ1PcsS.png" alt="" /></p>
+<p>We have this final detailed infographic about the entire thing in one image:</p>
+<p><img src="https://i.imgur.com/NMcctiw.png" alt="" /></p>
+<h1 id="extras">Extras</h1>
+<p>A few changes in the cameras location and focus gives us these few spectacular shots:</p>
+<p><img src="https://i.imgur.com/rKq7G8o.png" alt="" /></p>
+<p><img src="https://i.imgur.com/NchTPnB.png" alt="" /></p>
+<p>And now since I have all the pieces created for chess, I setup an entire board with the starting position in blender:</p>
+<p><img src="https://i.imgur.com/fdgn0HT.png" alt="" /></p>
+<p>Taking careful look at both the king and the queen, both of them looked out of proportion and awkward. Hence they were modified and we got a new nice setup:</p>
+<p><img src="https://i.imgur.com/iuN0LLY.png" alt="" /></p>
+<p>And there is one more angle for the last render:</p>
+<p><img src="https://i.imgur.com/art6dIt.png" alt="" /></p>
+<p>Here is the imgur album for all the images: https://imgur.com/a/kvxUJW6</p>
+
+    </div>
+
+    
+    
+
+    <div class="post-footer">
+        
+            
+                <div class="post-tags">
+                    
+                        <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;tags&#x2F;tech&#x2F;">#tech</a>
+                    
+                        <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;tags&#x2F;blender&#x2F;">#blender</a>
+                    
+                        <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;tags&#x2F;chess&#x2F;">#chess</a>
+                    
+                </div>
+            
+            
+                <div class="post-nav">
+                    
+                        <a class="previous" href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;posts&#x2F;nettigritty-fraud&#x2F;">‹ Nettigritty Fraud</a>
+                    
+                    
+                        <a class="next" href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;posts&#x2F;typography&#x2F;">Typography ›</a>
+                    
+                    
+                    
+                </div>
+            
+
+        
+
+    </div>
+
+    
+    
+</article>
+
+
+                </div>
+            </main>
+
+            
+            
+        </div>
+
+      
+          <script type="text/javascript" src="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;even.js" ></script>
+      
+    </body>
+
+</html>

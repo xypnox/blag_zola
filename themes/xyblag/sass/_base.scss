@@ -6,8 +6,7 @@ html {
 body {
   line-height: 1.5;
   color: #34495e;
-  background: #fefefe;
-  border-top: 3px solid $main-colour;
+  background: #ffffff;
 }
 
 .container {
@@ -44,7 +43,8 @@ pre {
   padding: 1rem;
 }
 
-pre, code {
+pre,
+code {
   font-size: 90%;
   overflow: auto;
   font-family: $code-font-family;
