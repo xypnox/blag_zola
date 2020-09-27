@@ -13,6 +13,7 @@ build_search_index = true
 
 theme = "xyblag"
 
+# Blog details
 title = "The Blag"
 description = ""
 
