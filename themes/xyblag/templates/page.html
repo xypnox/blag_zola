@@ -6,26 +6,28 @@
 {% block content %}
     {% if page.toc %}
         <div class="post-toc" id="post-toc">
-            <h2 class="post-toc-title">Contents</h2>
-            <div class="post-toc-content always-active">
-                <nav id="TableOfContents">
-                    <ul>
-                        {% for h1 in page.toc %}
-                            <li>
-                                <a class="toc-link" href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
-                                {% if h1.children %}
-                                    <ul>
-                                        {% for h2 in h1.children %}
-                                            <li>
-                                                <a class="toc-link" href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
-                                            </li>
-                                        {% endfor %}
-                                    </ul>
-                                {% endif %}
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </nav>
+            <div class="toc-wrapper">
+                <h2 class="post-toc-title">Contents</h2>
+                <div class="post-toc-content always-active">
+                    <nav id="TableOfContents">
+                        <ul>
+                            {% for h1 in page.toc %}
+                                <li>
+                                    <a class="toc-link" href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
+                                    {% if h1.children %}
+                                        <ul>
+                                            {% for h2 in h1.children %}
+                                                <li>
+                                                    <a class="toc-link" href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     {% endif %}
