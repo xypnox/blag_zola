@@ -44,6 +44,7 @@
                         {% endfor %}
                     </div>
                 {% endif %}
+                {{ post_macros::disqus(page=page) }}
                 {% if page.earlier or page.later or page.lighter or page.heavier %}
                     <div class="post-nav">
                         {% if page.earlier %}
