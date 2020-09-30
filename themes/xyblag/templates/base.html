@@ -45,6 +45,8 @@
         {% endblock js %}
         {% block css %}
             <link href="{{ get_url(path="site.css", trailing_slash=false) }}" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
+            <link charset="utf-8" href="https://indestructibletype.com/fonts/Jost.css" rel="stylesheet" type="text/css"/>
             {% if config.extra.katex_enable %}
                 <link
                     crossorigin="anonymous"

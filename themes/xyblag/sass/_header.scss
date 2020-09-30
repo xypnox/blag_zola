@@ -2,21 +2,19 @@
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   .logo {
-    font-family: Chancery, cursive, LiSu, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 
     a {
       color: #34495e;
-      font-size: 48px;
+      font-size: 1.5rem;
     }
   }
 
   .menu {
     align-self: flex-start;
-    font-family: $decoration-font-family;
-
     ul {
       display: inline-block;
       padding-right: 25px;

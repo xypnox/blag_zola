@@ -15,7 +15,7 @@ theme = "xyblag"
 
 # Blog details
 title = "The Blag"
-description = "My Blag, a collection of Literature, Computing and Philosophy"
+description = "Blog of xypnox, a collection of Literature, Computing and Philosophy"
 
 generate_feed = true
 

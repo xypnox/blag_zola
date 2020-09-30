@@ -15,7 +15,9 @@ $body-width: 800px;
 $mobile-navbar-height: 50px !default;
 $code-colour: #c7254e;
 $code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
-$decoration-font-family: 'Jost*', serif;
+$serif-font: 'Crimson Text', serif;
+$ui-font: 'Jost*', sans-serif;
+$dark-text: #34495e;
 
 @mixin min-screen($min-width: $body-width) {
   @media screen and (min-width: $min-width) {
@@ -37,3 +39,4 @@ $decoration-font-family: 'Jost*', serif;
 @import 'mobile';
 @import 'slideout';
 @import 'toc';
+@import 'index';
