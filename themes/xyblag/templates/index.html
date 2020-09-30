@@ -1,6 +1,17 @@
 {% extends "base.html" %}
 {% import "post_macros.html" as post_macros %}
+{% block navigation %}
+    {{ page_macros::navbar_index(config=config) }}
+{% endblock navigation %}
 {% block content %}
+    <div class="hero">
+        <div class="logo">
+            <a href="{{ config.base_url }}">{{ config.title }}</a>
+        </div>
+        <p>
+            {{ config.description }}
+        </p>
+    </div>
     <div class="posts">
         {% for page in paginator.pages %}
             <article class="post">

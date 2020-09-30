@@ -35,5 +35,3 @@ blog_menu = [
     {url = "$BASE_URL/quotes", name = "Quotes"},
     {url = "$BASE_URL/about", name = "About"},
 ]
-
-blog_title = "The Blag"

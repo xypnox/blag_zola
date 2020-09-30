@@ -23,7 +23,7 @@
 
       li {
         display: inline-block;
-        margin-right: 5px;
+        margin-right: 15px;
         @include underline-from-center;
 
         a {
@@ -33,10 +33,15 @@
       }
     }
   }
+
+  &.index-header {
+    justify-content: end;
+  }
 }
 @include max-screen() {
   #header {
-    .logo, .menu {
+    .logo,
+    .menu {
       display: none;
     }
     padding: 50px 0 0;

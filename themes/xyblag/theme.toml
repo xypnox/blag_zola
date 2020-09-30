@@ -12,7 +12,6 @@ blog_menu = [
     {url = "$BASE_URL/tags", name = "Tags"},
     {url = "$BASE_URL/about", name = "About"},
 ]
-blog_title = "Even"
 
 [author]
 name = "xypnox"

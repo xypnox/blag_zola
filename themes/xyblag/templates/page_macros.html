@@ -1,6 +1,4 @@
-{% macro navbar(config) %}
-<header id="header">
-    <div class="logo"><a href="{{ config.base_url }}">{{ config.extra.blog_title }}</a></div>
+{% macro menu(config) %}
     <nav class="menu">
         <ul>
             {% for item in config.extra.blog_menu %}
@@ -12,5 +10,17 @@
             {% endfor %}
         </ul>
     </nav>
-</header>
+{% endmacro menu %}
+{% macro navbar(config) %}
+    <header id="header">
+        <div class="logo">
+            <a href="{{ config.base_url }}">{{ config.title }}</a>
+        </div>
+        {{ page_macros::menu(config=config) }}
+    </header>
 {% endmacro navbar %}
+{% macro navbar_index(config) %}
+    <header class="index-header" id="header">
+        {{ page_macros::menu(config=config) }}
+    </header>
+{% endmacro navbar_index %}

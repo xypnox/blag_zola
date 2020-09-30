@@ -1,9 +1,9 @@
 # The URL the site will be built for
-base_url = "https://zola-even.netlify.com"
+base_url = "https://<xyblag>.netlify.com"
 
 compile_sass = true
-title = "even theme"
-description = ""
+title = "xyblag theme theme"
+description = "xyblag is a minimal cutomizable theme for zola"
 highlight_code = true
 generate_feed = true
 
@@ -20,5 +20,3 @@ blog_menu = [
     {url = "$BASE_URL/tags", name = "Tags"},
     {url = "$BASE_URL/about", name = "About"},
 ]
-
-blog_title = "xyBlag"
