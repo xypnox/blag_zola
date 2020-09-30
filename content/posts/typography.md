@@ -8,7 +8,7 @@ tags = ["design", "typography"]
 +++
 
 cover:
-image: /blag/images/typography.png
+image: /images/typography.png
 caption: Cover by xypnox
 style: wide
 tags: - design - typography

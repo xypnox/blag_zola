@@ -1,0 +1,90 @@
+/* @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700,700i|Josefin+Sans:300,400');
+
+.main-menu ul li {
+  transition: 0.4s;
+  border-bottom: 2px solid #00000000;
+}
+
+.main-menu ul li:hover {
+  border-bottom: 2px solid #33df97;
+}
+
+.title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.header-info .title {
+  text-transform: none;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 1.4em;
+}
+
+time {
+  font-weight: normal;
+}
+
+.entry-content {
+  font-family: 'Crimson Text', 'Times New Roman', serif;
+}
+
+.entry-content a {
+  transition: 0.5s;
+  border-bottom: 2px solid #bdbdbd;
+}
+
+@media only screen and (max-width: 500px) and (orientation: portrait) {
+  body,
+  button,
+  input,
+  select,
+  textarea {
+    font-size: 1em;
+  }
+}
+
+.taxonomy-cloud li {
+  font-weight: bold;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+code,
+kbd,
+pre,
+samp,
+var {
+  border: none;
+}
+
+.home .widget-recent_posts .item {
+  display: inherit;
+  margin-top: 2rem;
+}
+
+.home .widget-recent_posts .item-title a {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #263238;
+}
+
+@media only screen and (max-width: 500px) and (orientation: portrait) {
+  .entry-content {
+    font-size: 1.2em;
+  }
+} */

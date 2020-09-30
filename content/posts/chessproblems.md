@@ -9,7 +9,7 @@ tags = ["tech", "blender", "chess"]
 +++
 
 cover:
-image: /blag/images/chess-problems.png
+image: /images/chess-problems.png
 style: wide
 caption: Rendered using Blender
 tags: - tech - blender - chess

@@ -8,7 +8,7 @@ tags = ["design", "poster"]
 +++
 
 cover:
-image: /blag/images/designing-a-poster.png
+image: /images/designing-a-poster.png
 style: full
 caption: visit posters.xypnox.com to view all posters.
 tags:

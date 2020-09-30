@@ -6,7 +6,7 @@ path="why-xypnox"
 +++
 
 cover:
-image: /blag/images/why-xypnox-cover.jpg
+image: /images/why-xypnox-cover.jpg
 style: full
 
 ## Backstory
@@ -31,7 +31,7 @@ The Greek word that I finally stumbled upon was [έξυπνος](https://transla
 
 I needed a logo, an image for my profile pictures. Something that spoke of xypnox when people saw it. And for apparent reasons, I choose the greek `chi` **χ**. I could use any color I wanted and it was easy to scale, it looked good at both small and large sizes.
 
-![LOGO](/blag/images/xypnox-logo.png)
+![LOGO](/images/xypnox-logo.png)
 
 Viola! xypnox was available at all the services that were relevant to me and I quickly set up an account for them as soon as possible.
 

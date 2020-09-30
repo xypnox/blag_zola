@@ -8,7 +8,7 @@ tags = ["tech", "notes", "project", "git", "github"]
 +++
 
 cover:
-image: /blag/images/notes.jpg
+image: /images/notes.jpg
 style: wide
 tags: - notes - programming - project
 

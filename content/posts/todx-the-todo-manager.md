@@ -184,7 +184,7 @@ Currently things like done markers that define which status elements are marked 
 
 Since `todx` is commandline tool we can easily mix and match it with other commandline tools to create beautiful things. I created a simple script to run everytime I start my terminal telling me the current weather, a smal quote and my todos. Here is a screenshot:
 
-![](/blag/images/todx-setup-bash.png)
+![](/images/todx-setup-bash.png)
 
 ## What I learnt
 

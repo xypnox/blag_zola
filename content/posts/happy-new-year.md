@@ -4,7 +4,7 @@ date = 2017-12-29
 +++
 
 cover:
-image: /blag/images/new-year.png
+image: /images/new-year.png
 caption: A Happy New Year Post, Quote from Brainyquotes | Photo by Karl Magnuson on Unsplash, edited by me :)
 tags: - life
 

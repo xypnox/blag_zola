@@ -8,7 +8,7 @@ tags = ["review", "book"]
 +++
 
 cover:
-image: /blag/images/the-elderling-realm.jpg
+image: /images/the-elderling-realm.jpg
 caption: Photo by Michael LaRosa on Unsplash
 style: wide
 tags: - literature - review

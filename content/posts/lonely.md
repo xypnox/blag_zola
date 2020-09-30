@@ -8,7 +8,7 @@ tags = ["poem"]
 +++
 
 cover:
-image: /blag/images/lonely.jpg
+image: /images/lonely.jpg
 caption: Photo by Brannon Naito on Unsplash
 tags: - poem
 

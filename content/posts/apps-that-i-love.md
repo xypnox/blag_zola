@@ -9,7 +9,7 @@ tags = ["tech", "linux", "android", "list"]
 +++
 
 cover:
-image: /blag/images/apps-i-love-cover.jpg
+image: /images/apps-i-love-cover.jpg
 style: wide
 caption: Photo by Amith Nair on Unsplash
 tags: - tech - linux
@@ -20,7 +20,7 @@ Maybe you may already know some of them but perhaps the reasons why I like them 
 
 ## VS Code
 
-![My VSCode setup](/blag/images/apps-i-love/vscode.png)
+![My VSCode setup](/images/apps-i-love/vscode.png)
 
 I started proper coding with [Sublime Text 3 beta](https://www.sublimetext.com/3). I loved that text editor. It was smooth and beautiful. Then came [Atom](https://atom.io/), another marvel and a beast of another world. A slow behemoth that could do almost anything through extensions.
 
@@ -30,7 +30,7 @@ For anyone that still uses Atom or Sublime Text, switch to VS Code. Just try it 
 
 ## Telegram
 
-![](/blag/images/apps-i-love/telegram.png)
+![](/images/apps-i-love/telegram.png)
 
 In the days of the boom of messaging apps, I tried a lot of them. I tried WhatsApp, Viber, Line, Wechat, Messenger, Hangouts and then I settled on [Telegram](https://telegram.org/). There are a few reasons why. Telegram is faster than most of them.
 
@@ -38,7 +38,7 @@ It is also secure and has a track record of not sharing data with any government
 
 ## Ubuntu + i3wm
 
-![](/blag/images/apps-i-love/i3.png)
+![](/images/apps-i-love/i3.png)
 
 I have been a strong proponent of everything Linux, and I will not go on and repeat why I like [Ubuntu](https://www.ubuntu.com/download/desktop) and any Linux distro in general. However, I will present to you a different way of using your laptop: using a tiling window manager. A [window manager](https://wiki.archlinux.org/index.php/window_manager) is a very lightweight application that controls how each window looks and behaves on your desktop.
 
@@ -48,7 +48,7 @@ In addition to being lightweight, It is fast and uses the screen-space efficient
 
 ## Typora
 
-![](/blag/images/apps-i-love/typora.png)
+![](/images/apps-i-love/typora.png)
 
 [Typora](https://typora.io/) is a minimal markdown editor. But as Mr. Nicholas Burroughs aptly said:
 
@@ -58,31 +58,31 @@ Typora is just the right amount of markdown editor you need. It behaves similar 
 
 ## Alto's Adventure
 
-![](/blag/images/apps-i-love/alto.png)
+![](/images/apps-i-love/alto.png)
 
 Let's throw in a game for some fun. [Alto's Adventure](http://altosadventure.com/) is **the** game that I play. I don't have any other games on my phone and even though I don't play it often nowadays, this is my favorite game so far on Android. It is an infinite runner where you can jump and do backflips. But don't let the simplicity distract you. With a marvelous soundtrack and a phenomenal procedurally generated environment, It will surely make your evenings a hell lot of fun. Also, don't forget to try Zen Mode.
 
 ## Joey for Reddit
 
-![](/blag/images/apps-i-love/joey.jpg)
+![](/images/apps-i-love/joey.jpg)
 
 Another Android Reddit app. But [Joey](https://play.google.com/store/apps/details?id=o.o.joey&hl=en_IN) has the highest ratings on the play store (4.9 / 5). And there are plenty of reasons why; highly customizable, fast, gesture-based, fullscreen immersive content. It is a fun app and makes the Reddit experience on mobile fantastic. If you are a Redditor you should definitely check this App.
 
 ## Figma
 
-![](/blag/images/apps-i-love/figma.png)
+![](/images/apps-i-love/figma.png)
 
 [Figma](https://www.figma.com/) is a design tool. It is a fast prototyping software and is available as an online app. It is very easy and intuitive and has great videos on getting started. It is free for all the basic usage and I have had a great time using it. I have recently started designing a lot more on figma and my previous pick was Inkscape, which wasn't so nice as it had a few performance issues and it was a vector drawing application, not exactly a design app.
 
 ## Eboox Ebook reader
 
-![](/blag/images/apps-i-love/eboox.png)
+![](/images/apps-i-love/eboox.png)
 
 Another Android app, it is an eBook Reader and that's it. [Eboox](https://play.google.com/store/apps/details?id=com.reader.books&hl=en_IN) has very basic book management but where it excels is the reading experience. It is simply exceptional, with the included "Tinos" font, it is a great and minimal Ebook reader for mobile. You can highlight quotes and put bookmarks too. But the reason I like this app is that it does one thing and it does it very well.
 
 ## Youtube Vanced
 
-![](/blag/images/apps-i-love/YouTube-Vanced.webp)
+![](/images/apps-i-love/YouTube-Vanced.webp)
 
 I know you are smart and you have an adblocker installed on your browser. But what about mobile? You can't prevent ads from showing up on Youtube on mobile, but can you? [Youtube vanced](https://www.xda-developers.com/youtube-vanced-apk/) is a perfect replacement for youtube albeit with a few minor tweaks, a true black dark mode, ability to play higher resolution videos than supported, the ability for background playback (you can let the app play the video as a music player in your notifications!) but most importantly no adds.
 

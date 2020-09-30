@@ -8,7 +8,7 @@ tags = ["tech", "linux"]
 +++
 
 cover:
-image: /blag/images/penguins-cover.jpg
+image: /images/penguins-cover.jpg
 caption: Penguins! The ever present symbol of Linux | Photo by Yuriy Rzhemovskiy on Unsplash
 style: wide
 tags: - linux - programming

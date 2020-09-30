@@ -8,7 +8,7 @@ tags = ["comic", "fun", "xkcd"]
 +++
 
 cover:
-image: /blag/images/angular_momentum.jpg
+image: /images/angular_momentum.jpg
 caption: Angular Momentum
 style: normal
 tags: - comic - fun

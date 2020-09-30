@@ -8,7 +8,7 @@ tags = ["poem"]
 +++
 
 cover:
-image: /blag/images/two-pens.jpg
+image: /images/two-pens.jpg
 caption: Photo by pulkit jain on Unsplash (Modified)
 tags: - poem
 
