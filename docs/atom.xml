@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title>The Blag</title>
-	<subtitle>My Blag, a collection of Literature, Computing and Philosophy</subtitle>
+	<subtitle>Blog of xypnox, a collection of Literature, Computing and Philosophy</subtitle>
 	<link href="https://www.xypnox.com/blag/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://www.xypnox.com/blag"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
