@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://www.xypnox.com/blag/"
+base_url = "https://www.xypnox.com/blag"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -15,7 +15,7 @@ theme = "xyblag"
 
 # Blog details
 title = "The Blag"
-description = ""
+description = "My Blag, a collection of Literature, Computing and Philosophy"
 
 generate_feed = true
 
@@ -32,6 +32,7 @@ blog_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/categories", name = "Categories"},
     {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/quotes", name = "Quotes"},
     {url = "$BASE_URL/about", name = "About"},
 ]
 

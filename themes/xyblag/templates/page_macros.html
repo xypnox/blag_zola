@@ -1,0 +1,16 @@
+{% macro navbar(config) %}
+<header id="header">
+    <div class="logo"><a href="{{ config.base_url }}">{{ config.extra.blog_title }}</a></div>
+    <nav class="menu">
+        <ul>
+            {% for item in config.extra.blog_menu %}
+                <li>
+                    <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                        {{ item.name }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
+{% endmacro navbar %}
