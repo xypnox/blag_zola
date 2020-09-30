@@ -4,18 +4,31 @@ path = "about"
 template = "about.html"
 +++
 
-This site provides a demo for the Even theme for the 
-[Gutenberg](https://www.getgutenberg.io/) static site generator.  Even was
-designed by [Vincent Prouillet](https://vincent.is/) and was based on the
-Even Hugo theme by olOwOlo.  This demo site was built by
-[Daniel Sockwell](https://www.codesections.com).  Both the theme and this
-site are licensed under the
-[MIT license](https://opensource.org/licenses/MIT), so you may freely use and
-redistribute either for commercial or non-commercial work.
+I am a Physics undergraduate student at IIT Kharagpur. I have interest in
+Programming, Open Source, Physics and Gadgets. My other name is Aditya Vikram Singh.
 
-You can find the source code for this site [in its GitHub
-repository](https://github.com/codesections/gutenberg-theme-demo/tree/even)
-and can find the source code for the theme in the
-[Even](https://www.github.com/Keats/even) repository.  For a
-description of this theme and links to other Gutenberg themes, please
-go to <https://www.getgutenberg.io/themes/>.
+## FAQs
+
+### [Why xypnox?](../why-xypnox)
+
+### [Why Blag?](https://xkcd.com/148/)
+
+### How is this blag made?
+
+This blag is made through a static site generator called hugo. The theme I am currently using is called [blag-theme](https://github.com/xypnox/blag-theme).
+
+---
+
+You can find my website/portfolio at [xypnox.com](https://www.xypnox.com/)
+
+You can reach me here:
+
+- [Github](https://github.com/xypnox/)
+- [Twitter](https://twitter.com/xypnox/)
+- [Telegram](https://t.me/xypnox) <== text me here
+- [Instagram](https://instagram.com/xypnox/)
+- [Facebook](https://facebook.com/xypnox/)
+
+You can also email me at xypnox @ gmail . com (Be smart and remove those spaces ;)) or me @ xypnox.com
+
+This blog is Open Source and the code is availabe at [Github](https://github.com/xypnox/blag/).
