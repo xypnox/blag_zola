@@ -12,6 +12,7 @@
                 {{ config.title }}
             {% endblock title %}
         </title>
+        <link href="{{ get_url(path="favicon.ico", trailing_slash=false) }}" rel="icon" type="image/x-icon"/>
         {% if config.generate_feed %}
             <link rel="alternate" type={% if config.feed_filename == "atom.xml" %} "application/atom+xml" {% else %} "application/rss+xml" {% endif %} title="RSS" href="{{ get_url(path=config.feed_filename) | safe }}"/>
         {% endif %}
