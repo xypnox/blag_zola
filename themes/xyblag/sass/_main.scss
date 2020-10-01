@@ -275,7 +275,7 @@ main {
   display: flex;
   justify-content: end;
   height: 10rem;
-  background-image: url('/images/end-post.svg');
+  background-image: url('/blag/images/end-post.svg');
   background-position: right;
   background-repeat: no-repeat;
   @include sm {
@@ -285,7 +285,7 @@ main {
 
 [data-theme='dark'] {
   .end-post {
-    background-image: url('/images/end-post-dark.svg');
+    background-image: url('/blag/images/end-post-dark.svg');
   }
 }
 
