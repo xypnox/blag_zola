@@ -165,6 +165,7 @@ main {
       margin: 0;
       font-size: 3rem;
       font-weight: 600;
+      margin-bottom: 0 !important;
 
       @include underline-from-center;
     }
@@ -187,7 +188,7 @@ main {
     }
 
     &__meta {
-      font-size: 14px;
+      font-size: 20px;
       color: #8a8a8a;
     }
 
@@ -265,18 +266,19 @@ main {
 
   &__title {
     display: inline-block;
-    font-size: 18px;
-    color: $main-colour;
-    border-bottom: 2px solid $main-colour;
+    font-size: 2rem;
+    font-weight: 600;
   }
 
   &__items {
-    margin: 10px 0;
+    margin: 20px 0;
 
     a {
-      margin: 5px 10px;
-      word-wrap: break-word;
+      margin: 5px 20px;
       position: relative;
+      color: $dark-text;
+      font-size: 1.5rem;
+      display: inline-block;
 
       &:hover {
         color: $main-colour;
@@ -284,10 +286,11 @@ main {
 
       .count {
         position: relative;
-        top: -8px;
-        right: -2px;
+        top: -7px;
+        right: 5px;
         color: $main-colour;
-        font-size: 12px;
+        font-size: 20px;
+        font-weight: 600;
       }
     }
   }
