@@ -197,8 +197,19 @@ main {
     }
   }
 
+  .end-post {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: end;
+    @media (max-width: 600px) {
+      svg {
+        transform: scale(0.8);
+        width: 100%;
+      }
+    }
+  }
+
   .post-footer {
-    margin-top: 20px;
     border-top: 1px solid #e6e6e6;
 
     &:after {
@@ -221,7 +232,8 @@ main {
   }
 
   .post-nav {
-    margin: 1rem 0;
+    margin: 0 0 5rem;
+    height: 3rem;
   }
 
   .pagination {
@@ -241,13 +253,12 @@ main {
   font-size: 20px;
   transition: transform 0.3s ease-out;
 
-  &:hover {
-    color: $main-colour;
-  }
+  @include hover-pop;
 }
 
 .next {
   float: right;
+  margin-right: -1rem;
   &:hover {
     transform: translateX(4px);
   }
@@ -255,6 +266,7 @@ main {
 
 .previous {
   float: left;
+  margin-left: -1rem;
   &:hover {
     transform: translateX(-4px);
   }
@@ -274,15 +286,13 @@ main {
     margin: 20px 0;
 
     a {
-      margin: 5px 20px;
+      margin: 5px 10px;
       position: relative;
       color: $dark-text;
       font-size: 1.5rem;
       display: inline-block;
 
-      &:hover {
-        color: $main-colour;
-      }
+      @include hover-pop;
 
       .count {
         position: relative;

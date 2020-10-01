@@ -32,6 +32,20 @@
   }
 }
 
+@mixin hover-pop() {
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  transition: all 0.25s ease-in-out;
+  &:hover {
+    background-color: rgba($color: $dark-text, $alpha: 0.07);
+    transform: scale(1.05);
+  }
+  &:active {
+    background-color: rgba($color: $dark-text, $alpha: 0.2);
+    transform: scale(1);
+  }
+}
+
 @mixin mobile-menu-icon() {
   @keyframes clickfirst {
     0% {

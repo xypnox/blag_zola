@@ -37,6 +37,9 @@
             {{ page.content | safe }}
         </div>
         {% block page_before_footer %}{% endblock page_before_footer %}
+        <div class="end-post">
+            <img src="{{ get_url(path="images/end-post.svg", trailing_slash=false) }}"/>
+        </div>
         <div class="post-footer">
             {% block page_footer %}
                 {% if page.taxonomies.tags %}
@@ -46,7 +49,6 @@
                         {% endfor %}
                     </div>
                 {% endif %}
-                {{ post_macros::disqus(page=page) }}
                 {% if page.earlier or page.later or page.lighter or page.heavier %}
                     <div class="post-nav">
                         {% if page.earlier %}
@@ -63,6 +65,7 @@
                         {% endif %}
                     </div>
                 {% endif %}
+                {{ post_macros::disqus(page=page) }}
             {% endblock page_footer %}
         </div>
         {% block page_after_footer %}{% endblock page_after_footer %}
