@@ -7,7 +7,7 @@ categories = ["design"]
 tags = ["design", "poster"]
 +++
 
-{% cover(src="/blag/images/designing-a-poster.jpg") %}
+{% cover(src="/blag/images/designing-a-poster.png") %}
 visit posters.xypnox.com to view all posters.
 {% end %}
 
