@@ -7,11 +7,9 @@ categories = ["design"]
 tags = ["design", "typography"]
 +++
 
-cover:
-image: /images/typography.png
-caption: Cover by xypnox
-style: wide
-tags: - design - typography
+{% cover(src="/blag/images/typography.png") %}
+Cover by xypnox
+{% end %}
 
 **Typography** is the art and technique of arranging type. It is the method used to make text readable, legible, beautiful and meaningful. Good typography is readable. No matter how stylish and polished your font is, if it isn't readable no one is gonna _read_ it.
 

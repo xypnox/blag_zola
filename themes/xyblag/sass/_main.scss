@@ -1,3 +1,5 @@
+$cover-max-screen-width: 2 * 200px + $body-width !default;
+
 main {
   clear: both;
 
@@ -93,6 +95,21 @@ main {
         display: block;
         margin: 1rem auto;
         border-radius: 6px;
+      }
+    }
+
+    .cover-image {
+      z-index: 100;
+      position: relative;
+      margin-bottom: 5rem;
+      @media (min-width: $cover-max-screen-width) {
+        width: $body-width + 400px;
+        margin-left: -200px;
+      }
+      p {
+        text-align: center;
+        font-family: $ui-font;
+        color: var(--secondary-color);
       }
     }
 

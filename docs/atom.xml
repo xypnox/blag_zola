@@ -97,11 +97,12 @@ To live is the secret of life.&lt;&#x2F;p&gt;
 		<updated>2019-12-12T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/typography/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/typography/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;typography.png
-caption: Cover by xypnox
-style: wide
-tags: - design - typography&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;typography.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Cover by xypnox
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;&lt;strong&gt;Typography&lt;&#x2F;strong&gt; is the art and technique of arranging type. It is the method used to make text readable, legible, beautiful and meaningful. Good typography is readable. No matter how stylish and polished your font is, if it isn&#x27;t readable no one is gonna &lt;em&gt;read&lt;&#x2F;em&gt; it.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The beauty of type lies in its utility; prettiness without readability serves neither the author nor reader. - James Felici&lt;&#x2F;p&gt;
