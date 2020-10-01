@@ -10,22 +10,41 @@ $theme-color-map: (
   'Dark Violet': #9932cc #f5f4fa,
 );
 
-$main-colour: #33df97;
-$secondary-colour: #cacaca;
-$code-colour: #28a58a;
 $dark-text: #34495e;
-$shadow-color: #5e5f72;
-$white: #fff;
-$gray-light: #ccc;
-
-:root {
-  --primary-color: #{$main-colour};
-  --secondary-color: #{$secondary-colour};
-  --background: #{$white};
+:root,
+[data-theme='light'] {
+  --primary-color: #{#33df97};
+  --secondary-color: #{#6f879e};
+  --background-color: #{#fff};
   --text-color: #{$dark-text};
   --secondary-text-color: #{lighten($dark-text, 10%)};
-  --code-color: #{$code-colour};
-  --light-accent: #{$gray-light};
+  --tag-hover-color: #{$dark-text};
+  --code-color: #{#28a58a};
+  --code-back-color: #{rgba($dark-text, 0.07)};
+  --code-block-color: #{#c9d2dc};
+  --light-accent-color: #{#ccc};
+  --quote-color: #{rgba($dark-text, 0.8)};
+  --hover-focus-color: #{rgba($dark-text, 0.07)};
+  --hover-active-color: #{rgba($dark-text, 0.2)};
+  --shadow-color: #{rgba($color: #5e5f72, $alpha: 0.15)};
+}
+
+$light-text: #9ba2c2;
+[data-theme='dark'] {
+  --primary-color: #{#ff5370};
+  --secondary-color: #{#555c70};
+  --background-color: #{#0f111a};
+  --text-color: #{$light-text};
+  --secondary-text-color: #{lighten($light-text, 10%)};
+  --tag-hover-color: #{#34495e};
+  --code-color: #{#f3a5b2};
+  --code-back-color: #{rgba($light-text, 0.07)};
+  --code-block-color: #{#c9d2dc};
+  --light-accent-color: #{rgba($light-text, 0.2)};
+  --quote-color: #{rgba($light-text, 0.8)};
+  --hover-focus-color: #{#161a26};
+  --hover-active-color: #{#242836};
+  --shadow-color: #{rgba($color: #5e5f72, $alpha: 0)};
 }
 
 // Typography

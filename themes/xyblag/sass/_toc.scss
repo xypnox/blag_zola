@@ -51,15 +51,15 @@ $toc-max-sreen-width: 2 * 200px + $post-toc-margin-left !default;
     }
 
     .toc-link {
-      color: $dark-text;
+      color: var(--text-color);
       line-height: 1.2;
       &:hover {
-        color: $main-colour;
+        color: var(--primary-color);
       }
     }
 
     .toc-link.active {
-      color: $main-colour;
+      color: var(--primary-color);
     }
   }
 }

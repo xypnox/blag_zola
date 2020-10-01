@@ -1,6 +1,6 @@
 main .hero {
   .logo a {
-    color: $dark-text;
+    color: var(--text-color);
     font-weight: 600;
     font-size: 3rem;
   }

@@ -15,7 +15,10 @@
 .slideout-panel {
   position: relative;
   z-index: 1;
-  background-color: white;
+  @include sm {
+    background-color: var(--background-color);
+    transition: background-color 1s ease-in-out;
+  }
 }
 
 .slideout-open,

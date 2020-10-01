@@ -5,9 +5,10 @@ html {
 
 body {
   line-height: 1.5;
-  color: #34495e;
-  background: #ffffff;
+  color: var(--text-color);
+  background-color: var(--background-color);
   font-family: $ui-font;
+  transition: background-color 1s ease-in-out;
 }
 
 .container {
@@ -27,7 +28,7 @@ body {
 }
 
 a {
-  color: $dark-text;
+  color: var(--text-color);
   text-decoration: none;
 }
 

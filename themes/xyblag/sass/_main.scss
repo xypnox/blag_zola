@@ -7,11 +7,12 @@ main {
 
   .posts {
     margin-bottom: 20px;
-    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--secondary-color);
   }
 
   .read-more a {
-    color: $main-colour;
+    color: var(--primary-color);
     font-family: $ui-font;
     font-size: 1.1rem;
 
@@ -25,24 +26,28 @@ main {
     padding: 1.5rem 0;
     font-size: 24px;
 
+    @include sm {
+      font-size: 20px;
+    }
+
     .post__title {
       font-family: $ui-font;
 
       a {
-        color: #34495e;
+        color: var(--text-color);
       }
     }
 
     .post-content {
       font-family: $serif-font;
       a {
-        color: #34495e;
+        color: var(--text-color);
         text-decoration: none;
-        border-bottom: 2px dotted #96a3b1;
+        border-bottom: 2px dotted var(--secondary-color);
 
         transition: border 1s ease;
         &:hover {
-          border-bottom: 2px solid $main-colour;
+          border-bottom: 2px solid var(--primary-color);
         }
       }
     }
@@ -69,15 +74,15 @@ main {
       }
       h1,
       h2 {
-        margin-top: 2rem;
+        margin-top: 4rem;
       }
       h3,
       h4 {
-        margin-top: 1.5rem;
+        margin-top: 3rem;
       }
       h5,
       h6 {
-        margin-top: 1rem;
+        margin-top: 1.5rem;
       }
 
       p {
@@ -103,7 +108,7 @@ main {
       overflow: auto;
       font-family: $code-font-family;
       margin-bottom: 0;
-      color: #c9d2dc;
+      color: var(--code-block-color);
     }
 
     pre > code {
@@ -111,19 +116,20 @@ main {
       border: none;
       font-style: normal;
       font-size: 1rem;
+      background: none;
     }
 
     code {
       font-size: 1.15rem;
       padding: 3px 5px;
       border-radius: 6px;
-      color: $code-colour;
-      background-color: rgba($color: $dark-text, $alpha: 0.07);
+      color: var(--code-color);
+      background-color: var(--code-back-color);
     }
 
     blockquote {
       &:before {
-        color: #f0f0f0;
+        color: var(--light-accent-color);
         content: '“';
         font-size: 6em;
         line-height: 0.6em;
@@ -134,7 +140,7 @@ main {
       margin: 1em 0;
       padding: 10px 20px;
       position: relative;
-      color: rgba(#34495e, 0.8);
+      color: var(--quote-color);
       font-size: 1.66rem;
 
       p {
@@ -147,20 +153,19 @@ main {
       max-width: 100%;
       margin: 10px 0;
       border-spacing: 0;
-      box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.125);
 
       thead {
-        background: $secondary-colour;
+        background: var(--light-accent-color);
       }
 
       th,
       td {
         padding: 5px 15px;
-        border: 1px double darken($secondary-colour, 3%);
+        border: 1px double var(--secondary-color);
       }
 
       tr:hover {
-        background-color: $secondary-colour;
+        background-color: var(--secondary-color);
       }
     }
 
@@ -168,7 +173,7 @@ main {
       padding-left: 40px;
 
       &:first-of-type {
-        border-top: 2px dashed $main-colour;
+        border-top: 2px dashed var(--primary-color);
         margin-top: 1rem;
         padding-top: 1rem;
       }
@@ -211,14 +216,14 @@ main {
         }
 
         &:hover {
-          color: $main-colour;
+          color: var(--primary-color);
         }
       }
     }
 
     &__meta {
       font-size: 20px;
-      color: #8a8a8a;
+      color: var(--secondary-color);
     }
 
     &__summary {
@@ -245,13 +250,14 @@ main {
       margin: 0.5rem 5px 0.5rem 0;
       display: inline-block;
       word-break: break-all;
-      background-color: rgba(#34495e, 0.1);
+      background-color: var(--hover-focus-color);
       transition: all 0.25s ease-in-out;
       padding: 0.25rem 1rem;
       border-radius: 12px;
       &:hover {
         transform: scale(1.05);
-        background-color: $main-colour;
+        color: var(--tag-hover-color);
+        background-color: var(--primary-color);
       }
       &:active {
         transform: scale(1);
@@ -268,9 +274,10 @@ main {
     clear: both;
     font-family: $ui-font;
     margin: 2rem 0;
+    height: 2rem;
 
     a {
-      color: #34495e;
+      color: var(--text-color);
     }
   }
 }
@@ -316,7 +323,7 @@ main {
     a {
       margin: 5px 10px;
       position: relative;
-      color: $dark-text;
+      color: var(--text-color);
       font-size: 1.5rem;
       display: inline-block;
 
@@ -326,7 +333,7 @@ main {
         position: relative;
         top: -7px;
         right: 5px;
-        color: $main-colour;
+        color: var(--primary-color);
         font-size: 20px;
         font-weight: 600;
       }
@@ -343,29 +350,37 @@ span.hashtag {
 
   &__item {
     padding: 3px 20px;
-    border-left: 1px solid #cacaca;
+    border-left: 1px solid var(--secondary-color);
     transition: 0.2s ease-out;
 
     &:hover {
-      border-left: 3px solid $main-colour;
+      border-left: 3px solid var(--primary-color);
       transform: translateX(4px);
     }
 
     &__time {
       margin-right: 10px;
-      color: #8a8a8a;
+      color: var(--secondary-color);
     }
 
     &__title a {
-      color: $main-colour;
+      color: var(--primary-color);
     }
   }
 }
 
 footer {
   margin-top: 3rem;
-  color: rgba(#34495e, 0.6);
+  color: var(--secondary-color);
   display: flex;
   font-size: 1.3rem;
   justify-content: space-between;
+  a:hover {
+    color: var(--primary-color);
+  }
+  padding: 1rem;
+
+  @include sm {
+    flex-direction: column;
+  }
 }

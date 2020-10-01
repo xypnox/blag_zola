@@ -58,7 +58,7 @@
         {% endblock css %}
         {% block extra_head %}{% endblock extra_head %}
     </head>
-    <body>
+    <body data-theme="dark">
         <div class="container">
             <div class="mobile-navbar" id="mobile-navbar">
                 <div class="mobile-header-logo">
@@ -79,6 +79,11 @@
                             </a>
                         </li>
                     {% endfor %}
+                    <li class="mobile-menu-item">
+                        <div class="theme-switcher" onclick="toggleTheme()">
+                            Theme
+                        </div>
+                    </li>
                 </ul>
             </nav>
             {% block navigation %}

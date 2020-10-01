@@ -79,13 +79,26 @@ function initMobile() {
 //   });
 // }
 
+function toggleTheme() {
+  let body = document.getElementsByTagName('body')[0];
+  if (body) {
+    if (body.getAttribute('data-theme') == 'light') {
+      body.setAttribute('data-theme', 'dark');
+    } else if (body.getAttribute('data-theme') == 'dark') {
+      body.setAttribute('data-theme', 'light');
+    } else {
+      body.setAttribute('data-theme', 'light');
+    }
+  }
+}
+
 if (
   document.readyState === 'complete' ||
   (document.readyState !== 'loading' && !document.documentElement.doScroll)
 ) {
   initMobile();
-  initToc();
+  // initToc();
 } else {
   document.addEventListener('DOMContentLoaded', initMobile);
-  document.addEventListener('DOMContentLoaded', initToc);
+  // document.addEventListener('DOMContentLoaded', initToc);
 }
