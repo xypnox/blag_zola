@@ -6,6 +6,8 @@
                 <a href="{{ page.permalink }}">{{ page.title }}</a>
             </h1>
         </header>
-        {{ page.content | safe }}
+        <div class="post-content">
+            {{ page.content | safe }}
+        </div>
     </div>
 {% endblock content %}
