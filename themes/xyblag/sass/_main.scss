@@ -243,8 +243,19 @@ main {
 
     a {
       margin-right: 5px;
-      color: $main-colour;
+      display: inline-block;
       word-break: break-all;
+      background-color: rgba(#34495e, 0.1);
+      transition: all 0.25s ease-in-out;
+      padding: 0.25rem 1rem;
+      border-radius: 12px;
+      &:hover {
+        transform: scale(1.05);
+        background-color: $main-colour;
+      }
+      &:active {
+        transform: scale(1);
+      }
     }
   }
 
@@ -321,6 +332,10 @@ main {
       }
     }
   }
+}
+
+span.hashtag {
+  opacity: 0.5;
 }
 
 .taxonomy {

@@ -7,6 +7,7 @@
         <div class="taxonomies__items">
             {% for tag in terms %}
                 <a href="{{ tag.permalink }}">
+                    <span class="hashtag">#</span>
                     {{ tag.name }}
                     <span class="count">{{ tag.pages | length }}</span>
                 </a>
