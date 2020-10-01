@@ -32,6 +32,7 @@ function initMobile() {
       slideout.isOpen() && $mobileNavIcon.click();
     });
 }
+
 // function initToc() {
 //   var $toclink = document.querySelectorAll('.toc-link');
 //   var $headerlink = document.querySelectorAll(
@@ -82,12 +83,15 @@ function initMobile() {
 function toggleTheme() {
   let body = document.getElementsByTagName('body')[0];
   if (body) {
-    if (body.getAttribute('data-theme') == 'light') {
+    if (body.getAttribute('data-theme') === 'light') {
       body.setAttribute('data-theme', 'dark');
-    } else if (body.getAttribute('data-theme') == 'dark') {
+      window.localStorage.setItem('theme', 'dark');
+    } else if (body.getAttribute('data-theme') === 'dark') {
       body.setAttribute('data-theme', 'light');
+      window.localStorage.setItem('theme', 'light');
     } else {
       body.setAttribute('data-theme', 'light');
+      window.localStorage.setItem('theme', 'light');
     }
   }
 }

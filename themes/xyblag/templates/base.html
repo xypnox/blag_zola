@@ -58,7 +58,25 @@
         {% endblock css %}
         {% block extra_head %}{% endblock extra_head %}
     </head>
-    <body data-theme="dark">
+    <body>
+        <script>
+            (function initTheme() {
+                let body = document.getElementsByTagName("body")[0];
+                console.log("theme-checking");
+                if (window.localStorage.getItem("theme") !== null) {
+                    console.log("theme-set");
+                    if (window.localStorage.getItem("theme") === "dark") {
+                        body.setAttribute("data-theme", "dark");
+                    } else {
+                        body.setAttribute("data-theme", "light");
+                    }
+                } else {
+                    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) { // dark mode
+                        body.setAttribute("data-theme", "dark");
+                    }
+                }
+            })();
+        </script>
         <div class="container">
             <div class="mobile-navbar" id="mobile-navbar">
                 <div class="mobile-header-logo">
