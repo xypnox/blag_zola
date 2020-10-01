@@ -16,7 +16,7 @@ $mobile-navbar-height: 50px !default;
 $code-colour: #28a58a;
 $code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
 $serif-font: 'Crimson Text', serif;
-$ui-font: 'Jost*', sans-serif;
+$ui-font: 'Jost', sans-serif;
 $dark-text: #34495e;
 
 @mixin min-screen($min-width: $body-width) {
