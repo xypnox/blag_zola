@@ -3,6 +3,7 @@ title = "Why xypnox?"
 description = "The tale of me getting the mysterious name xypnox"
 date = 2018-09-07
 path="why-xypnox"
+template="about.html"
 +++
 
 {% cover(src="/blag/images/why-xypnox-cover.jpg") %}
