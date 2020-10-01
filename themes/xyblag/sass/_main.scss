@@ -231,18 +231,6 @@ main {
     }
   }
 
-  .end-post {
-    margin: 5rem 0 7rem;
-    display: flex;
-    justify-content: end;
-    @media (max-width: 600px) {
-      margin: 3rem 0 4rem;
-      svg {
-        width: 100%;
-      }
-    }
-  }
-
   .post-tags {
     padding: 15px 0;
 
@@ -279,6 +267,25 @@ main {
     a {
       color: var(--text-color);
     }
+  }
+}
+
+.end-post {
+  margin: 5rem 0 7rem;
+  display: flex;
+  justify-content: end;
+  height: 10rem;
+  background-image: url('/images/end-post.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  @include sm {
+    background-size: contain;
+  }
+}
+
+[data-theme='dark'] {
+  .end-post {
+    background-image: url('/images/end-post-dark.svg');
   }
 }
 
