@@ -8,9 +8,9 @@ tags = ["design", "typography"]
 
 +++
 
-cover:
-image: /images/design-tips/design-tips-cover.jpg
-style: wide
+{% cover(src="/blag/images/design-tips-cover.jpg") %}
+Cover found on the Internet
+{% end %}
 
 Hi, I have been practicing the art of designing web pages for a long time (a few years at least). And I have made some (objective term) progress. Here I would present some resources that you can go through to help in designing websites. Also, I would recommend a few tips which would help you boost your design.
 

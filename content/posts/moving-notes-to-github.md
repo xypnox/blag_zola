@@ -7,10 +7,9 @@ categories = ["tech"]
 tags = ["tech", "notes", "project", "git", "github"]
 +++
 
-cover:
-image: /images/notes.jpg
-style: wide
-tags: - notes - programming - project
+{% cover(src="/blag/images/notes.jpg") %}
+Photo by Brannon Naito on Unsplash
+{% end %}
 
 I never had a unified place to store notes earlier. I usually just remembered important things and wrote down the other things anywhere I liked. But after a year in college I could not keep on remembering everything. I should make it clear early on that I do not take extensive notes. I only jot down things that I find important like thoughts, quotes, project ideas, some literature etc. I had always looked for a simple note taking solution. My ideal note taking solution required the following:
 

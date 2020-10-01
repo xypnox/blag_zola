@@ -204,10 +204,12 @@
     </header>
 
         <div class="post-content">
-            <p>tags: - linux - programming
-cover:
-image: /images/fontstaller-cover.jpg
-style: full</p>
+            <div class="cover-image">
+  <img src="&#x2F;blag&#x2F;images&#x2F;fontstaller-cover.jpg"/>
+  <p class="desc">
+    Install fonts quickly on linux
+  </p>
+</div>
 <p>I have had troubles installing fonts in Linux. Although its far easier than Windows where the only way to install a bunch of fonts is to open the file and click install fonts. In Linux however, you can copy your fonts to <code>~/.fonts</code> or <code>/usr/share/fonts</code> and they will be recognized by all the applications. But can this process be improved or streamlined?</p>
 <p>The main problem that I was facing was that while many sites offered fonts for free they were usually zipped/archived. Which meant that they would have to be manually unarchived one by one to install the fonts, which considering the number of fonts (36!) I wanted to install at the time was way too much. So clearly I needed a script to unzip and copy the font files in <code>~/.fonts</code>. The problem was that although the <code>unzip</code> command is fairly straightforward and could be used I didn't have much control over it.</p>
 <p>So I searched some more and stumbled upon the fact that python comes preloaded with a zip archive reading library named <code>zipfile</code>. And I could use it to spin up a small python script to make the extraction process &quot;smart&quot;. By smart, I mean that the program could differentiate between a directory containing fonts and archives containing fonts. It can also work with nested directory structure and even detect whether a font has been preinstalled or not.</p>

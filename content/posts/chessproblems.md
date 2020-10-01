@@ -8,11 +8,9 @@ tags = ["tech", "blender", "chess"]
 
 +++
 
-cover:
-image: /images/chess-problems.png
-style: wide
-caption: Rendered using Blender
-tags: - tech - blender - chess
+{% cover(src="/blag/images/chess-problems.png") %}
+Rendered using Blender
+{% end %}
 
 So I was interested in this chess puzzle:
 

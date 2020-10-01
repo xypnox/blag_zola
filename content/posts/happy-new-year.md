@@ -3,10 +3,9 @@ title = "Happy New Year"
 date = 2017-12-29
 +++
 
-cover:
-image: /images/new-year.png
-caption: A Happy New Year Post, Quote from Brainyquotes | Photo by Karl Magnuson on Unsplash, edited by me :)
-tags: - life
+{% cover(src="/blag/images/new-year.png") %}
+A Happy New Year Post, Quote from Brainyquotes | Photo by Karl Magnuson on Unsplash, edited by me :)
+{% end %}
 
 Happy New Year
 

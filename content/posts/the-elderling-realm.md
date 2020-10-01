@@ -7,11 +7,9 @@ categories = ["literature"]
 tags = ["review", "book"]
 +++
 
-cover:
-image: /images/the-elderling-realm.jpg
-caption: Photo by Michael LaRosa on Unsplash
-style: wide
-tags: - literature - review
+{% cover(src="/blag/images/the-elderling-realm.jpg") %}
+Photo by Michael LaRosa on Unsplash
+{% end %}
 
 The elderling realm is not a single book. It is not even a series of books, it is a universe in which several series written by the author Robin Hobb take place. I completed three series out of five main series released till now. And I have thoroughly enjoyed her work. The books are very easy to recommend and are considered classics among recent fantasy novels. I will try to keep this review as free from spoilers as I can.
 

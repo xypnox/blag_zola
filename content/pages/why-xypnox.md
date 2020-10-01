@@ -5,9 +5,9 @@ date = 2018-09-07
 path="why-xypnox"
 +++
 
-cover:
-image: /images/why-xypnox-cover.jpg
-style: full
+{% cover(src="/blag/images/why-xypnox-cover.jpg") %}
+Why though?
+{% end %}
 
 ## Backstory
 

@@ -7,11 +7,9 @@ categories = ["comic"]
 tags = ["comic", "fun", "xkcd"]
 +++
 
-cover:
-image: /images/angular_momentum.jpg
-caption: Angular Momentum
-style: normal
-tags: - comic - fun
+{% cover(src="/blag/images/angular_momentum.jpg") %}
+Angular Momentum
+{% end %}
 
 Some of the best XKCDs, there are many more at : [xkcd.com](https://xkcd.com/)
 

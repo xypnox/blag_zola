@@ -7,10 +7,9 @@ categories = ["literature"]
 tags = ["poem"]
 +++
 
-cover:
-image: /images/lonely.jpg
-caption: Photo by Brannon Naito on Unsplash
-tags: - poem
+{% cover(src="/blag/images/lonely.jpg") %}
+Photo by Brannon Naito on Unsplash
+{% end %}
 
 I see you down the street, alone\
 Walking slowly towards me\

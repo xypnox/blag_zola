@@ -185,11 +185,12 @@ To live is the secret of life.&lt;&#x2F;p&gt;
 		<updated>2019-12-03T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/chessproblems/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/chessproblems/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;chess-problems.png
-style: wide
-caption: Rendered using Blender
-tags: - tech - blender - chess&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;chess-problems.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Rendered using Blender
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;So I was interested in this chess puzzle:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;i.imgur.com&#x2F;PyhIvWY.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;In this very peculiar position we have to place the black king to a square such that &lt;em&gt;it is not in check&lt;&#x2F;em&gt; and with white being next to move &lt;em&gt;black gets mated in the maximum number of moves&lt;&#x2F;em&gt;. That is white takes most moves to mate black.&lt;&#x2F;p&gt;
@@ -254,10 +255,12 @@ xypnox
 		<updated>2019-08-26T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/designing-a-poster/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/designing-a-poster/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;designing-a-poster.png
-style: full
-caption: visit posters.xypnox.com to view all posters.&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;designing-a-poster.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    visit posters.xypnox.com to view all posters.
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;To design a good poster,
 you have to design 100 bad posters first.&lt;&#x2F;p&gt;
@@ -376,11 +379,12 @@ xypnox&lt;&#x2F;p&gt;
 		<updated>2019-05-15T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/apps-that-i-love/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/apps-that-i-love/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;apps-i-love-cover.jpg
-style: wide
-caption: Photo by Amith Nair on Unsplash
-tags: - tech - linux&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;apps-i-love-cover.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Photo by Amith Nair on Unsplash
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;&lt;strong&gt;A&lt;&#x2F;strong&gt;long the several years, I have been using computers and smartphones, I have discovered a few real gems that have adorned my gadgets. I present here a list of Applications, for desktop and mobile that I have loved using and would recommend to anyone within a heartbeat.&lt;&#x2F;p&gt;
 &lt;p&gt;Maybe you may already know some of them but perhaps the reasons why I like them would differ from yours, so read on!&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;vs-code&quot;&gt;VS Code&lt;&#x2F;h2&gt;
@@ -483,10 +487,12 @@ And do too little.&lt;&#x2F;p&gt;
 		<updated>2019-02-27T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/two-pens/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/two-pens/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;two-pens.jpg
-caption: Photo by pulkit jain on Unsplash (Modified)
-tags: - poem&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;two-pens.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Photo by pulkit jain on Unsplash (Modified)
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;In a busy school,&lt;br &#x2F;&gt;
 two friends sat together&lt;br &#x2F;&gt;
 in mutual distrust.&lt;br &#x2F;&gt;
@@ -550,10 +556,12 @@ but weak in the face of hate.&lt;&#x2F;p&gt;
 		<updated>2019-01-25T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/moving-notes-to-github/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/moving-notes-to-github/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;notes.jpg
-style: wide
-tags: - notes - programming - project&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;notes.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Photo by Brannon Naito on Unsplash
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;I never had a unified place to store notes earlier. I usually just remembered important things and wrote down the other things anywhere I liked. But after a year in college I could not keep on remembering everything. I should make it clear early on that I do not take extensive notes. I only jot down things that I find important like thoughts, quotes, project ideas, some literature etc. I had always looked for a simple note taking solution. My ideal note taking solution required the following:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -626,11 +634,12 @@ tags: - notes - programming - project&lt;&#x2F;p&gt;
 		<updated>2018-12-12T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/the-elderling-realm/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/the-elderling-realm/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;the-elderling-realm.jpg
-caption: Photo by Michael LaRosa on Unsplash
-style: wide
-tags: - literature - review&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;the-elderling-realm.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Photo by Michael LaRosa on Unsplash
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;The elderling realm is not a single book. It is not even a series of books, it is a universe in which several series written by the author Robin Hobb take place. I completed three series out of five main series released till now. And I have thoroughly enjoyed her work. The books are very easy to recommend and are considered classics among recent fantasy novels. I will try to keep this review as free from spoilers as I can.&lt;&#x2F;p&gt;
 &lt;p&gt;The world of the elderling represents a medieval society mixed with dragons, pirates and the slight touch of magic. The stories or I should say epics begin smoothly and are carried forward effortlessly. It never feels like the author was trying to make a point or desperately moving the story forward in a single direction. It feels as if you are watching a natural progression of events. The smooth and tranquil writing style of Robin Hobb is the best part amongst a stellar set of novels.&lt;&#x2F;p&gt;
 &lt;p&gt;The first series, The Farseer Trilogy, depicts the life of Fitz Chivalry Farseer from boyhood to young adult. The story is narrated in first person, and at several intervals you will find yourself nodding at the judgement of the protagonist. You will find very slight magic throughout the story, completely different from the bespoken Harry Potter novels which have magic as their central theme. You will relate to every character in the novels and find them similar to people you meet everyday. Take note that actions in one series affect the others as well.&lt;&#x2F;p&gt;
@@ -656,11 +665,12 @@ tags: - literature - review&lt;&#x2F;p&gt;
 		<updated>2018-11-09T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/todx-the-todo-manager/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/todx-the-todo-manager/</id>
-		<content type="html">&lt;p&gt;cover:
-image: http:&#x2F;&#x2F;www.optipess.com&#x2F;comics&#x2F;2018-09-28-927_To-Do_SQ.png
-caption: Credit - optipess.com
-style: normal
-tags: - project - todx - python&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;http:&amp;#x2F;&amp;#x2F;www.optipess.com&amp;#x2F;comics&amp;#x2F;2018-09-28-927_To-Do_SQ.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Credit - optipess.com
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;So, I have been working this past few weeks on a todo application using commandline interface in Python. You can skip the boring backstory and jump right into installation if you want to.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The project&#x27;s source code is available at &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;xypnox&#x2F;todxpy&#x2F;&quot;&gt;GitHub&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -798,9 +808,12 @@ tags: - project - todx - python&lt;&#x2F;p&gt;
 		<updated>2018-09-07T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/why-xypnox/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/why-xypnox/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;why-xypnox-cover.jpg
-style: full&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;why-xypnox-cover.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Why though?
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;h2 id=&quot;backstory&quot;&gt;Backstory&lt;&#x2F;h2&gt;
 &lt;p&gt;Once upon a time, I was introduced to email. And my first email was from yahoo.com (Which by now is most probably destroyed). It had the most common naming scheme, namely, your name followed by your birth year.&lt;&#x2F;p&gt;
 &lt;p&gt;But as time passed, I moved on to Gmail, and I made a new email. It also went along the lines of the well-known name + year scheme. But I was getting tired of the long email and most importantly of my teenage browsing habits that had collectively subscribed to enough services that it was impossible to filter the important emails from promotions.&lt;&#x2F;p&gt;
@@ -825,9 +838,12 @@ style: full&lt;&#x2F;p&gt;
 		<updated>2018-05-25T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/design-tips/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/design-tips/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;design-tips&#x2F;design-tips-cover.jpg
-style: wide&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;design-tips-cover.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Cover found on the Internet
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;Hi, I have been practicing the art of designing web pages for a long time (a few years at least). And I have made some (objective term) progress. Here I would present some resources that you can go through to help in designing websites. Also, I would recommend a few tips which would help you boost your design.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;observation&quot;&gt;Observation&lt;&#x2F;h2&gt;
 &lt;p&gt;The first good skill that you need to obtain to start designing is Observation. Look and Observe how others have designed their websites. Also, do not limit yourself to a standard site such as Google or Facebook for design inspiration. You can browse these sites for a taste of what good design looks like:&lt;&#x2F;p&gt;
@@ -904,10 +920,12 @@ Choosing the Right Font: A Practical Guide to Typography on the Web&lt;&#x2F;a&g
 		<updated>2018-05-18T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/fontstaller/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/fontstaller/</id>
-		<content type="html">&lt;p&gt;tags: - linux - programming
-cover:
-image: &#x2F;images&#x2F;fontstaller-cover.jpg
-style: full&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;fontstaller-cover.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Install fonts quickly on linux
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;I have had troubles installing fonts in Linux. Although its far easier than Windows where the only way to install a bunch of fonts is to open the file and click install fonts. In Linux however, you can copy your fonts to &lt;code&gt;~&#x2F;.fonts&lt;&#x2F;code&gt; or &lt;code&gt;&#x2F;usr&#x2F;share&#x2F;fonts&lt;&#x2F;code&gt; and they will be recognized by all the applications. But can this process be improved or streamlined?&lt;&#x2F;p&gt;
 &lt;p&gt;The main problem that I was facing was that while many sites offered fonts for free they were usually zipped&#x2F;archived. Which meant that they would have to be manually unarchived one by one to install the fonts, which considering the number of fonts (36!) I wanted to install at the time was way too much. So clearly I needed a script to unzip and copy the font files in &lt;code&gt;~&#x2F;.fonts&lt;&#x2F;code&gt;. The problem was that although the &lt;code&gt;unzip&lt;&#x2F;code&gt; command is fairly straightforward and could be used I didn&#x27;t have much control over it.&lt;&#x2F;p&gt;
 &lt;p&gt;So I searched some more and stumbled upon the fact that python comes preloaded with a zip archive reading library named &lt;code&gt;zipfile&lt;&#x2F;code&gt;. And I could use it to spin up a small python script to make the extraction process &amp;quot;smart&amp;quot;. By smart, I mean that the program could differentiate between a directory containing fonts and archives containing fonts. It can also work with nested directory structure and even detect whether a font has been preinstalled or not.&lt;&#x2F;p&gt;
@@ -974,11 +992,12 @@ style: full&lt;&#x2F;p&gt;
 		<updated>2018-03-04T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/xkcd/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/xkcd/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;angular_momentum.jpg
-caption: Angular Momentum
-style: normal
-tags: - comic - fun&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;angular_momentum.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Angular Momentum
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;Some of the best XKCDs, there are many more at : &lt;a href=&quot;https:&#x2F;&#x2F;xkcd.com&#x2F;&quot;&gt;xkcd.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;PS: Its my favorite webcomic!&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;angular-size&quot;&gt;Angular Size&lt;&#x2F;h3&gt;
@@ -1082,10 +1101,12 @@ And all the grief of the world couldn&#x27;t match mine.&lt;&#x2F;p&gt;
 		<updated>2018-01-16T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/lonely/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/lonely/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;lonely.jpg
-caption: Photo by Brannon Naito on Unsplash
-tags: - poem&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;lonely.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Photo by Brannon Naito on Unsplash
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;I see you down the street, alone&lt;br &#x2F;&gt;
 Walking slowly towards me&lt;br &#x2F;&gt;
 In the cold hazy wind&lt;br &#x2F;&gt;
@@ -1117,10 +1138,12 @@ Of being lonely&lt;&#x2F;p&gt;
 		<updated>2017-12-29T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/happy-new-year/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/happy-new-year/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;new-year.png
-caption: A Happy New Year Post, Quote from Brainyquotes | Photo by Karl Magnuson on Unsplash, edited by me :)
-tags: - life&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;new-year.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    A Happy New Year Post, Quote from Brainyquotes | Photo by Karl Magnuson on Unsplash, edited by me :)
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;Happy New Year&lt;&#x2F;p&gt;
 &lt;p&gt;Thats pretty much it.&lt;&#x2F;p&gt;
 &lt;p&gt;If you want the full res image you can get it from &lt;a href=&quot;https:&#x2F;&#x2F;imgur.com&#x2F;a&#x2F;EM7Qs&quot;&gt;imgur&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -1134,11 +1157,12 @@ tags: - life&lt;&#x2F;p&gt;
 		<updated>2017-12-20T00:00:00+00:00</updated>
 		<link href="https://www.xypnox.com/blag/posts/my-experience-with-linux/" type="text/html"/>
 		<id>https://www.xypnox.com/blag/posts/my-experience-with-linux/</id>
-		<content type="html">&lt;p&gt;cover:
-image: &#x2F;images&#x2F;penguins-cover.jpg
-caption: Penguins! The ever present symbol of Linux | Photo by Yuriy Rzhemovskiy on Unsplash
-style: wide
-tags: - linux - programming&lt;&#x2F;p&gt;
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;blag&amp;#x2F;images&amp;#x2F;penguins-cover.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Penguins! The ever present symbol of Linux | Photo by Yuriy Rzhemovskiy on Unsplash
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;I would like to share My Linux experience here and how I finally ended with Ubuntu Mate.&lt;&#x2F;p&gt;
 &lt;p&gt;I am an Indian college fresher now (20 Dec 2017).&lt;&#x2F;p&gt;
 &lt;p&gt;I got my first computer when I was in 3rd Standard (aged 7 or 8). It was a HCL PC preloaded with Windows XP. But somehow the seller had removed the orignal activated one, and installed another pirated version of XP with several softwares. I used the computer for several years just to play games online and do stupid stuff. I was completely ignorant of anything like Linux and Free software. India still faces this problem, very few know about the free open source softwares.&lt;&#x2F;p&gt;

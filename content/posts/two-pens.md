@@ -7,10 +7,9 @@ categories = ["literature"]
 tags = ["poem"]
 +++
 
-cover:
-image: /images/two-pens.jpg
-caption: Photo by pulkit jain on Unsplash (Modified)
-tags: - poem
+{% cover(src="/blag/images/two-pens.jpg") %}
+Photo by pulkit jain on Unsplash (Modified)
+{% end %}
 
 In a busy school,\
 two friends sat together\
