@@ -8,7 +8,7 @@ tags = ["design", "typography"]
 
 +++
 
-{% cover(src="/blag/images/design-tips-cover.jpg") %}
+{% cover(src="/blag/images/design-tips/design-tips-cover.jpg") %}
 Cover found on the Internet
 {% end %}
 
