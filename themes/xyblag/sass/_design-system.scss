@@ -1,0 +1,60 @@
+// DESIGN SYSTEM
+
+// Colors
+
+$theme-color-map: (
+  'Default': #c05b4d #f8f5ec,
+  'Mint Green': #16982b #f5f5f5,
+  'Cobalt Blue': #0047ab #f0f2f5,
+  'Hot Pink': #ff69b4 #f8f5f5,
+  'Dark Violet': #9932cc #f5f4fa,
+);
+
+$main-colour: #33df97;
+$secondary-colour: #cacaca;
+$code-colour: #28a58a;
+$dark-text: #34495e;
+$shadow-color: #5e5f72;
+$white: #fff;
+$gray-light: #ccc;
+
+:root {
+  --primary-color: #{$main-colour};
+  --secondary-color: #{$secondary-colour};
+  --background: #{$white};
+  --text-color: #{$dark-text};
+  --secondary-text-color: #{lighten($dark-text, 10%)};
+  --code-color: #{$code-colour};
+  --light-accent: #{$gray-light};
+}
+
+// Typography
+
+$code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
+$serif-font: 'Crimson Text', serif;
+$ui-font: 'Jost', sans-serif;
+
+// Layout / Sizes
+
+$body-width: 800px;
+$screen-sm-max: 600px;
+$mobile-navbar-height: 50px !default;
+
+// Small devices
+@mixin sm {
+  @media (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+}
+
+@mixin min-screen($min-width: $body-width) {
+  @media screen and (min-width: $min-width) {
+    @content;
+  }
+}
+
+@mixin max-screen($max-width: $body-width) {
+  @media screen and (max-width: $max-width) {
+    @content;
+  }
+}

@@ -1,45 +1,6 @@
 @import 'normalize';
 
-$theme-color-map: (
-  'Default': #c05b4d #f8f5ec,
-  'Mint Green': #16982b #f5f5f5,
-  'Cobalt Blue': #0047ab #f0f2f5,
-  'Hot Pink': #ff69b4 #f8f5f5,
-  'Dark Violet': #9932cc #f5f4fa,
-);
-
-// TODO: allow to change that
-$main-colour: #33df97;
-$secondary-colour: #cacaca;
-$body-width: 800px;
-$mobile-navbar-height: 50px !default;
-$code-colour: #28a58a;
-$code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
-$serif-font: 'Crimson Text', serif;
-$ui-font: 'Jost', sans-serif;
-$dark-text: #34495e;
-$shadow-color: #5e5f72;
-
-$screen-sm-max: 600px;
-
-// Small devices
-@mixin sm {
-  @media (max-width: #{$screen-sm-max}) {
-    @content;
-  }
-}
-
-@mixin min-screen($min-width: $body-width) {
-  @media screen and (min-width: $min-width) {
-    @content;
-  }
-}
-
-@mixin max-screen($max-width: $body-width) {
-  @media screen and (max-width: $max-width) {
-    @content;
-  }
-}
+@import 'design-system';
 
 @import 'animations';
 
