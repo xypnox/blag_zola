@@ -256,13 +256,10 @@ xypnox
 		<content type="html">&lt;p&gt;cover:
 image: &#x2F;images&#x2F;designing-a-poster.png
 style: full
-caption: visit posters.xypnox.com to view all posters.
-tags:&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;design&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+caption: visit posters.xypnox.com to view all posters.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;To design a good poster, you have to design 100 bad posters first.&lt;&#x2F;p&gt;
+&lt;p&gt;To design a good poster,
+you have to design 100 bad posters first.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;I have been making posters for a couple of years. And I have learned a lot, not just about how to make a good poster, but also why most posters are bad. And here I present a minimal guide on how to make nice posters.&lt;&#x2F;p&gt;
 &lt;p&gt;I should say upfront that I am not a great designer. What you see is a combination of years of bad design and a genuine interest in creating something better than before. If you are interested in viewing some of my posters, you can visit &lt;a href=&quot;https:&#x2F;&#x2F;posters.xypnox.com&#x2F;&quot;&gt;posters.xypnox.com&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -276,25 +273,25 @@ tags:&lt;&#x2F;p&gt;
 &lt;p&gt;I currently use Inkscape to create the posters and designs that I have made for KOSS. It is a free and Open Source tool so you can easily use it.&lt;&#x2F;p&gt;
 &lt;p&gt;The first thing about design is not about creating but observing. I have spent far more time looking at and appreciating good design throughout all the mediums, be it physical like posters, book covers, product wrappers, devices, cars, etc to digital like websites, apps, videos, music cover-arts, etc. The places that you can take inspiration from are endless. You will slowly develop a sense of what looks beautiful and what doesn&#x27;t.&lt;&#x2F;p&gt;
 &lt;p&gt;I can list you a few rules but they wouldn&#x27;t capture everything and will only be recommendations and they can still be broken. The point is that you should start observing and create &lt;em&gt;designs&lt;&#x2F;em&gt; just for the sake of creating them. I used to do this a lot. I would create things that I didn&#x27;t share anywhere, I just made them to practice and in several instances, test whether I could make something similar to what I had in my mind.&lt;&#x2F;p&gt;
-&lt;p&gt;A blog that I used to read just for fun was: https:&#x2F;&#x2F;www.smashingmagazine.com&#x2F;&lt;&#x2F;p&gt;
+&lt;p&gt;A blog that I used to read just for fun was: &lt;a href=&quot;https:&#x2F;&#x2F;www.smashingmagazine.com&#x2F;&quot;&gt;https:&#x2F;&#x2F;www.smashingmagazine.com&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;I still recommend it but it has a lot of content and you don&#x27;t need to go through everything.&lt;&#x2F;p&gt;
 &lt;p&gt;The cycle that I would recommend you to follow is Observe -&amp;gt; Learn -&amp;gt; Experiment&lt;&#x2F;p&gt;
 &lt;p&gt;I got to know of graphic design &amp;quot;forums&amp;quot; pretty late. As late as the previous year to be exact. A few of them are:&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;Behance https:&#x2F;&#x2F;www.behance.net&#x2F;&lt;&#x2F;li&gt;
-&lt;li&gt;Dribble https:&#x2F;&#x2F;dribbble.com&#x2F;&lt;&#x2F;li&gt;
-&lt;li&gt;4chan GD http:&#x2F;&#x2F;boards.4channel.org&#x2F;gd&#x2F;&lt;&#x2F;li&gt;
-&lt;li&gt;Reddit https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Design&#x2F;&lt;&#x2F;li&gt;
+&lt;li&gt;Behance &lt;a href=&quot;https:&#x2F;&#x2F;www.behance.net&#x2F;&quot;&gt;https:&#x2F;&#x2F;www.behance.net&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Dribble &lt;a href=&quot;https:&#x2F;&#x2F;dribbble.com&#x2F;&quot;&gt;https:&#x2F;&#x2F;dribbble.com&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;4chan GD &lt;a href=&quot;http:&#x2F;&#x2F;boards.4channel.org&#x2F;gd&#x2F;&quot;&gt;http:&#x2F;&#x2F;boards.4channel.org&#x2F;gd&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Reddit &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Design&#x2F;&quot;&gt;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Design&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;I would recommend taking inspiration from these. Specifically, observe what people comment and discuss in the Reddit and 4chan forums.&lt;&#x2F;p&gt;
 &lt;p&gt;Also, for web design, I use to go at:&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;https:&#x2F;&#x2F;www.awwwards.com&#x2F;&lt;&#x2F;li&gt;
-&lt;li&gt;https:&#x2F;&#x2F;material.io&#x2F;design&#x2F;&lt;&#x2F;li&gt;
-&lt;li&gt;https:&#x2F;&#x2F;developer.apple.com&#x2F;design&#x2F;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.awwwards.com&#x2F;&quot;&gt;https:&#x2F;&#x2F;www.awwwards.com&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;material.io&#x2F;design&#x2F;&quot;&gt;https:&#x2F;&#x2F;material.io&#x2F;design&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;developer.apple.com&#x2F;design&#x2F;&quot;&gt;https:&#x2F;&#x2F;developer.apple.com&#x2F;design&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;Hope you have a great time designing awesome stuff. I would love if you could post any drafts in #design channel in slack so we can critique it for improvements.&lt;&#x2F;p&gt;
-&lt;p&gt;I wrote a blog post about design a long time ago about a few things that I thought were important: https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;posts&#x2F;design-tips&#x2F; &lt;code&gt;Please don&#x27;t open this - not in the original message&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I wrote a blog post about design a long time ago about a few things that I thought were important: &lt;a href=&quot;https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;posts&#x2F;design-tips&#x2F;&quot;&gt;https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;posts&#x2F;design-tips&#x2F;&lt;&#x2F;a&gt; &lt;code&gt;Please don&#x27;t open this - not in the original message&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Regards,
 xypnox&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;

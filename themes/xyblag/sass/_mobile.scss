@@ -10,7 +10,7 @@
   width: 100%;
   height: $mobile-navbar-height;
   background: white;
-  box-shadow: 0px 2px 2px #cacaca;
+  box-shadow: 0px 5px 10px rgba($color: #5e5f72, $alpha: 0.15);
   text-align: center;
   transition: transform 300ms ease;
   z-index: 99;
@@ -45,22 +45,23 @@
 }
 
 .mobile-menu {
-  background-color: rgba($secondary-colour, 0.5);
+  background-color: rgba($secondary-colour, 0.1);
+
+  box-shadow: inset -20px 0px 20px rgba($color: #5e5f72, $alpha: 0.15);
 
   .mobile-menu-list {
     position: relative;
     list-style: none;
     margin-top: 50px;
     padding: 0;
-    border-top: 1px solid $secondary-colour;
 
     .mobile-menu-item {
       padding: 10px 30px;
-      border-bottom: 1px solid $secondary-colour;
     }
 
     a {
-      font-size: 18px;
+      font-size: 20px;
+      font-weight: 600;
 
       &:hover {
         color: $main-colour;

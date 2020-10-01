@@ -18,6 +18,16 @@ $code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
 $serif-font: 'Crimson Text', serif;
 $ui-font: 'Jost', sans-serif;
 $dark-text: #34495e;
+$shadow-color: #5e5f72;
+
+$screen-sm-max: 600px;
+
+// Small devices
+@mixin sm {
+  @media (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+}
 
 @mixin min-screen($min-width: $body-width) {
   @media screen and (min-width: $min-width) {

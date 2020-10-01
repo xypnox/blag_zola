@@ -8,9 +8,15 @@ main .hero {
   p {
     font-size: 1.5rem;
     margin-top: 0;
+    max-width: 100%;
     width: 500px;
   }
+
   margin-bottom: 3rem;
+
+  @include sm {
+    margin: 3rem 0;
+  }
 }
 
 .index-list .post {

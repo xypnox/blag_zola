@@ -11,11 +11,9 @@ cover:
 image: /images/designing-a-poster.png
 style: full
 caption: visit posters.xypnox.com to view all posters.
-tags:
 
-- design
-
-> To design a good poster, you have to design 100 bad posters first.
+> To design a good poster,
+> you have to design 100 bad posters first.
 
 I have been making posters for a couple of years. And I have learned a lot, not just about how to make a good poster, but also why most posters are bad. And here I present a minimal guide on how to make nice posters.
 
@@ -40,7 +38,7 @@ The first thing about design is not about creating but observing. I have spent f
 
 I can list you a few rules but they wouldn't capture everything and will only be recommendations and they can still be broken. The point is that you should start observing and create _designs_ just for the sake of creating them. I used to do this a lot. I would create things that I didn't share anywhere, I just made them to practice and in several instances, test whether I could make something similar to what I had in my mind.
 
-A blog that I used to read just for fun was: https://www.smashingmagazine.com/
+A blog that I used to read just for fun was: <https://www.smashingmagazine.com/>
 
 I still recommend it but it has a lot of content and you don't need to go through everything.
 
@@ -48,22 +46,22 @@ The cycle that I would recommend you to follow is Observe -> Learn -> Experiment
 
 I got to know of graphic design "forums" pretty late. As late as the previous year to be exact. A few of them are:
 
-- Behance https://www.behance.net/
-- Dribble https://dribbble.com/
-- 4chan GD http://boards.4channel.org/gd/
-- Reddit https://www.reddit.com/r/Design/
+- Behance <https://www.behance.net/>
+- Dribble <https://dribbble.com/>
+- 4chan GD <http://boards.4channel.org/gd/>
+- Reddit <https://www.reddit.com/r/Design/>
 
 I would recommend taking inspiration from these. Specifically, observe what people comment and discuss in the Reddit and 4chan forums.
 
 Also, for web design, I use to go at:
 
-- https://www.awwwards.com/
-- https://material.io/design/
-- https://developer.apple.com/design/
+- <https://www.awwwards.com/>
+- <https://material.io/design/>
+- <https://developer.apple.com/design/>
 
 Hope you have a great time designing awesome stuff. I would love if you could post any drafts in #design channel in slack so we can critique it for improvements.
 
-I wrote a blog post about design a long time ago about a few things that I thought were important: https://www.xypnox.com/blag/posts/design-tips/ `Please don't open this - not in the original message`
+I wrote a blog post about design a long time ago about a few things that I thought were important: <https://www.xypnox.com/blag/posts/design-tips/> `Please don't open this - not in the original message`
 
 Regards,
 xypnox
