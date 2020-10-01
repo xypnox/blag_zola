@@ -19,8 +19,13 @@ main .hero {
   }
 }
 
-.index-list .post {
-  &__title {
-    font-size: 2rem;
+.index-list {
+  .post {
+    header {
+      margin: inherit;
+    }
+    &__title {
+      font-size: 2rem;
+    }
   }
 }
