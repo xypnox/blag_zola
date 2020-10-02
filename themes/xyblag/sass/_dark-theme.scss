@@ -1,0 +1,46 @@
+// Colors
+$light-text: #9ba2c2;
+[data-theme='dark'] {
+  --primary-color: #{#ff5370};
+  --secondary-color: #{#555c70};
+  --background-color: #{#0f111a};
+  --text-color: #{$light-text};
+  --secondary-text-color: #{lighten($light-text, 10%)};
+  --tag-hover-color: #{#34495e};
+  --post-heading-color: #{$light-text};
+  --code-color: #{#f3a5b2};
+  --code-back-color: #{rgba($light-text, 0.07)};
+  --code-block-color: #{#c9d2dc};
+  --light-accent-color: #{rgba($light-text, 0.2)};
+  --quote-color: #{rgba($light-text, 0.8)};
+  --hover-focus-color: #{#161a26};
+  --hover-active-color: #{#242836};
+  --shadow-color: #{rgba($color: #5e5f72, $alpha: 0)};
+  --half-primary-color: #{rgba(#ff5370, 0.5)};
+}
+
+// Special Styles
+
+[data-theme='dark'] {
+  main {
+    .post {
+      .post-content {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          text-shadow: 0px 5px 20px var(--primary-color);
+        }
+      }
+
+      blockquote {
+        &:before {
+          // color: var(--text-color);
+          text-shadow: 0px 5px 20px var(--primary-color);
+        }
+      }
+    }
+  }
+}
