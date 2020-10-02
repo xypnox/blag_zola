@@ -16,6 +16,7 @@
     left: 51%;
     right: 51%;
     background: var(--primary-color);
+    border-radius: 3px;
     box-shadow: 0px 0px 10px var(--primary-color);
     transition-duration: 0.2s;
     transition-property: right, left;
@@ -45,10 +46,11 @@
     content: '';
     position: absolute;
     z-index: -1;
-    height: 4px;
+    height: 5px;
     bottom: 0;
     right: 0;
     left: 0;
+    border-radius: 3px;
     background: var(--primary-color);
     box-shadow: 0px 0px 10px var(--primary-color);
     transition-duration: 0.2s;
