@@ -71,6 +71,9 @@ $light-text: #9ba2c2;
     margin-top: -2px;
     transition: all 0.25s ease-in-out;
     background-color: var(--primary-color);
+    @include sm {
+      margin-top: 0px;
+    }
   }
 
   &:hover {
