@@ -1,7 +1,7 @@
 # xyBlag
-Even is a clean, responsive theme based on the Hugo theme with the same name featuring categories, tags and pagination.
+xyBlag is a clean, responsive theme based on the Hugo theme with the same name featuring categories, tags and pagination.
 
-![even screenshot](https://github.com/getzola/even/blob/master/screenshot.png?raw=true)
+![Blag screenshot](https://github.com/xypnox/blag/blob/master/themes/xyblag/screenshot.png?raw=true)
 
 ## Contents
 
@@ -11,16 +11,15 @@ Even is a clean, responsive theme based on the Hugo theme with the same name fea
   - [Title](#title)
 
 ## Installation
-First download this theme to your `themes` directory:
+First download this repo and copy the folder `themes/xyblag` to your `themes` directory:
 
 ```bash
-$ cd themes
-$ git clone https://github.com/getzola/even.git
+$ git clone https://github.com/xypnox/blag.git
 ```
 and then enable it in your `config.toml`:
 
 ```toml
-theme = "even"
+theme = "xyblag"
 ```
 
 The theme requires tags and categories taxonomies to be enabled in your `config.toml`:
@@ -47,11 +46,11 @@ sort_by = "date"
 ## Options
 
 ### Top-menu
-Set a field in `extra` with a key of `even_menu`:
+Set a field in `extra` with a key of blog_menu`:
 
 ```toml
 # This is the default menu
-even_menu = [
+blog_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/categories", name = "Categories"},
     {url = "$BASE_URL/tags", name = "Tags"},
@@ -62,10 +61,8 @@ even_menu = [
 If you put `$BASE_URL` in a url, it will automatically be replaced by the actual
 site URL.
 
-### Title
-The site title is shown on the header. As it might be different from the `<title>`
-element that the `title` field in the config represents, you can set the `even_title`
-instead.
+### Title and Description
+The site title and description is used in the header.
 
 ### KaTeX math formula support
 
