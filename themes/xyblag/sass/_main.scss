@@ -401,23 +401,30 @@ span.hashtag {
 .taxonomy {
   margin: 2em 0;
 
+  .desc-heading {
+    margin-bottom: -1.5rem;
+    color: var(--secondary-color);
+    font-weight: normal;
+  }
+
+  h1 {
+    @include underline-static;
+  }
+
   &__item {
-    padding: 3px 20px;
-    border-left: 1px solid var(--secondary-color);
+    margin: 2rem 0;
     transition: 0.2s ease-out;
 
-    &:hover {
-      border-left: 3px solid var(--primary-color);
-      transform: translateX(4px);
-    }
-
     &__time {
-      margin-right: 10px;
       color: var(--secondary-color);
     }
 
     &__title a {
-      color: var(--primary-color);
+      font-weight: 600;
+      font-size: 1.5em;
+      color: var(--text-color);
+
+      @include underline-from-center;
     }
   }
 }
