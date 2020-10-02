@@ -109,7 +109,6 @@
             {% endblock navigation %}
             <main>
                 <div class="content" id="mobile-panel"> {% block content %}{% endblock content %}
-                    </div>
                     {% block footer %}
                         <footer>
                             <div class="copyright">
@@ -127,10 +126,11 @@
                             </div>
                         </footer>
                     {% endblock footer %}
-                </main>
-            </div>
-            {% block js_body %}
-                <script src="{{ get_url(path="main.js", trailing_slash=false) }}" type="text/javascript"></script>
-            {% endblock js_body %}
-        </body>
-    </html>
+                </div>
+            </main>
+        </div>
+        {% block js_body %}
+            <script src="{{ get_url(path="main.js", trailing_slash=false) }}" type="text/javascript"></script>
+        {% endblock js_body %}
+    </body>
+</html>
