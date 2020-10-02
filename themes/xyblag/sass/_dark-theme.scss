@@ -19,6 +19,83 @@ $light-text: #9ba2c2;
   --half-primary-color: #{rgba(#ff5370, 0.5)};
 }
 
+.theme-switcher {
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  .theme-button {
+    cursor: pointer;
+    background-color: var(--light-accent-color);
+    width: 78px;
+    height: 36px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #dayIcon {
+    position: relative;
+    left: 8px;
+    fill: var(--background-color);
+  }
+
+  #nightIcon {
+    position: relative;
+    right: 8px;
+    fill: var(--text-color);
+  }
+
+  #dayIcon,
+  #nightIcon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    z-index: 10;
+    top: 3px;
+    transition: fill 0.25s ease-in-out;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  .toggle-button {
+    cursor: pointer;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    z-index: 0;
+    border-radius: 20px;
+    margin-left: -2px;
+    margin-top: -2px;
+    transition: all 0.25s ease-in-out;
+    background-color: var(--primary-color);
+  }
+
+  &:hover {
+    .toggle-button {
+      box-shadow: 0px 4px 10px var(--primary-color);
+    }
+  }
+}
+
+[data-theme='dark'] {
+  .theme-switcher {
+    .toggle-button {
+      margin-left: 40px;
+    }
+
+    #dayIcon {
+      fill: var(--text-color);
+    }
+
+    #nightIcon {
+      fill: var(--background-color);
+    }
+  }
+}
+
 // Special Styles
 
 [data-theme='dark'] {
