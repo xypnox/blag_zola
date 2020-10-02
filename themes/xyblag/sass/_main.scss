@@ -223,7 +223,7 @@ main {
       font-weight: 600;
       margin-bottom: 0 !important;
 
-      @include underline-from-center;
+      @include underline-static;
     }
 
     &__category {
