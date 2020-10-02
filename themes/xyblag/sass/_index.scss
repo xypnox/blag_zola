@@ -3,11 +3,13 @@ main .hero {
     color: var(--text-color);
     font-weight: 600;
     font-size: 3rem;
+
+    @include underline-static;
   }
 
   p {
     font-size: 1.5rem;
-    margin-top: 0;
+    margin-top: 0.5rem;
     max-width: 100%;
     width: 500px;
   }

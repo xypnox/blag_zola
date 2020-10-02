@@ -44,4 +44,12 @@ $light-text: #9ba2c2;
       }
     }
   }
+
+  #header {
+    .logo {
+      a {
+        text-shadow: 0px 5px 20px var(--primary-color);
+      }
+    }
+  }
 }
