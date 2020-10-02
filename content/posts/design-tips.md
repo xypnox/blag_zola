@@ -27,7 +27,7 @@ Another amazing tool to help you in the task of observation is **Developer Tools
 
 ## Understanding color
 
-![Color](/images/design-tips/Designer-joke-color.jpg)
+![Color](/blag/images/design-tips/Designer-joke-color.jpg)
 
 While I agree that color theory is a vast topic and I don't quite understand all of it, I still can recommend a few websites from where I have developed my sense of color:
 
@@ -47,7 +47,7 @@ Enough about theory what about Tools?
 
 ## Using Fonts
 
-![Font](/images/design-tips/Designer-joke-font.jpg)
+![Font](/blag/images/design-tips/Designer-joke-font.jpg)
 
 The most dramatic effect of any one thing on design is that of the font. (Just think of designing something in Comic sans except of course Comics). I really like typefaces. And here are some sites to learn more about them:
 
@@ -69,9 +69,9 @@ I also compiled a set of great fonts available on Google fonts when I created th
 
 By having a lot of things on the website at the same time confuses people and gives a sense of clutter and disorder. Put something there only if it needs to be there. Simplify Reduce Iterate. Just look at Wikipedia. It isn't quiet aesthetic as other sites and looks like a mess in the modern age. Whereas a quick look at Google explains the point of simplicity.
 
-![Wikipedia](/images/design-tips/Screenshot-Wikipedia.png)
+![Wikipedia](/blag/images/design-tips/Screenshot-Wikipedia.png)
 
-![Google](/images/design-tips/Screenshot-Google.png)
+![Google](/blag/images/design-tips/Screenshot-Google.png)
 
 But don't remove everything. As once a great man said:
 
@@ -79,7 +79,7 @@ But don't remove everything. As once a great man said:
 
 #### Test different screen sizes
 
-![Responsive](/images/design-tips/responsive-design.png)
+![Responsive](/blag/images/design-tips/responsive-design.png)
 
 I know it is hard to design for your own screen size, much harder to design for several. But that is what makes or breaks a design. People would not just be browsing your website from your specific machine. They might use a phone a tablet or unfortunately a smart-TV. Make your website at least a little mobile friendly by adding a few media tags.
 
