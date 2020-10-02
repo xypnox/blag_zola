@@ -20,12 +20,18 @@ main .hero {
 }
 
 .index-list {
-  .post {
+  .post-block {
     header {
       margin: inherit;
     }
-    &__title {
-      font-size: 2rem;
+    .post {
+      &__header {
+        margin: 3rem 0;
+      }
+      &__title {
+        font-size: 2rem;
+        @include underline-from-center;
+      }
     }
   }
 }

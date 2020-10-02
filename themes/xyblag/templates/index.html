@@ -12,9 +12,9 @@
             {{ config.description }}
         </p>
     </div>
-    <div class="posts index-list">
+    <div class="index-list">
         {% for page in paginator.pages %}
-            <article class="post">
+            <article class="post-block">
                 {{ post_macros::title(page=page) }}
             </article>
         {% endfor %}

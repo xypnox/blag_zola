@@ -222,8 +222,12 @@ main {
       font-size: 3rem;
       font-weight: 600;
       margin-bottom: 0 !important;
+    }
 
-      @include underline-static;
+    .post {
+      &__title {
+        @include underline-static;
+      }
     }
 
     &__category {
