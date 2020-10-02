@@ -110,24 +110,24 @@
             <main>
                 <div class="content" id="mobile-panel"> {% block content %}{% endblock content %}
                     </div>
+                    {% block footer %}
+                        <footer>
+                            <div class="copyright">
+                                &#169;<script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                {{ config.extra.author }}
+                            </div>
+                            <div class="made-with">
+                                Made with
+                                <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a>,
+                                <a href="https://github.com/xypnox/blag/tree/master/themes/xyblag" rel="noopener noreferrer" target="_blank">Theme</a>
+                                by
+                                <a href="https://www.xypnox.com/" rel="noopener noreferrer" target="_blank">xypnox</a>.
+                            </div>
+                        </footer>
+                    {% endblock footer %}
                 </main>
-                {% block footer %}
-                    <footer>
-                        <div class="copyright">
-                            &#169;<script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            {{ config.extra.author }}
-                        </div>
-                        <div class="made-with">
-                            Made with
-                            <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a>,
-                            <a href="https://github.com/xypnox/blag/tree/master/themes/xyblag" rel="noopener noreferrer" target="_blank">Theme</a>
-                            by
-                            <a href="https://www.xypnox.com/" rel="noopener noreferrer" target="_blank">xypnox</a>.
-                        </div>
-                    </footer>
-                {% endblock footer %}
             </div>
             {% block js_body %}
                 <script src="{{ get_url(path="main.js", trailing_slash=false) }}" type="text/javascript"></script>
