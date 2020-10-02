@@ -1,5 +1,5 @@
 # xyBlag
-xyBlag is a clean, responsive theme based on the Hugo theme with the same name featuring categories, tags and pagination.
+xyBlag is a minimal, modern, responsive theme featuring dark mode, categories, tags and pagination.
 
 ![Blag screenshot](https://github.com/xypnox/blag/blob/master/themes/xyblag/screenshot.png?raw=true)
 
