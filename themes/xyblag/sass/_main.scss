@@ -64,6 +64,9 @@ main {
       margin-bottom: 0.25rem;
       font-weight: 600;
       color: var(--post-heading-color);
+      a {
+        color: var(--post-heading-color) !important;
+      }
     }
 
     .post-content {

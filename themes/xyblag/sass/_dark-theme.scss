@@ -7,7 +7,7 @@ $light-text: #9ba2c2;
   --text-color: #{$light-text};
   --secondary-text-color: #{lighten($light-text, 10%)};
   --tag-hover-color: #{#34495e};
-  --post-heading-color: #{$light-text};
+  --post-heading-color: #{lighten($light-text, 10%)};
   --code-color: #{#f3a5b2};
   --code-back-color: #{rgba($light-text, 0.07)};
   --code-block-color: #{#c9d2dc};
