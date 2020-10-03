@@ -8,7 +8,7 @@ categories = ["design"]
 tags = ["design", "typography"]
 
 [extra]
-metadata_image = "design-tips-cover.jpg"
+metadata_image = "/posts/design-tips/design-tips-cover.jpg"
 
 +++
 

@@ -19,31 +19,21 @@
         {# Metadata #}
         {% block metadata %}
             <meta content="website" property="og:type"/>
-            <meta content="{{ config.base_url }}" property="og:site_name"/>
+            <meta content="{{ config.title }}" property="og:site_name"/>
+            <meta content="{{ config.base_url }}" property="og:url"/>
             <meta content="{{ config.base_url }}" property="twitter:url"/>
             {% if section.title %}
                 <meta content="{{ section.title }}" property="og:title"/>
                 <meta content="{{ section.title }}" property="twitter:title"/>
-            {% endif %}
-            {% if page.title %}
-                <meta content="{{ page.title }}" property="og:title"/>
-                <meta content="{{ page.title }}" property="twitter:title"/>
             {% endif %}
             {% if section.description %}
                 <meta content="{{ section.description }}" property="og:description"/>
                 <meta content="{{ section.description }}" property="description"/>
                 <meta content="{{ section.description }}" property="twitter:description"/>
             {% endif %}
-            {% if page.description %}
-                <meta content="{{ page.description }}" property="description"/>
-                <meta content="{{ page.description }}" property="og:description"/>
-                <meta content="{{ page.description }}" property="twitter:description"/>
-            {% endif %}
-            {% if page.extra.metadata_image %}
-                <meta content="{{ page.extra.metadata_image }}" property="og:image"/>
-                <meta content="summary_large_image" property="twitter:card"/>
-                <meta content="{{ page.extra.metadata_image }}" property="twitter:image"/>
-            {% endif %}
+            <meta content="summary_large_image" property="twitter:card"/>
+            <meta content="{{ config.base_url }}/images/cover.png" property="og:image"/>
+            <meta content="{{ config.base_url }}/images/cover.png" property="twitter:image"/>
         {% endblock metadata %}
         {# JavaScript #}
         {% block js %}

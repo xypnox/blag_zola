@@ -3,6 +3,26 @@
 {% block title %}
     {{ config.title }} - {{ page.title }}
 {% endblock title %}
+{% block metadata %}
+    <meta content="website" property="og:type"/>
+    <meta content="{{ config.title }}" property="og:site_name"/>
+    <meta content="{{ current_url }}" property="og:url"/>
+    <meta content="{{ current_url }}" property="twitter:url"/>
+    {% if page.title %}
+        <meta content="{{ page.title }}" property="og:title"/>
+        <meta content="{{ page.title }}" property="twitter:title"/>
+    {% endif %}
+    {% if page.description %}
+        <meta content="{{ page.description }}" property="description"/>
+        <meta content="{{ page.description }}" property="og:description"/>
+        <meta content="{{ page.description }}" property="twitter:description"/>
+    {% endif %}
+    {% if page.extra.metadata_image %}
+        <meta content="summary_large_image" property="twitter:card"/>
+        <meta content="{{ config.base_url }}{{ page.extra.metadata_image }}" property="og:image"/>
+        <meta content="{{ config.base_url }}{{ page.extra.metadata_image }}" property="twitter:image"/>
+    {% endif %}
+{% endblock metadata %}
 {% block content %}
     {% if page.toc %}
         <div class="post-toc" id="post-toc">
