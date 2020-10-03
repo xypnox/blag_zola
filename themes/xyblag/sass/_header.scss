@@ -33,7 +33,7 @@
   }
 
   &.index-header {
-    justify-content: end;
+    justify-content: flex-end;
   }
 }
 @include max-screen() {
