@@ -20,8 +20,8 @@
         {% block metadata %}
             <meta content="website" property="og:type"/>
             <meta content="{{ config.title }}" property="og:site_name"/>
-            <meta content="{{ config.base_url }}" property="og:url"/>
-            <meta content="{{ config.base_url }}" property="twitter:url"/>
+            <meta content="{{ config.base_url | safe }}" property="og:url"/>
+            <meta content="{{ config.base_url | safe }}" property="twitter:url"/>
             {% if section.title %}
                 <meta content="{{ section.title }}" property="og:title"/>
                 <meta content="{{ section.title }}" property="twitter:title"/>
@@ -32,8 +32,8 @@
                 <meta content="{{ section.description }}" property="twitter:description"/>
             {% endif %}
             <meta content="summary_large_image" property="twitter:card"/>
-            <meta content="{{ config.base_url }}/images/cover.png" property="og:image"/>
-            <meta content="{{ config.base_url }}/images/cover.png" property="twitter:image"/>
+            <meta content="{{ config.base_url | safe }}/images/cover.png" property="og:image"/>
+            <meta content="{{ config.base_url | safe }}/images/cover.png" property="twitter:image"/>
         {% endblock metadata %}
         {# JavaScript #}
         {% block js %}
