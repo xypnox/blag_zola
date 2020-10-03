@@ -7,7 +7,7 @@ categories = ["design"]
 tags = ["design", "typography"]
 +++
 
-{% cover(src="/blag/images/typography.png") %}
+{% cover(src="/images/typography.png") %}
 Cover by xypnox
 {% end %}
 

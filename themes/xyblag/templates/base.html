@@ -16,6 +16,36 @@
         {% if config.generate_feed %}
             <link rel="alternate" type={% if config.feed_filename == "atom.xml" %} "application/atom+xml" {% else %} "application/rss+xml" {% endif %} title="RSS" href="{{ get_url(path=config.feed_filename) | safe }}"/>
         {% endif %}
+        {# Metadata #}
+        {% block metadata %}
+            <meta content="website" property="og:type"/>
+            <meta content="{{ config.base_url }}" property="og:site_name"/>
+            <meta content="{{ config.base_url }}" property="twitter:url"/>
+            {% if section.title %}
+                <meta content="{{ section.title }}" property="og:title"/>
+                <meta content="{{ section.title }}" property="twitter:title"/>
+            {% endif %}
+            {% if page.title %}
+                <meta content="{{ page.title }}" property="og:title"/>
+                <meta content="{{ page.title }}" property="twitter:title"/>
+            {% endif %}
+            {% if section.description %}
+                <meta content="{{ section.description }}" property="og:description"/>
+                <meta content="{{ section.description }}" property="description"/>
+                <meta content="{{ section.description }}" property="twitter:description"/>
+            {% endif %}
+            {% if page.description %}
+                <meta content="{{ page.description }}" property="description"/>
+                <meta content="{{ page.description }}" property="og:description"/>
+                <meta content="{{ page.description }}" property="twitter:description"/>
+            {% endif %}
+            {% if page.extra.metadata_image %}
+                <meta content="{{ page.extra.metadata_image }}" property="og:image"/>
+                <meta content="summary_large_image" property="twitter:card"/>
+                <meta content="{{ page.extra.metadata_image }}" property="twitter:image"/>
+            {% endif %}
+        {% endblock metadata %}
+        {# JavaScript #}
         {% block js %}
             <script src="{{ get_url(path="slideout.min.js", trailing_slash=false) }}" type="text/javascript"></script>
             {% if config.extra.katex_enable %}
