@@ -8,8 +8,8 @@ $light-text: #9ba2c2;
   --secondary-text-color: #{lighten($light-text, 10%)};
   --tag-hover-color: #{#34495e};
   --post-heading-color: #{lighten($light-text, 10%)};
-  --code-color: #{#f3a5b2};
-  --code-back-color: #{rgba($light-text, 0.07)};
+  --code-color: #{lightn($light-text, 10%)};
+  --code-back-color: #{#1a1d2c};
   --code-block-color: #{#c9d2dc};
   --light-accent-color: #{rgba($light-text, 0.2)};
   --quote-color: #{rgba($light-text, 0.8)};
@@ -121,6 +121,10 @@ $light-text: #9ba2c2;
           // color: var(--text-color);
           text-shadow: 0px 5px 20px var(--primary-color);
         }
+      }
+
+      pre {
+        background-color: var(--code-back-color) !important;
       }
     }
   }
