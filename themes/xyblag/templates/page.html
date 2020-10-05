@@ -21,6 +21,10 @@
         <meta content="summary_large_image" property="twitter:card"/>
         <meta content="{{ config.base_url | safe }}{{ page.extra.metadata_image }}" property="og:image"/>
         <meta content="{{ config.base_url | safe }}{{ page.extra.metadata_image }}" property="twitter:image"/>
+    {% else %}
+        <meta content="summary_large_image" property="twitter:card"/>
+        <meta content="{{ config.base_url | safe }}/images/cover.png" property="og:image"/>
+        <meta content="{{ config.base_url | safe }}/images/cover.png" property="twitter:image"/>
     {% endif %}
 {% endblock metadata %}
 {% block content %}

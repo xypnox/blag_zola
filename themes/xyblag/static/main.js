@@ -95,6 +95,13 @@ function toggleTheme() {
       window.localStorage.setItem('theme', 'light');
     }
   }
+  setTimeout(function () {
+    var d = document,
+      s = d.createElement('script');
+    s.src = 'https://xypnox-blag.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }, 1000);
 }
 
 if (
