@@ -16,7 +16,7 @@ metadata_image = "/posts/migrating-to-zola/cover.png"
 The two sides of the Yin and Yang combine to provide ultimate harmony!
 {% end %}
 
-I recently migrated my _blag_ from Hugo to [Zola](https://www.getzola.org/). I made my theme for this blog and it was a blast! 
+I recently migrated my _blag_ from Hugo to [Zola](https://www.getzola.org/). I made my theme for this blog and it was a blast!
 
 I will discuss the why and the how in this post.
 
@@ -26,7 +26,7 @@ In terms of features and ecosystem, Hugo trumps Zola any day. Then why did I swi
 
 ## What's wrong with Hugo?
 
-I started using Hugo for the blog about 3 years ago. I used [Minimo](https://minimo.netlify.com/), a minimalist, sleek and modern theme. It was one of the primary reasons why I started using Hugo in the first place. I could give it a unique look with minimal customization of typography and colors. And it worked, the blog loaded fast, looked beautiful, and worked nicely. 
+I started using Hugo for the blog about 3 years ago. I used [Minimo](https://minimo.netlify.com/), a minimalist, sleek and modern theme. It was one of the primary reasons why I started using Hugo in the first place. I could give it a unique look with minimal customization of typography and colors. And it worked, the blog loaded fast, looked beautiful, and worked nicely.
 
 But as time moved on, the author of the theme started adding features which were generally useful and nice to have, but useless for me. A few of those were search, widgets, translations, sidebar, etc. I had to disable several of these in the configuration. And with every update, there were always a few changes that required me to edit the config file even though I wasn't going to use them anyway.
 
@@ -38,7 +38,7 @@ But, these are modern times we live in. While working on the [LTTKGP](https://lt
 
 And it wouldn't be an overstatement to say that Hugo's current ecosystem makes it very hard for someone to create a new theme for scratch, or even significantly modify a theme without going through pages and pages of documentation; Almost like learning an entire "framework". It is often the case that those starting with Hugo just stick to one of the pre-existing themes and don't put any effort into customizing it, simply because it is too hard to customize.
 
-At the time when I created the blog in Hugo, it was all the rage. Almost everyone I knew personally used Hugo for their blogs. Then as time passed more "modern" SSGs were invented such as [Gatsby](https://www.gatsbyjs.org/) and [Next.js](https://nextjs.org/). I disliked Gatsby because it felt too processed and complex for something so simple as a blog. I have given Next.js a try in my [Poem Collection](https://poems.xypnox.com/) but I didn't find it exciting enough to switch over. 
+At the time when I created the blog in Hugo, it was all the rage. Almost everyone I knew personally used Hugo for their blogs. Then as time passed more "modern" SSGs were invented such as [Gatsby](https://www.gatsbyjs.org/) and [Next.js](https://nextjs.org/). I disliked Gatsby because it felt too processed and complex for something so simple as a blog. I have given Next.js a try in my [Poem Collection](https://poems.xypnox.com/) but I didn't find it exciting enough to switch over.
 
 ## Enter Zola
 
@@ -48,11 +48,11 @@ With my recent exposure to the Rust ecosystem, I have formed a view that _the de
 
 Zola's take on SSG is quite different from other tools such as Jekyll and Hugo.
 
-1. *It doesn't have a plugin system.* (At least as of now) Everything that matters, or what the author considers matters, is built in the single binary. It includes: Sass compilation, syntax highlighting, ToC, etc. And if you want to add others, just include the javascript libraries in the templates!
+1. _It doesn't have a plugin system._ (At least as of now) Everything that matters, or what the author considers matters, is built in the single binary. It includes: Sass compilation, syntax highlighting, ToC, etc. And if you want to add others, just include the javascript libraries in the templates!
 
-2. *It's rust, therefore it's fast.* Speed isn't that much of an issue for small blogs such as this one, but still faster compilation means faster hot reloading in dev mode when you edit your themes.
+2. _It's rust, therefore it's fast._ Speed isn't that much of an issue for small blogs such as this one, but still faster compilation means faster hot reloading in dev mode when you edit your themes.
 
-3. *It is intuitive.* And even though it may not make much of a difference for those who have the time to sift through the documentation of other SSGs, it was a big deal for me. I don't want to spend months reading documentation and configuring the website, especially a blog that probably won't ever generate any revenue.
+3. _It is intuitive._ And even though it may not make much of a difference for those who have the time to sift through the documentation of other SSGs, it was a big deal for me. I don't want to spend months reading documentation and configuring the website, especially a blog that probably won't ever generate any revenue.
 
 You can look at the directory structure of this blog below and have a fairly good idea of what each folder is for:
 
@@ -78,7 +78,7 @@ blag
 
 That above, is the entire directory structure, including the theme. Posts can have individual directories to store assets, but that doesn't concern us.
 
-For comparison, Here is the directory structure of Hugo that I used earlier with the theme for fairness (*feel free to skip through this code block*) :
+For comparison, Here is the directory structure of Hugo that I used earlier with the theme for fairness (_feel free to skip through this code block_) :
 
 ```
 blag
@@ -173,19 +173,19 @@ You can see with the above example the simplicity and sensibility of Zola. And i
 
 When I used Hugo, I was so tired that I never dealt with the auto-deployment side of things. I manually generated the blog on my machine and pushed it to GitHub like a 19t- century peasant.
 
-With Zola, setting up auto-deployment was as easy as creating a [Github Action](https://www.getzola.org/documentation/deployment/github-pages/#github-actions). 
+With Zola, setting up auto-deployment was as easy as creating a [Github Action](https://www.getzola.org/documentation/deployment/github-pages/#github-actions).
 
 All of the benefits of Zola, it's simplicity, ease of use, intuitiveness, all batteries included, and a solid base of rust was enough for me to give it a spin. The auto-deployment was the cherry on the cake!
 
 # The How?
 
-Now that I have raved long enough about Zola, how was the migrating experience? To sum it up, *smooth with a few hiccups*.
+Now that I have raved long enough about Zola, how was the migrating experience? To sum it up, _smooth with a few hiccups_.
 
-Migrating a blog is like moving into a new home. You arrange all of your *furniture and appliances* (your posts), and decorate the house with *fancy wallpapers/wall paint, curtains, etc.* (themes) and hope that the *location* (permalinks) remains the same so that the old visitors can easily find their way when they come again.
+Migrating a blog is like moving into a new home. You arrange all of your _furniture and appliances_ (your posts), and decorate the house with _fancy wallpapers/wall paint, curtains, etc._ (themes) and hope that the _location_ (permalinks) remains the same so that the old visitors can easily find their way when they come again.
 
 ## The links must be the same
 
-Making the permalinks the same is *very very important*. If you change the links that initially pointed to the old posts you would be contributing to [Link rot](https://en.wikipedia.org/wiki/Link_rot), the people who may have referenced your posts would have broken links. And a visitor arriving at your blog would see the disgraceful 404 page! So your content's links *must* be the same when you switch to a new SSG.
+Making the permalinks the same is _very very important_. If you change the links that initially pointed to the old posts you would be contributing to [Link rot](https://en.wikipedia.org/wiki/Link_rot), the people who may have referenced your posts would have broken links. And a visitor arriving at your blog would see the disgraceful 404 page! So your content's links _must_ be the same when you switch to a new SSG.
 
 The link of my blog posts has the structure of `xypnox.com/blag/posts/<slug>`.To achieve the same structure I put the markdown files in `content/posts/` with an `_index.md` file in the posts directory with:
 
@@ -214,7 +214,7 @@ So that when someone visits `/about/` path, they see the about page! And the tem
 
 ## Configuration is easy
 
-The configuration ideology of Zola is quite simple: *You opt-in for the things you need.* And the only necessary variable in `config.toml` is `base_url`! This approach makes it easier to understand and maintain your blog as you are only dealing with what you are using explicitly. This includes code highlighting, search index, sass compilation, feed generation, taxonomies, etc.
+The configuration ideology of Zola is quite simple: _You opt-in for the things you need._ And the only necessary variable in `config.toml` is `base_url`! This approach makes it easier to understand and maintain your blog as you are only dealing with what you are using explicitly. This includes code highlighting, search index, sass compilation, feed generation, taxonomies, etc.
 
 When you start using a theme, some of the themes will require you to set up these variables such as taxonomies because the themes require them to render properly.
 
@@ -234,7 +234,7 @@ The styling is handled via [SASS](https://sass-lang.com/), and I love it. I have
 
 "Even" theme had a great underline from center animation on menu links and in the Index and Taxonomy lists. I modified the animation to add a little glow with a thicker line and rounded corners.
 
-Moreover, even though I liked the summaries in the original theme, I found it not as useful in my theme. Firstly, because to use the summaries you need to add a `<!-- more -->` comment to specify where to break, and usually the summaries are not of similar length. 
+Moreover, even though I liked the summaries in the original theme, I found it not as useful in my theme. Firstly, because to use the summaries you need to add a `<!-- more -->` comment to specify where to break, and usually the summaries are not of similar length.
 
 Hence, the current [index page](https://www.xypnox.com/blag/) just has the post title and the category with the date. One unintended but happy consequence of removing the summaries is that people will open the article to view the full contents more often!
 
@@ -304,7 +304,7 @@ If you haven't seen the dark mode yet, do it right now! You can use the switcher
 
 (The switcher is also located at the top menu bar, and in mobile, it is in the side-menu)
 
-And there it is, the *Dark Mode* in all its glory. 
+And there it is, the _Dark Mode_ in all its glory.
 
 To add dark mode, I had to restructure the colors to use CSS variables so that I could simply change them whenever the theme switched at the base itself. This also meant that since I was always using the CSS variables, later updates would force me to take care of the dark mode, as I will not forget to add and change the variable in the dark mode as well!
 
@@ -319,19 +319,22 @@ These can be solved by including a little bit of Javascript just before the main
 
 ```javascript
 (function initTheme() {
-    let body = document.getElementsByTagName("body")[0];
+  let body = document.getElementsByTagName('body')[0];
 
-    if (window.localStorage.getItem("theme") !== null) {
-        if (window.localStorage.getItem("theme") === "dark") {
-            body.setAttribute("data-theme", "dark");
-        } else {
-            body.setAttribute("data-theme", "light");
-        }
+  if (window.localStorage.getItem('theme') !== null) {
+    if (window.localStorage.getItem('theme') === 'dark') {
+      body.setAttribute('data-theme', 'dark');
     } else {
-        if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-            body.setAttribute("data-theme", "dark");
-        }
+      body.setAttribute('data-theme', 'light');
     }
+  } else {
+    if (
+      window.matchMedia &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches
+    ) {
+      body.setAttribute('data-theme', 'dark');
+    }
+  }
 })();
 ```
 
@@ -339,7 +342,7 @@ And that switcher that comes in between this post? That is plain HTML copied fro
 
 ## Socially appropriate: Media tags
 
-Zola is so minimal that it doesn't add any media tags, [Opengraph](https://ogp.me/) and [Twitter](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards), required to display nice previews when shared to social sites such as Facebook, Twitter, etc. (*And the "Even" theme didn't have them either*). So, I had to add them myself, one set of tags for all the generic pages, and one for the posts.
+Zola is so minimal that it doesn't add any media tags, [Opengraph](https://ogp.me/) and [Twitter](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards), required to display nice previews when shared to social sites such as Facebook, Twitter, etc. (_And the "Even" theme didn't have them either_). So, I had to add them myself, one set of tags for all the generic pages, and one for the posts.
 
 Another problem with the social tags is that even though Facebook will correctly parse the page and use an appropriate image for its card, twitter requires you to put a specific image URL in the meta tags. To solve this I added a new variable in the posts' configuration, `metadata_image`, that stores the absolute path of the image that is used in social previews.
 
@@ -355,7 +358,7 @@ In terms of theme support, when Disqus is set to the Auto theme, it automaticall
 
 Even though I am interested in collecting analytics for my blog, [adding Google Analytics requires affirmative consent from the user](https://consent.guide/google-analytics-cookie-consent/). And adding a big-yucky-privacy-consent-popup when someone lands on a minimal blog page is just ugly.
 
-For me, the *aesthetic disadvantages* of adding a banner for consent far outweigh the *advantages of collecting data* which I may barely use. The blog posts I write aren't monetized and if someone wants to communicate, or suggest a topic for a post, he or she can always comment or reach out via mail! (xypnox gmail com). 
+For me, the _aesthetic disadvantages_ of adding a banner for consent far outweigh the _advantages of collecting data_ which I may barely use. The blog posts I write aren't monetized and if someone wants to communicate, or suggest a topic for a post, he or she can always comment or reach out via mail! (xypnox gmail com).
 
 Besides, Google's search console provides similar data about the popularity of my blog posts already, albeit only limited to the Google search results.
 
@@ -376,5 +379,6 @@ Even though this blog has almost all the features I desire, there are still some
 
 There may be more features coming but these are the major ones for now.
 
-If you are interested in this theme do feel free to reach out. I will prioritize the decoupling of the theme based on other people's interest in it.
+The source code of the blog is available at [xypnox/blag](https://github.com/xypnox/blag).
 
+If you are interested in this theme do feel free to reach out. I will prioritize the decoupling of the theme based on other people's interest in it.
