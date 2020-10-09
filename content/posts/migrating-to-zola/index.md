@@ -198,7 +198,7 @@ redirect_to = "/"
 
 The `transparent` tells Zola that the posts in this directory are meant to be pushed one directory up so that they appear in the index list. And if someone visits the `/posts/` URL, they will be redirected to the homepage `/`.
 
-The specific pages such as [About](/blag/about), [Quotes](/blag/quotes), [Why xypnox](/blag/why-xypnox) have configuration like:
+The specific pages such as [About](@/pages/about.md), [Quotes](@/pages/quotes.md), [Why xypnox](@/pages/why-xypnox.md) have configuration like:
 
 ```markdown
 +++

@@ -9,7 +9,7 @@ Programming, Open Source, Physics and Gadgets. My other name is Aditya Vikram Si
 
 ## FAQs
 
-### [Why xypnox?](../why-xypnox)
+### [Why xypnox?](@/pages/why-xypnox.md)
 
 ### [Why Blag?](https://xkcd.com/148/)
 
