@@ -12,7 +12,7 @@ The blog is built using [Zola](https://www.getzola.org/), A static site generato
 
 ## Usage
 
-`zola serve` to start a local server for live development, the deployment is done aomaticalluy through Github Actions.
+`zola serve` to start a local server for live development, the deployment is done automatically through Github Actions.
 
 The specific instructions for the theme are present in the [xyBlag theme's Readme](https://github.com/xypnox/blag/blob/master/themes/xyblag/README.md).
 
