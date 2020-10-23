@@ -83,6 +83,18 @@ metadata_image = "/posts/migrating-to-zola/cover.png"
 
 Here the path is relative to the root and the image is in the folder `/posts/migrating-to-zola/` and the file is at `/posts/migrating-to-zola/index.md`.
 
+### Disqus comments
+
+To enable disqus comments set the [`disqus_shortname`](https://help.disqus.com/en/articles/1717111-what-s-a-shortname) variable in the `[extra]` config to the shortname of your site.
+
+```yaml
+# CUSTOM VARIABLES
+[extra]
+
+# Disqus shortname for comments by disqus, when not set comment section isn't displayed
+disqus_shortname = "xypnox-blag"
+```
+
 ### KaTeX math formula support
 
 This theme contains math formula support using [KaTeX](https://katex.org/),
