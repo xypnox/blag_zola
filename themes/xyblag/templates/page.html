@@ -91,7 +91,7 @@
                         {% endif %}
                     </div>
                 {% endif %}
-                {{ post_macros::disqus(page=page) }}
+                {{ post_macros::disqus(page=page, config=config) }}
             {% endblock page_footer %}
         </div>
         {% block page_after_footer %}{% endblock page_after_footer %}

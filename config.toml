@@ -14,7 +14,7 @@ build_search_index = false
 
 theme = "xyblag"
 
-# Blog details
+# Blog details, used in the homepage
 title = "The Blag"
 description = "Blog of xypnox, a collection of Literature, Computing and Philosophy"
 
@@ -26,12 +26,20 @@ taxonomies = [
     {name = "tags", rss = true},
 ]
 
+
+# CUSTOM VARIABLES
 [extra]
-# Put all your custom variables here
+
+# Author name, displayed with copyright in footer
 author = "xypnox"
+
+# Menu shown in the navbar
 blog_menu = [
     {url = "$BASE_URL/categories", name = "Categories"},
     {url = "$BASE_URL/tags", name = "Tags"},
     {url = "$BASE_URL/quotes", name = "Quotes"},
     {url = "$BASE_URL/about", name = "About"},
 ]
+
+# Disqus shortname for comments by disqus, when not set comment section isn't displayed
+disqus_shortname = "xypnox-blag"
