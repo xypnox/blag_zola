@@ -28,7 +28,9 @@
     {% endif %}
 {% endblock metadata %}
 {% block content %}
-    {% if page.toc %}
+    {% if page.extra.hide_toc %}
+        <div class="post-toc" id="post-toc"></div>
+    {% elif page.toc %}
         <div class="post-toc" id="post-toc">
             <div class="toc-wrapper">
                 <h2 class="post-toc-title">Contents</h2>
