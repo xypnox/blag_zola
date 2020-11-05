@@ -191,6 +191,6 @@ One of the reasons I made this blog posts was that if I didn't eventually I woul
 
 If you have scrolled so far, I guess you deserve something for the effort!
 
-Here you go: [Novels - Rusty Clanton & doodleodle](https://www.youtube.com/watch?v=kc5X66kFIMg). A song I first listened to long ago and has recently revived itself as one of my absolute favorites. Sadly this version isn't Spotify.
+Here you go: [Novels - Rusty Clanton & doodleodle](https://www.youtube.com/watch?v=kc5X66kFIMg). A song I first listened to long ago and has recently revived itself as one of my absolute favorites. Sadly this version isn't on Spotify.
 
 And if you want any of these playlists, send me one of yours, we will trade!
