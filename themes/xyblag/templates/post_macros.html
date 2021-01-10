@@ -15,25 +15,55 @@
         </div>
     </header>
 {% endmacro title %}
+
+{% macro index_page_block(page, config) %}
+    <header class="post__header">
+        <a class="post_link_header" href="{{ page.permalink }}">
+            {% if page.extra.metadata_image %}
+                <img src="{{config.base_url | safe}}{{page.extra.metadata_image}}" />
+            {% endif %}
+            <h1 class="post__title">
+                {{ page.title }}
+            </h1>
+        </a>
+        <div class="post__meta">
+            {% if page.description %}
+            <p>
+                {{ page.description }}
+            </p>
+            {% endif %}
+            
+            <span class="post__time">{{ page.date | date(format="%F") }}</span>
+            {% if page.taxonomies.categories %}
+                <div class="post__category">
+                    {% for category in page.taxonomies.categories %}
+                        <a href="{{ get_taxonomy_url(kind="categories", name=category) }}">{{ category }}</a>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    </header>
+{% endmacro index_page_block %}
+
 {% macro disqus(page, config) %}
-{% if config.extra.disqus_shortname %}
-    <h1>Comments</h1>
-    <div id="disqus_thread"></div>
-    <script>
-        var disqus_config = function () {
-            this.page.url = "{{ page.permalink | safe }}";
-            this.page.identifier = "{{ page.slug }}";
-        };
-        (function () {
-            var d = document,
-                s = d.createElement("script");
-            s.src = "https://{{ config.extra.disqus_shortname }}.disqus.com/embed.js";
-            s.setAttribute("data-timestamp", + new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the
-        <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-    </noscript>
-{% endif %}
+    {% if config.extra.disqus_shortname %}
+        <h1>Comments</h1>
+        <div id="disqus_thread"></div>
+        <script>
+            var disqus_config = function () {
+                this.page.url = "{{ page.permalink | safe }}";
+                this.page.identifier = "{{ page.slug }}";
+            };
+            (function () {
+                var d = document,
+                    s = d.createElement("script");
+                s.src = "https://{{ config.extra.disqus_shortname }}.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the
+            <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+    {% endif %}
 {% endmacro disqus %}

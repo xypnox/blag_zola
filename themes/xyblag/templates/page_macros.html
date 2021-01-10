@@ -8,12 +8,14 @@
                     </a>
                 </li>
             {% endfor %}
+
             <div class="theme-switcher">
                 {{ page_macros::theme_switcher() }}
             </div>
         </ul>
     </nav>
 {% endmacro menu %}
+
 {% macro navbar(config) %}
     <header id="header">
         <div class="logo">
@@ -22,11 +24,13 @@
         {{ page_macros::menu(config=config) }}
     </header>
 {% endmacro navbar %}
+
 {% macro navbar_index(config) %}
     <header class="index-header" id="header">
         {{ page_macros::menu(config=config) }}
     </header>
 {% endmacro navbar_index %}
+
 {% macro theme_switcher() %}
     <div class="theme-button" onClick="toggleTheme()">
         <label for="cb1">

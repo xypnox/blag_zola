@@ -15,7 +15,7 @@
     <div class="index-list">
         {% for page in paginator.pages %}
             <article class="post-block">
-                {{ post_macros::title(page=page) }}
+                {{ post_macros::index_page_block(page=page, config=config) }}
             </article>
         {% endfor %}
     </div>
