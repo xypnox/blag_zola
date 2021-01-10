@@ -25,8 +25,7 @@ You can reach me here:
 
 - [Github](https://github.com/xypnox/)
 - [Twitter](https://twitter.com/xypnox/)
+- [Behance](https://behance.net/xypnox/)
 - [Telegram](https://t.me/xypnox) <== text me here
-- [Instagram](https://instagram.com/xypnox/)
-- [Facebook](https://facebook.com/xypnox/)
 
-You can also email me at xypnox @ gmail . com (Be smart and remove those spaces ;)) or me @ xypnox.com
+You can also email me at xypnox (@at) gmail . com
