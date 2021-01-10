@@ -41,5 +41,11 @@ blog_menu = [
     {url = "$BASE_URL/about", name = "About"},
 ]
 
+[extra.social_links]
+twitter = "https://twitter.com/xypnox"
+github = "https://github.com/xypnox"
+behance = "https://behance.net/xypnox"
+telegram = "https://t.me/xypnox"
+
 # Disqus shortname for comments by disqus, when not set comment section isn't displayed
 disqus_shortname = "xypnox-blag"

@@ -339,7 +339,7 @@ main {
 .next,
 .previous {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
   transition: transform 0.3s ease-out;
 
   @include hover-pop;
@@ -431,17 +431,27 @@ span.hashtag {
 }
 
 footer {
-  margin-top: 3rem;
+  margin-top: 5rem;
   color: var(--secondary-color);
-  display: flex;
-  font-size: 1.3rem;
-  justify-content: space-between;
+  
   a:hover {
     color: var(--primary-color);
   }
-  padding: 1rem 0 2rem;
 
-  @include sm {
-    flex-direction: column;
+  .social_links {
+    a {
+      margin-right: 2rem;
+    }
+  }
+
+  .theme_info {
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    padding: 1rem 0 2rem;
+    
+    @include sm {
+      flex-direction: column;
+    }
   }
 }
