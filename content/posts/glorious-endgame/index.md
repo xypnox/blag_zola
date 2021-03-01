@@ -1,11 +1,11 @@
 +++
 title = "Glorious Endgame"
 description = "A showcase of my endgame setup and some discussion on the things I discovered during the process."
-date = 2021-03-01
+date = 2021-03-02
 
 [taxonomies]
-categories = ["design"]
-tags = ["design", "typography"]
+categories = ["tech"]
+tags = ["linux", "theme", "tech", "design"]
 
 [extra]
 metadata_image = "/posts/glorious-endgame/social.png"
