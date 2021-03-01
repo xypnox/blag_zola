@@ -97,7 +97,7 @@ main {
 
       img {
         display: block;
-        margin: 1rem auto;
+        margin: 2rem auto;
         border-radius: 6px;
       }
 
@@ -157,18 +157,20 @@ main {
     blockquote {
       &:before {
         color: var(--light-accent-color);
-        content: '“';
+        content: "“";
         font-size: 6em;
-        line-height: 0.6em;
+        line-height: 0.7em;
         margin-right: 0.1em;
         margin-bottom: -0.5em;
         float: left;
       }
       margin: 1.5em 0;
-      padding: 10px 20px;
+      padding: 20px 40px 10px;
+      background-color: var(--lighter-accent-color);
       position: relative;
       color: var(--quote-color);
       font-size: 1.66rem;
+      border-radius: 1em;
 
       p {
         margin: 0;
@@ -212,7 +214,7 @@ main {
           top: unset;
 
           &::after {
-            content: '.';
+            content: ".";
           }
         }
       }
@@ -246,7 +248,7 @@ main {
         color: inherit;
 
         &:before {
-          content: '\B7';
+          content: "\B7";
           padding-right: 2px;
         }
 
@@ -322,7 +324,7 @@ main {
   display: flex;
   justify-content: end;
   height: 10rem;
-  background-image: url('/blag/images/end-post.svg');
+  background-image: url("/blag/images/end-post.svg");
   background-position: right;
   background-repeat: no-repeat;
   @include sm {
@@ -330,9 +332,9 @@ main {
   }
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   .end-post {
-    background-image: url('/blag/images/end-post-dark.svg');
+    background-image: url("/blag/images/end-post-dark.svg");
   }
 }
 
@@ -433,7 +435,7 @@ span.hashtag {
 footer {
   margin-top: 5rem;
   color: var(--secondary-color);
-  
+
   a:hover {
     color: var(--primary-color);
   }
@@ -449,7 +451,7 @@ footer {
     font-size: 1.3rem;
     justify-content: space-between;
     padding: 1rem 0 2rem;
-    
+
     @include sm {
       flex-direction: column;
     }

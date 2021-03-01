@@ -1,6 +1,6 @@
 // Colors
 $light-text: #9ba2c2;
-[data-theme='dark'] {
+[data-theme="dark"] {
   --primary-color: #{#ff5370};
   --secondary-color: #{#555c70};
   --background-color: #{#0f111a};
@@ -12,6 +12,7 @@ $light-text: #9ba2c2;
   --code-back-color: #{#1a1d2c};
   --code-block-color: #{#c9d2dc};
   --light-accent-color: #{rgba($light-text, 0.2)};
+  --lighter-accent-color: #{rgba($light-text, 0.05)};
   --quote-color: #{rgba($light-text, 0.8)};
   --hover-focus-color: #{#161a26};
   --hover-active-color: #{#242836};
@@ -83,7 +84,7 @@ $light-text: #9ba2c2;
   }
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   .theme-switcher {
     .toggle-button {
       margin-left: 40px;
@@ -101,7 +102,7 @@ $light-text: #9ba2c2;
 
 // Special Styles
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   main {
     .about,
     .post {
