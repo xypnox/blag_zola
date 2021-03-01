@@ -132,6 +132,8 @@ Where is the navigation bar? How do you enter URL? What about bookmarks?
 
 ![Firefox use](ffx.gif)
 
+*The above image is a gif, watch the action!*
+
 But where is the setting to tweak this? It is not a setting in firefox. You have to customize firefox's interface via CSS. The tabbar, navbar, etc are rendered from HTML, thus their appearance and functionality can be changed. You can head over to [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/) to see what people have been able to do with it. 
 
 And yes, it is not available in any chrome based browser as of now because almost all of them use Native C/C++ for the browser UI, making it near impossible to customize.
@@ -177,6 +179,8 @@ The theme for Typora is [xydark](https://github.com/xypnox/xydark-typora).
 With [Spicetify](https://github.com/khanhas/spicetify-cli) it matches my overall [theme](https://github.com/xypnox/dotfiles/tree/master/spicetify/Themes/xydark) and looks pretty rad. Apart from the basic spotify player, I also have the [spotify module](https://github.com/xypnox/dotfiles/blob/946cff63cc6378fad1f1af01c8191cd9ca0d461b/polybar/config#L384-L412) at the center of my polybar which controls the playback from any workspace. When the text is longer than a specified length, it even does a marquee scroll reminiscent of the old LED displays:
 
 ![Spotify Module](spotify-module.gif)
+
+*The above image is a gif, watch the action!*
 
 Apart from the visual details, I have also mapped the media controls of the keyboard to spotify play, pause, etc.
 
