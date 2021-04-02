@@ -1,6 +1,7 @@
 +++
-title = "Visualizing a problem in Chess"
+title = "3D plot on a Chess Board"
 date = 2019-12-03
+description="A simple problem of number of moves to checkmate on a chessboard visualized in 3d"
 
 [taxonomies]
 categories = ["tech"]

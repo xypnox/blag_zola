@@ -1,6 +1,7 @@
 +++
 title = 'Designing a Poster'
 date = 2019-08-26
+description="The art and craft of designing a kick-ass poster."
 
 [taxonomies]
 categories = ["design"]

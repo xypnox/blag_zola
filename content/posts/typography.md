@@ -1,6 +1,7 @@
 +++
 title = "Typography"
 date = 2019-12-12
+description="A few musings on the discipline of Typography and a few fonts that I like."
 
 [taxonomies]
 categories = ["design"]

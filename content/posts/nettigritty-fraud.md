@@ -1,13 +1,14 @@
 +++
 title = "Nettigritty Fraud"
 date = 2019-11-08
+description="The lack of privacy and clear indications of what will happen with user data while registering for a \"free\" domain."
 +++
 
 > Just so everyone knows
 
-_Date_: Fri, 8 Nov 2019 18:19:02 +0530
-_Subject_: I am deeply unsatisfied with your business policy
-_To_: support@nettigritty.com
+_Date_: Fri, 8 Nov 2019 18:19:02 +0530  
+_Subject_: I am deeply unsatisfied with your business policy  
+_To_: support@nettigritty.com  
 _Cc_: mail@hackinout.co
 
 ---
