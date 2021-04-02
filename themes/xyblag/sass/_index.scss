@@ -49,12 +49,14 @@ main .hero {
         }
         p {
           color: var(--text-color);
+          opacity: 0.8;
           font-size: 1.5rem;
           margin: 0 0 0.5rem;
         }
       }
       &__title {
         font-size: 3rem;
+        color: var(--post-heading-color);
         @include underline-from-center;
       }
     }
