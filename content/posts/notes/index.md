@@ -6,10 +6,6 @@ date = 2021-06-13
 [taxonomies]
 categories = ["tech"]
 tags = ["tech", "blog", "notes", "dendron"]
-
-[extra]
-metadata_image = "/posts/notes/cover-intro.png"
-
 +++
 
 The series includes:

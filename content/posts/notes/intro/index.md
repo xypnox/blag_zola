@@ -8,12 +8,12 @@ categories = ["tech"]
 tags = ["tech", "blog", "notes", "dendron"]
 
 [extra]
-metadata_image = "/posts/notes/cover-intro.png"
+metadata_image = "/posts/notes/intro/cover-intro.png"
 
 +++
 
 {% cover(src="cover-intro.png") %}
-The two sides of the Yin and Yang combine to provide ultimate harmony!
+An introduction to a Journey in note taking.
 {% end %}
 
 Once when I was foolish and clever, I thought I would never need to write anything down. That I will remember everything forever. I lived with this assumption till I came to my senses.
@@ -28,7 +28,7 @@ From exposure to dendron, I realized that my system had deficiencies, even if it
 
 Typora was a decent note taking tool. I adored it's excellent WYSIWYG md editor. It was theme-able. The cherry on top was the editing view: centered cursor with only the current paragraph highlighted, it made writing for long durations a pleasure. However, Typora couldn't manage files. You could only open multiple files as tabs on Mac, and the directory structure was clunky. Linking was a distant dream and refactoring a nightmare. A mess of 600 files. _..screaming.._
 
-![Typora](./typora-notes.png)
+![Typora](typora-notes.png)
 
 I decided to switch tools. I knew that several had been made in the two years I had spent with Typora, so the hunt began. Initially, a hybrid-preview editor was my priority. However, after realizing that vscode could act as a very good md editor, I switched to Dendron. The import was seamless. I was ready to go.
 
@@ -36,7 +36,7 @@ I started making notes slowly. The lookup and linking made the editor a text bro
 
 After 80 days I had 1294 md notes. Each of them linked to a hierarchy, determined by their filename. The entire vault and configurations (to setup and use it anywhere) were saved in the repo and were versioned daily. Moreover every 10 minutes any changes were backed up to github. In the end, all I had to do was write notes, linking and hierarchy was handled by Dendron, history and backup was handled by git.
 
-![dendron](./dendron-notes-intro.png)
+![dendron](dendron-notes-intro.png)
 
 While I was looking for a tool to switch and while I was using Dendron, I read and thought about note taking and various _tools_: like obsidian, notion, evernote, etc, and methods: like zettlekasten, para, bullet journaling etc.
 
