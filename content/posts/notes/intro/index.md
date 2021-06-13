@@ -40,7 +40,7 @@ After 80 days I had 1294 md notes. Each of them linked to a hierarchy, determine
 
 While I was looking for a tool to switch and while I was using Dendron, I read and thought about note taking and various _tools_: like obsidian, notion, evernote, etc, and methods: like zettlekasten, para, bullet journaling etc.
 
-I will share my thoughts and my current system of note taking in [these few posts](../notes/) (another 3 probably). The first few will be about the tools and strategies that exist for note taking. In the last post I will describe and explain my own note taking system.
+I will share my thoughts and my current system of note taking in [these few posts](../) (another 3 probably). The first few will be about the tools and strategies that exist for note taking. In the last post I will describe and explain my own note taking system.
 
 TLDR for the three posts:
 
