@@ -18,7 +18,7 @@ An introduction to a Journey in note taking.
 
 Once when I was foolish and clever, I thought I would never need to write anything down. That I will remember everything forever. I lived with this assumption till I came to my senses.
 
-I [started making notes](link-to-prev-post) 2 years ago. I decided on [markdown(md)](https://www.markdownguide.org/) files in a git repository to be sufficient tooling required. I organized the files in folders and relied on git for version control a.k.a history. The few tweaks, a typora theme, scripts to automate git commands, etc, were enough at that time. I used Typora to edit the notes.
+I [started making notes](https://www.xypnox.com/blag/posts/moving-notes-to-github/) 2 years ago. I decided on [markdown(md)](https://www.markdownguide.org/) files in a git repository to be sufficient tooling required. I organized the files in folders and relied on git for version control a.k.a history. The few tweaks, a typora theme, scripts to automate git commands, etc, were enough at that time. I used Typora to edit the notes.
 
 Along with note taking, I also started journaling, rarely. Then at the start of this year,2021, I started journaling properly. Even though I made a lot of notes, I didn't use them. I never opened them, let alone read them. Due to the dwindling usage, I started writing all of my notes, about programming and philosophy, in the daily journal itself. This made the organization worse. I didn't believe it could be improved because I didn't know it could be improved.
 
