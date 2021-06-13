@@ -433,11 +433,23 @@ span.hashtag {
 }
 
 footer {
-  margin-top: 5rem;
   color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin: 5rem 0;
 
   a:hover {
     color: var(--primary-color);
+  }
+
+  #rss_feed_link {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    svg {
+      margin-right: 0.5rem;
+    }
   }
 
   .social_links {
@@ -446,14 +458,17 @@ footer {
     }
   }
 
+  p {
+    margin: 0;
+  }
+
   .theme_info {
     display: flex;
-    font-size: 1.3rem;
     justify-content: space-between;
-    padding: 1rem 0 2rem;
 
-    @include sm {
-      flex-direction: column;
-    }
+    flex-direction: column;
+  }
+  @include sm {
+    flex-direction: column;
   }
 }

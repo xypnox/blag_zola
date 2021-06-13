@@ -66,21 +66,26 @@
                     </svg>
                 </a>
             {% endif %}
+            <a id="rss_feed_link" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
+                    Atom Feed
+                </a>
         </div>
         <div class="theme_info">
-            <div class="copyright">
-                &#169;<script>
+            <p>
+            &#169;<script>
                     document.write(new Date().getFullYear());
                 </script>
                 {{ config.extra.author }}
-            </div>
-            <div class="made-with">
+            </p>
+
+            <p>
                 Made with
                 <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a>,
                 <a href="https://github.com/xypnox/blag/tree/master/themes/xyblag" rel="noopener noreferrer" target="_blank">Theme</a>
                 by
                 <a href="https://www.xypnox.com/" rel="noopener noreferrer" target="_blank">xypnox</a>.
-            </div>
+            </p>
         </div>
     </footer>
 {% endmacro footer %}
