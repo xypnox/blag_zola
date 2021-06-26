@@ -1,10 +1,26 @@
 main .hero {
-  .logo a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .title {
+    @include underline-static;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    .logo svg {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 5rem;
+    }
+    .logo {
+      margin-right: 1rem;
+      height: 5rem;
+    }
     color: var(--text-color);
     font-weight: 600;
     font-size: 3rem;
-
-    @include underline-static;
   }
 
   p {

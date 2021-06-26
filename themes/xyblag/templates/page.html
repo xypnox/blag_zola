@@ -63,7 +63,7 @@
             {{ page.content | safe }}
         </div>
         {% block page_before_footer %}{% endblock page_before_footer %}
-        {{ post_macros::endnote() }}
+        {{ post_macros::endnote(classname="endnote") }}
         <div
             class="end-post">{# <img src="{{ get_url(path="images/end-post.svg", trailing_slash=false) }}"/> #}
         </div>

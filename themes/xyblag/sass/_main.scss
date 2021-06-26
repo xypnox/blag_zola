@@ -329,6 +329,11 @@ main {
   align-items: center;
   justify-content: center;
   margin: 7rem 0 4rem;
+  svg {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+  }
 }
 
 .next,

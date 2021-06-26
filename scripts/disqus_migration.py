@@ -1,68 +1,77 @@
 import os
 import time
 import json
+import pprint
 import xmltodict
 from github import Github
 
-FILEPATH = os.environ["FILEPATH"]
-USERNAME = os.environ["USERNAME"]
-TOKEN = os.environ["TOKEN"]
-REPOSITORY = os.environ["REPOSITORY"]
-BASE_URL = os.environ["BASE_URL"]
+FILEPATH = "comments.xml"
+
+pp = pprint.PrettyPrinter(indent=4)
 
 
 def disqus_to_github():
-    g = Github(TOKEN)
-    repo = g.get_repo(REPOSITORY)
-    issues = repo.get_issues()
-
     with open(FILEPATH) as fd:
         data = xmltodict.parse(fd.read())
 
     data = data["disqus"]
 
     threads = [dict(t) for t in data["thread"]]
+    # pp.pprint(threads)
     posts = sorted((dict(p)
                    for p in data["post"]), key=lambda d: d["createdAt"])
 
     # only keep threads with comments
     twc_ids = set(p["thread"]["@dsq:id"] for p in posts)
     threads = {t["@dsq:id"]: t for t in threads if t["@dsq:id"] in twc_ids}
+    # pp.pprint(threads)
 
-    # associate the thread to each post
-    for post in posts:
-        post["thread"] = threads[post["thread"]["@dsq:id"]]
+    titles = {}
+    for key in threads:
+        # pp.pprint(dict(key['thread'])['@dsq:id'])
+        # pp.pprint(key)
+        # exit()
+        title = threads[key]["@dsq:id"]
+        message = f"## [{threads[key]['title']}]({threads[key]['link']})"
+        if title not in titles:
+            titles[title] = message
+        else:
+            titles[title] = message
+
+    # pp.pprint(titles)
+    # exit()
 
     # associate the related GitHub issue to each thread
     # warning: the issues need to exist before you run this script!
     # write a "test" comment in each one of your post with comments
     # to make Utterances create the initial issues
-    for thread in threads.values():
-        for issue in issues:
-            if issue.title == thread["link"].replace(BASE_URL, ""):
-                thread["issue"] = issue
-                break
+    links = {}
+    # associate the thread to each post
+    for post in posts:
+        # pp.pprint(dict(post['thread'])['@dsq:id'])
+        # pp.pprint(post)
+        # exit()
+        link = dict(post['thread'])['@dsq:id']
+        if post["message"]:
+            message = "#### **" + dict(post['author'])['name'] + \
+                "** @" + dict(post['author'])['username'] + \
+                "\n\nPosted on: _" + post['createdAt'] + "_ " + \
+                "\n\n" + post["message"] + "\n"
+            if link not in links:
+                links[link] = [message]
+            else:
+                links[link].append(message)
 
-    # iterate on posts and create issues comments accordingly
-    for i, post in enumerate(posts, 1):
-        name = post["author"]["name"]
-        user = post["author"].get("username")
-        mention = " @" + \
-            user if user and not user.startswith("disqus_") else ""
-        date = post["createdAt"]
-        message = post["message"]
-        issue = post["thread"]["issue"]
-        body = f"*Original date: {date}*\n\n{message}"
-        # don't add original author when it's you
-        if user != USERNAME:
-            body = f"*Original author:* **{name}{mention}**  \n{body}"
-        print(
-            f"Posting {i}/{len(posts)} to issue {issue.number}    \r", end="")
-        issue.create_comment(body)
-        # prevent hitting rate limits!
-        time.sleep(0.5)
+        # pp.pprint(post["@dsq:id"])
+        # post["thread"] = threads[post["thread"]["@dsq:id"]]
 
-    print()
+    pp.pprint(links)
+    # pp.pprint(threads)
+    for key in links:
+
+        print(f"\n\n---\n\n{titles[key]} \n")
+        msg = "\n".join(links[key])
+        print(msg)
 
 
 if __name__ == "__main__":

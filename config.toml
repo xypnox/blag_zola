@@ -15,7 +15,7 @@ build_search_index = false
 theme = "xyblag"
 
 # Blog details, used in the homepage
-title = "The Blag"
+title = "Blag"
 description = "Blog of xypnox, a collection of Literature, Computing and Philosophy"
 
 generate_feed = true
