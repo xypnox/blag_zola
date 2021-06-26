@@ -270,6 +270,10 @@ main {
 
   .post-tags {
     padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
     a {
       margin: 0.5rem 5px 0.5rem 0;
@@ -319,22 +323,16 @@ main {
   }
 }
 
-.end-post {
-  margin: 5rem 0 7rem;
+.endnote {
+  width: 100%;
   display: flex;
-  justify-content: end;
-  height: 10rem;
-  background-image: url("/blag/images/end-post.svg");
-  background-position: right;
-  background-repeat: no-repeat;
-  @include sm {
-    background-size: contain;
-  }
-}
-
-[data-theme="dark"] {
-  .end-post {
-    background-image: url("/blag/images/end-post-dark.svg");
+  align-items: center;
+  justify-content: center;
+  margin: 7rem 0 4rem;
+  svg {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
   }
 }
 

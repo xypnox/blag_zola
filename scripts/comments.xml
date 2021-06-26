@@ -1,0 +1,3739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<disqus xmlns="http://disqus.com" xmlns:dsq="http://disqus.com/disqus-internals" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://disqus.com/api/schemas/1.0/disqus.xsd http://disqus.com/api/schemas/1.0/disqus-internals.xsd">
+	<category dsq:id="7418631">
+		<forum>
+			xypnox-blag
+		</forum>
+		<title>
+			General
+		</title>
+		<isDefault>
+			true
+		</isDefault>
+	</category>
+	<thread dsq:id="6361853728">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/my-experience-with-linux/
+		</link>
+		<title>
+			My experience with Linux
+		</title>
+		<message />
+		<createdAt>
+			2017-12-20T20:40:38Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="6361928262">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/about/
+		</link>
+		<title>
+			About • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2017-12-20T21:23:00Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="6365555147">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/quotes/
+		</link>
+		<title>
+			Quotes • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2017-12-22T10:49:34Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="6378889152">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/happy-new-year/
+		</link>
+		<title>
+			Happy New Year • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2017-12-29T08:17:20Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="6415661951">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/lonely/
+		</link>
+		<title>
+			Lonely • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-01-15T19:01:32Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="6466598962">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/a-beautiful-morning/
+		</link>
+		<title>
+			A Beautiful Morning
+		</title>
+		<message />
+		<createdAt>
+			2018-02-08T14:12:42Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="6520427071">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/xkcd/
+		</link>
+		<title>
+			XKCD • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-03-04T11:56:06Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="6606009528">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/losing-things/
+		</link>
+		<title>
+			Losing Things • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-04-10T16:45:17Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="6608195433">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/misfits/
+		</link>
+		<title>
+			Misfits • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-04-11T18:43:45Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="6677772665">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/fontstaller/
+		</link>
+		<title>
+			Fontstaller • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-05-18T11:07:09Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="6691396047">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/design-tips/
+		</link>
+		<title>
+			Design Tips • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-05-25T19:24:24Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="6898974363">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/why-xypnox/
+		</link>
+		<title>
+			Why xypnox? • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-09-07T16:26:11Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7029938063">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/todx-the-todo-manager/
+		</link>
+		<title>
+			Todx : The Todo Manager
+		</title>
+		<message />
+		<createdAt>
+			2018-11-08T21:44:04Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7030441550">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/todx-the-todo-manager/?fbclid=IwAR2RxpQ_LJQ9JVOTYSB8aPLuwKTKukRP8xdaUks3TeN9eXfMZhnCc-mGFZs
+		</link>
+		<title>
+			TodX : The Todo Manager
+		</title>
+		<message />
+		<createdAt>
+			2018-11-09T02:06:27Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7030559142">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/todx-the-todo-manager/?fbclid=IwAR1rH2jQj2jXhgD5O1N-GB_il5Zsl8Uebx08gLUwatKtU6JP60TU7YR_-5U
+		</link>
+		<title>
+			TodX : The Todo Manager
+		</title>
+		<message />
+		<createdAt>
+			2018-11-09T03:22:27Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7033377976">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/todx-the-todo-manager/?fbclid=IwAR2i5BFA17qy7aJTEFjVMebKpps5DXeLyQrY4nTGAYAQAThusENvoo1Yj08
+		</link>
+		<title>
+			TodX : The Todo Manager
+		</title>
+		<message />
+		<createdAt>
+			2018-11-10T08:15:20Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7039190554">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://xypnox.github.io/blag/posts/todx-the-todo-manager/?fbclid=IwAR0Huesyi6bVYt_SYcIbEM0J3bV8Qv13S-CZLz3ZvSBoA5YeHiqTkV8VgjU
+		</link>
+		<title>
+			TodX : The Todo Manager
+		</title>
+		<message />
+		<createdAt>
+			2018-11-12T14:41:15Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7107185185">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://www.xypnox.com/blag/posts/todx-the-todo-manager/
+		</link>
+		<title>
+			TodX : The Todo Manager
+		</title>
+		<message />
+		<createdAt>
+			2018-12-15T14:24:44Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7107188179">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://www.xypnox.com/blag/quotes/
+		</link>
+		<title>
+			Quotes • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-12-15T14:26:33Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7107306079">
+		<id>
+			losing-things
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/losing-things/
+		</link>
+		<title>
+			Losing Things • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-12-15T15:36:29Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7107310550">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/fontstaller/
+		</link>
+		<title>
+			Fontstaller • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-12-15T15:39:06Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7107404323">
+		<id>
+			design-tips
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/design-tips/
+		</link>
+		<title>
+			Design Tips • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-12-15T16:33:40Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7107888080">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/misfits/
+		</link>
+		<title>
+			Misfits • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-12-15T22:24:20Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7114789874">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/xkcd/
+		</link>
+		<title>
+			XKCD • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-12-19T16:34:19Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7114830837">
+		<id>
+			a-beautiful-morning
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/a-beautiful-morning/
+		</link>
+		<title>
+			A Beautiful Morning
+		</title>
+		<message />
+		<createdAt>
+			2018-12-19T16:57:15Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7114831310">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/lonely/
+		</link>
+		<title>
+			Lonely • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-12-19T16:57:29Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7114832051">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/happy-new-year/
+		</link>
+		<title>
+			Happy New Year • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-12-19T16:57:51Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7114832517">
+		<id>
+			my-experience-with-linux
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/my-experience-with-linux/
+		</link>
+		<title>
+			My experience with Linux
+		</title>
+		<message />
+		<createdAt>
+			2018-12-19T16:58:06Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7133440604">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/the-elderling-realm/
+		</link>
+		<title>
+			The Elderling Realm
+		</title>
+		<message />
+		<createdAt>
+			2018-12-28T14:30:23Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7134604701">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://www.xypnox.com/blag/why-xypnox/
+		</link>
+		<title>
+			Why xypnox? • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2018-12-29T05:51:52Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7188885103">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://www.xypnox.com/blag/posts/moving-notes-to-github/
+		</link>
+		<title>
+			Moving Notes to Github
+		</title>
+		<message />
+		<createdAt>
+			2019-01-25T19:46:29Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7260737639">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/two-pens/
+		</link>
+		<title>
+			Two Pens • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2019-02-27T18:07:49Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7333323848">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/one-of-the-dark-days/
+		</link>
+		<title>
+			One of the Dark Days
+		</title>
+		<message />
+		<createdAt>
+			2019-04-02T14:25:09Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7419482955">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/apps-that-i-love/
+		</link>
+		<title>
+			Apps that I Love • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2019-05-15T11:04:54Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7606009911">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/designing-a-poster/
+		</link>
+		<title>
+			Designing a Poster
+		</title>
+		<message />
+		<createdAt>
+			2019-08-26T17:45:30Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7710187982">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/nettigritty-fraud/
+		</link>
+		<title>
+			Nettigritty Fraud
+		</title>
+		<message />
+		<createdAt>
+			2019-11-08T13:13:02Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7745523316">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://www.xypnox.com/blag/posts/chessproblems/
+		</link>
+		<title>
+			Visualizing a problem in Chess
+		</title>
+		<message />
+		<createdAt>
+			2019-12-03T22:35:54Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7760761448">
+		<id>
+			typography
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/typography/
+		</link>
+		<title>
+			Typography • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2019-12-12T14:34:07Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7766847152">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://webcache.googleusercontent.com/search?q=cache:C9mYFF3dKyIJ:https://www.xypnox.com/blag/posts/moving-notes-to-github/+&amp;cd=14&amp;ct=clnk&amp;gl=uk&amp;client=safari
+		</link>
+		<title>
+			Moving Notes to Github
+		</title>
+		<message />
+		<createdAt>
+			2019-12-16T13:48:44Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7770968328">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://webcache.googleusercontent.com/search?q=cache:C9mYFF3dKyIJ:https://www.xypnox.com/blag/posts/moving-notes-to-github/+&amp;cd=1&amp;ct=clnk&amp;gl=es
+		</link>
+		<title>
+			Moving Notes to Github
+		</title>
+		<message />
+		<createdAt>
+			2019-12-19T00:18:25Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7771244203">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://webcache.googleusercontent.com/search?q=cache:C9mYFF3dKyIJ:https://www.xypnox.com/blag/posts/moving-notes-to-github/+&amp;cd=5&amp;ct=clnk&amp;gl=ca
+		</link>
+		<title>
+			Moving Notes to Github
+		</title>
+		<message />
+		<createdAt>
+			2019-12-19T05:01:12Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7922605271">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://www.monci.it/D1_Turchia.htm
+		</link>
+		<title>
+			Quotes • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2020-03-19T03:38:59Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7922605274">
+		<id />
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://blog.csdn.net/eava_wu/article/details/51254144
+		</link>
+		<title>
+			Quotes • The Blag
+		</title>
+		<message />
+		<createdAt>
+			2020-03-19T03:38:59Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="7940227220">
+		<id>
+			the-secret-of-life
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			https://www.xypnox.com/blag/posts/the-secret-of-life/
+		</link>
+		<title>
+			The Secret of Life
+		</title>
+		<message />
+		<createdAt>
+			2020-03-29T11:34:10Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8221529363">
+		<id>
+			quotes
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/quotes/
+		</link>
+		<title>
+			The Blag - Quotes
+		</title>
+		<message />
+		<createdAt>
+			2020-09-30T11:22:21Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8221529705">
+		<id>
+			why-xypnox
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/why-xypnox/
+		</link>
+		<title>
+			The Blag - Why xypnox?
+		</title>
+		<message />
+		<createdAt>
+			2020-09-30T11:22:43Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8221531395">
+		<id>
+			chessproblems
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/chessproblems/
+		</link>
+		<title>
+			Visualizing a problem in Chess
+		</title>
+		<message />
+		<createdAt>
+			2020-09-30T11:24:34Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8221586216">
+		<id>
+			designing-a-poster
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/designing-a-poster/
+		</link>
+		<title>
+			Designing a Poster
+		</title>
+		<message />
+		<createdAt>
+			2020-09-30T12:26:45Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8221600282">
+		<id>
+			the-elderling-realm
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/the-elderling-realm/
+		</link>
+		<title>
+			The Elderling Realm
+		</title>
+		<message />
+		<createdAt>
+			2020-09-30T12:41:43Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8221600349">
+		<id>
+			moving-notes-to-github
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/moving-notes-to-github/
+		</link>
+		<title>
+			Moving Notes to Github
+		</title>
+		<message />
+		<createdAt>
+			2020-09-30T12:41:48Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8221600503">
+		<id>
+			xkcd
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/xkcd/
+		</link>
+		<title>
+			The Blag - XKCD
+		</title>
+		<message />
+		<createdAt>
+			2020-09-30T12:41:58Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8221601105">
+		<id>
+			two-pens
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/two-pens/
+		</link>
+		<title>
+			The Blag - Two Pens
+		</title>
+		<message />
+		<createdAt>
+			2020-09-30T12:42:33Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8221632243">
+		<id>
+			apps-that-i-love
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/apps-that-i-love/
+		</link>
+		<title>
+			Apps that I Love
+		</title>
+		<message />
+		<createdAt>
+			2020-09-30T13:14:12Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8221633726">
+		<id>
+			todx-the-todo-manager
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/todx-the-todo-manager/
+		</link>
+		<title>
+			TodX : The Todo Manager
+		</title>
+		<message />
+		<createdAt>
+			2020-09-30T13:15:42Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8221647851">
+		<id>
+			fontstaller
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/fontstaller/
+		</link>
+		<title>
+			The Blag - Fontstaller
+		</title>
+		<message />
+		<createdAt>
+			2020-09-30T13:29:12Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8221650321">
+		<id>
+			lonely
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/lonely/
+		</link>
+		<title>
+			The Blag - Lonely
+		</title>
+		<message />
+		<createdAt>
+			2020-09-30T13:31:26Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8222476881">
+		<id>
+			nettigritty-fraud
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/nettigritty-fraud/
+		</link>
+		<title>
+			Nettigritty Fraud
+		</title>
+		<message />
+		<createdAt>
+			2020-10-01T05:06:27Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8222477384">
+		<id>
+			one-of-the-dark-days
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/one-of-the-dark-days/
+		</link>
+		<title>
+			One of the Dark Days
+		</title>
+		<message />
+		<createdAt>
+			2020-10-01T05:07:14Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8222481081">
+		<id>
+			misfits
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/misfits/
+		</link>
+		<title>
+			The Blag - Misfits
+		</title>
+		<message />
+		<createdAt>
+			2020-10-01T05:13:05Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8222979480">
+		<id>
+			happy-new-year
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/happy-new-year/
+		</link>
+		<title>
+			The Blag - Happy New Year
+		</title>
+		<message />
+		<createdAt>
+			2020-10-01T15:01:01Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8227325814">
+		<id>
+			migrating-to-zola
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/migrating-to-zola/
+		</link>
+		<title>
+			Migrating to Zola
+		</title>
+		<message />
+		<createdAt>
+			2020-10-05T09:06:39Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8249034674">
+		<id>
+			whats-with-the-alias
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/to-be-or-not-to-be/
+		</link>
+		<title>
+			The story behind my alias
+		</title>
+		<message />
+		<createdAt>
+			2020-10-22T18:54:23Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8249668056">
+		<id>
+			new-blog-framework
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/new-blog-framework/
+		</link>
+		<title>
+			Migrating to a new Blog Framework
+		</title>
+		<message />
+		<createdAt>
+			2020-10-23T08:20:12Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8261743483">
+		<id>
+			custom-spotify-covers
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/custom-spotify-covers/
+		</link>
+		<title>
+			Custom Spotify Covers
+		</title>
+		<message />
+		<createdAt>
+			2020-11-02T14:47:40Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8331167262">
+		<id>
+			tech-2020
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/tech-2020/
+		</link>
+		<title>
+			The Blag - Tech 2020
+		</title>
+		<message />
+		<createdAt>
+			2020-12-26T17:43:45Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8339329459">
+		<id>
+			culture-2020
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/culture-2020/
+		</link>
+		<title>
+			The Blag - Culture 2020
+		</title>
+		<message />
+		<createdAt>
+			2021-01-02T09:31:29Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8419169736">
+		<id>
+			glorious-endgame
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/glorious-endgame/
+		</link>
+		<title>
+			Glorious Endgame
+		</title>
+		<message />
+		<createdAt>
+			2021-03-01T21:14:10Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8589564834">
+		<id>
+			notes
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/notes/
+		</link>
+		<title>
+			Notes: A series of posts on note-taking
+		</title>
+		<message />
+		<createdAt>
+			2021-06-12T20:30:11Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<thread dsq:id="8589564904">
+		<id>
+			intro
+		</id>
+		<forum>
+			xypnox-blag
+		</forum>
+		<category dsq:id="7418631" />
+		<link>
+			http://127.0.0.1:1111/posts/notes/intro/
+		</link>
+		<title>
+			Notes: Intro - The Blag
+		</title>
+		<message />
+		<createdAt>
+			2021-06-12T20:30:14Z
+		</createdAt>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<isClosed>
+			false
+		</isClosed>
+		<isDeleted>
+			false
+		</isDeleted>
+	</thread>
+	<post dsq:id="3708505335">
+		<id />
+		<message>
+			<![CDATA[<p>It was mostly like I was reading my own story. :D</p>]]>
+		</message>
+		<createdAt>
+			2018-01-15T06:44:27Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Animesh
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				f4animesh
+			</username>
+		</author>
+		<thread dsq:id="6361853728" />
+	</post>
+	<post dsq:id="3791669006">
+		<id />
+		<message>
+			<![CDATA[<p>If I was you, I'd definitely included 1944.</p>]]>
+		</message>
+		<createdAt>
+			2018-03-07T16:43:04Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				evi1haxor
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				evi1haxor
+			</username>
+		</author>
+		<thread dsq:id="6520427071" />
+	</post>
+	<post dsq:id="3817484851">
+		<id />
+		<message>
+			<![CDATA[<p>This was not a comprehensive list. I would definetly add it in another one for sure</p>]]>
+		</message>
+		<createdAt>
+			2018-03-21T18:42:31Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<thread dsq:id="6520427071" />
+		<parent dsq:id="3791669006" />
+	</post>
+	<post dsq:id="3851221316">
+		<id />
+		<message>
+			<![CDATA[<p>Mmhmm..</p>]]>
+		</message>
+		<createdAt>
+			2018-04-12T04:21:10Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				evi1haxor
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				evi1haxor
+			</username>
+		</author>
+		<thread dsq:id="6520427071" />
+		<parent dsq:id="3817484851" />
+	</post>
+	<post dsq:id="3859387382">
+		<id />
+		<message>
+			<![CDATA[<p>Nice :)</p>]]>
+		</message>
+		<createdAt>
+			2018-04-17T13:51:30Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Animesh
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				f4animesh
+			</username>
+		</author>
+		<thread dsq:id="6606009528" />
+	</post>
+	<post dsq:id="3859391299">
+		<id />
+		<message>
+			<![CDATA[<p>I used to think it was said by Steve Jobs in some studio...</p>]]>
+		</message>
+		<createdAt>
+			2018-04-17T13:54:08Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Animesh
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				f4animesh
+			</username>
+		</author>
+		<thread dsq:id="6608195433" />
+	</post>
+	<post dsq:id="3859405931">
+		<id />
+		<message>
+			<![CDATA[<p>Beautiful and inspiring words.</p>]]>
+		</message>
+		<createdAt>
+			2018-04-17T14:04:09Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Animesh
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				f4animesh
+			</username>
+		</author>
+		<thread dsq:id="6365555147" />
+	</post>
+	<post dsq:id="3872865184">
+		<id />
+		<message>
+			<![CDATA[<p>It is a quote usedby apple for adverts</p>]]>
+		</message>
+		<createdAt>
+			2018-04-25T23:26:00Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<thread dsq:id="6608195433" />
+		<parent dsq:id="3859391299" />
+	</post>
+	<post dsq:id="3917207337">
+		<id />
+		<message>
+			<![CDATA[<p>Really good stuff. Often, a lot of people consider designing inferior. But it turns out to be a crucial part. Great work !</p>]]>
+		</message>
+		<createdAt>
+			2018-05-25T19:31:49Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Dibya Das
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				disqus_lAWMqraEui
+			</username>
+		</author>
+		<thread dsq:id="6691396047" />
+	</post>
+	<post dsq:id="4084002875">
+		<id />
+		<message>
+			<![CDATA[<p>That's very creative work.😋</p>]]>
+		</message>
+		<createdAt>
+			2018-09-08T08:47:42Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Animesh
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				f4animesh
+			</username>
+		</author>
+		<thread dsq:id="6898974363" />
+	</post>
+	<post dsq:id="4084013878">
+		<id />
+		<message>
+			<![CDATA[<p>Finally something I can recommend to people starting out and wants to make their site sleek.</p>]]>
+		</message>
+		<createdAt>
+			2018-09-08T09:01:10Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Animesh
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				f4animesh
+			</username>
+		</author>
+		<thread dsq:id="6691396047" />
+	</post>
+	<post dsq:id="4261892725">
+		<id />
+		<message>
+			<![CDATA[<p>f4animesh more</p>]]>
+		</message>
+		<createdAt>
+			2018-12-30T04:36:30Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			true
+		</isSpam>
+		<author>
+			<name>
+				TheArQu
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				disqus_POiKWUsvKk
+			</username>
+		</author>
+		<thread dsq:id="6691396047" />
+		<parent dsq:id="4084013878" />
+	</post>
+	<post dsq:id="4307620269">
+		<id />
+		<message>
+			<![CDATA[<p>I love how there are so many options, and we care about finding just the write one for us. Kudos! Keep making notes :)</p>]]>
+		</message>
+		<createdAt>
+			2019-01-26T02:44:03Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Himanshu Mishra
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				OrkoHunter
+			</username>
+		</author>
+		<thread dsq:id="7188885103" />
+	</post>
+	<post dsq:id="4356958759">
+		<id />
+		<message>
+			<![CDATA[<p>Beautiful lines.<br>It is not just story of two pens or two friends, but of the four people we had surrounded ourselves with in this society.</p>]]>
+		</message>
+		<createdAt>
+			2019-02-27T19:26:21Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Animesh
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				f4animesh
+			</username>
+		</author>
+		<thread dsq:id="7260737639" />
+	</post>
+	<post dsq:id="4357047578">
+		<id />
+		<message>
+			<![CDATA[<p>Four as in? I get the two friends, and the teacher. Who is the fourth?</p>]]>
+		</message>
+		<createdAt>
+			2019-02-27T20:17:45Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<thread dsq:id="7260737639" />
+		<parent dsq:id="4356958759" />
+	</post>
+	<post dsq:id="4358010783">
+		<id />
+		<message>
+			<![CDATA[<p>Four people full of greed, fear, ego and jealousy from whom we seeks affirmation. <br>sbse bada rog, Kya kahenge char log !</p>]]>
+		</message>
+		<createdAt>
+			2019-02-28T11:34:14Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Animesh
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				f4animesh
+			</username>
+		</author>
+		<thread dsq:id="7260737639" />
+		<parent dsq:id="4357047578" />
+	</post>
+	<post dsq:id="4358682279">
+		<id />
+		<message>
+			<![CDATA[<p>👏👏👏</p>]]>
+		</message>
+		<createdAt>
+			2019-02-28T19:45:35Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<thread dsq:id="7260737639" />
+		<parent dsq:id="4358010783" />
+	</post>
+	<post dsq:id="4580332491">
+		<id />
+		<message>
+			<![CDATA[<blockquote>I agree that these books are lengthy and consume a lot of time to read. But for someone looking for months of endearing fantasy, these are an easy recommendation. If you ever find yourself to be trapped by the never ending narrative, just finish the book, you will find yourself immersed in the next book before you know.</blockquote><p></p><p>So, summers mein chill rahega, if I want to read? I mean are the books independent or they leave with a cliffhanger?</p>]]>
+		</message>
+		<createdAt>
+			2019-08-16T09:00:58Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Aaryan Bhagat
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				aaryan_bhagat
+			</username>
+		</author>
+		<thread dsq:id="7133440604" />
+	</post>
+	<post dsq:id="4580333932">
+		<id />
+		<message>
+			<![CDATA[<p>They are complete books but they have a over-arching storyline which can be enjoyed only if you read all of them in serial order.</p>]]>
+		</message>
+		<createdAt>
+			2019-08-16T09:03:49Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<thread dsq:id="7133440604" />
+		<parent dsq:id="4580332491" />
+	</post>
+	<post dsq:id="4580334139">
+		<id />
+		<message>
+			<![CDATA[<blockquote>In others when I am wrong,<br>And in myself when others have wronged.</blockquote><p></p><p>How to know when which one of those two happens? I have also encoounter this but do not know how to face it.</p>]]>
+		</message>
+		<createdAt>
+			2019-08-16T09:04:14Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Aaryan Bhagat
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				aaryan_bhagat
+			</username>
+		</author>
+		<thread dsq:id="7333323848" />
+	</post>
+	<post dsq:id="4580334698">
+		<id />
+		<message>
+			<![CDATA[<p>Okay so overall why would you recommend to someone who is not much into fantasy setting and stuff like that?</p>]]>
+		</message>
+		<createdAt>
+			2019-08-16T09:05:20Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Aaryan Bhagat
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				aaryan_bhagat
+			</username>
+		</author>
+		<thread dsq:id="7133440604" />
+		<parent dsq:id="4580333932" />
+	</post>
+	<post dsq:id="4582907150">
+		<id />
+		<message>
+			<![CDATA[<p>The problem here is that no one knows if the seeds they plant would give fruit. Only when the time has passed and the weather has been kind will the person know if the plant blossoms with bountiful fruits or is just another weed with thorns.</p><p>Only time will tell.</p>]]>
+		</message>
+		<createdAt>
+			2019-08-18T17:22:24Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<thread dsq:id="7333323848" />
+		<parent dsq:id="4580334139" />
+	</post>
+	<post dsq:id="4582910844">
+		<id />
+		<message>
+			<![CDATA[<blockquote>Only time will tell.</blockquote><p></p><p>Sad but true.</p>]]>
+		</message>
+		<createdAt>
+			2019-08-18T17:26:09Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Aaryan Bhagat
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				aaryan_bhagat
+			</username>
+		</author>
+		<thread dsq:id="7333323848" />
+		<parent dsq:id="4582907150" />
+	</post>
+	<post dsq:id="4592525769">
+		<id />
+		<message>
+			<![CDATA[<p>Boy, this post looks as elegant as your posters!</p>]]>
+		</message>
+		<createdAt>
+			2019-08-26T18:30:29Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Sangeet Kumar Mishra
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				sangeetkumarmishra
+			</username>
+		</author>
+		<thread dsq:id="7606009911" />
+	</post>
+	<post dsq:id="4593939272">
+		<id />
+		<message>
+			<![CDATA[<p>I did almost the same path, but I ended with Ulysses on Desktop, Moon Writer on Android, and sync using Dropbox with DropSync app. Works like a charm and no script needed.</p>]]>
+		</message>
+		<createdAt>
+			2019-08-27T19:50:24Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				akos balasko
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				akosbalasko
+			</username>
+		</author>
+		<thread dsq:id="7188885103" />
+	</post>
+	<post dsq:id="4593965669">
+		<id />
+		<message>
+			<![CDATA[<p>Thanks, I didn't know about Dropsync, and Moon Writer.<br>I will surely try them out!</p>]]>
+		</message>
+		<createdAt>
+			2019-08-27T20:11:52Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<thread dsq:id="7188885103" />
+		<parent dsq:id="4593939272" />
+	</post>
+	<post dsq:id="4594014851">
+		<id />
+		<message>
+			<![CDATA[<p>Cool, you're welcome! Moon Writer is just a stand-alone multi-folder-handler md-editor for Android, nothing else. The trick is around Dropsync, which can be set to map and auto-sync a local folder to a Dropbox directory. Syncing from Dropbox folder to Desktop is handled by Ulysses by-design, but, as we are talking about Dropbox, any local editor could be used for managing your notes on Desktop.</p>]]>
+		</message>
+		<createdAt>
+			2019-08-27T20:52:54Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				akos balasko
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				akosbalasko
+			</username>
+		</author>
+		<thread dsq:id="7188885103" />
+		<parent dsq:id="4593965669" />
+	</post>
+	<post dsq:id="4682155987">
+		<id />
+		<message>
+			<![CDATA[<p>Which hackathon did you participate in? Link for the product?</p>]]>
+		</message>
+		<createdAt>
+			2019-11-08T14:46:56Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Pranit Bauva
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				pranitbauva
+			</username>
+		</author>
+		<thread dsq:id="7710187982" />
+	</post>
+	<post dsq:id="4682207916">
+		<id />
+		<message>
+			<![CDATA[<p>Hackinout <br><a href="http://hackinout.co" rel="nofollow noopener" title="hackinout.co">hackinout.co</a></p><p>The registration for the domain is at <a href="http://go.co/HackInOut" rel="nofollow noopener" title="go.co/HackInOut">go.co/HackInOut</a></p>]]>
+		</message>
+		<createdAt>
+			2019-11-08T15:31:39Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<thread dsq:id="7710187982" />
+		<parent dsq:id="4682155987" />
+	</post>
+	<post dsq:id="4683175095">
+		<id />
+		<message>
+			<![CDATA[<p>Hey all, InOut organizer here. Here's the response from Nettigritty about the matter. We advise to directly get in touch with Nettigritty for any queries regarding their offerings.<br> <a href="https://uploads.disquscdn.com/images/84455854ae74eaf69968a736b5e70f4d91eb7fc9cbd695982bc71e8585443b81.png" rel="nofollow noopener" title="https://uploads.disquscdn.com/images/84455854ae74eaf69968a736b5e70f4d91eb7fc9cbd695982bc71e8585443b81.png">https://uploads.disquscdn.c...</a></p>]]>
+		</message>
+		<createdAt>
+			2019-11-09T13:12:31Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			true
+		</isSpam>
+		<author>
+			<name>
+				Denver Dsouza
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				disqus_mj14PAEyfF
+			</username>
+		</author>
+		<thread dsq:id="7710187982" />
+	</post>
+	<post dsq:id="4721756254">
+		<id />
+		<message>
+			<![CDATA[<p>Never knew that there's so much more to choosing a simple font...</p>]]>
+		</message>
+		<createdAt>
+			2019-12-12T14:57:48Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Piyush Ranjan
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				disqus_ch3q0JWNYd
+			</username>
+		</author>
+		<thread dsq:id="7760761448" />
+	</post>
+	<post dsq:id="4726848674">
+		<id />
+		<message>
+			<![CDATA[<p>On Android (which now includes Chromebooks) I use Termux and git to sync my notes repo and Markor for editing.</p><p>In Termux, you can share a folder with the system, so Markor can open the file directly. I use the Termux widget to sync.</p>]]>
+		</message>
+		<createdAt>
+			2019-12-17T01:51:05Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Ryan Collins
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				mrrcollins
+			</username>
+		</author>
+		<thread dsq:id="7188885103" />
+	</post>
+	<post dsq:id="4992915171">
+		<id />
+		<message>
+			<![CDATA[<p>Yes I would recommend it, specially now during the pandemic!</p>]]>
+		</message>
+		<createdAt>
+			2020-07-15T15:48:12Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<thread dsq:id="7133440604" />
+		<parent dsq:id="4580334698" />
+	</post>
+	<post dsq:id="4993035232">
+		<id />
+		<message>
+			<![CDATA[<p>I understand your point now. What a comeback even if it took a year.</p>]]>
+		</message>
+		<createdAt>
+			2020-07-15T17:21:16Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Aaryan Bhagat
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				aaryan_bhagat
+			</username>
+		</author>
+		<thread dsq:id="7133440604" />
+		<parent dsq:id="4992915171" />
+	</post>
+	<post dsq:id="4993036588">
+		<id />
+		<message>
+			<![CDATA[<p>"Your comeback should be stronger than the setback" -  A random quote from r/GetMotivated</p>]]>
+		</message>
+		<createdAt>
+			2020-07-15T17:22:17Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<thread dsq:id="7133440604" />
+		<parent dsq:id="4993035232" />
+	</post>
+	<post dsq:id="4993169128">
+		<id />
+		<message>
+			<![CDATA[<p>Yes but at what cost?<br>You had a comeback at the cost of the world going down!</p>]]>
+		</message>
+		<createdAt>
+			2020-07-15T19:03:08Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Aaryan Bhagat
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				aaryan_bhagat
+			</username>
+		</author>
+		<thread dsq:id="7133440604" />
+		<parent dsq:id="4993036588" />
+	</post>
+	<post dsq:id="4995614198">
+		<id />
+		<message>
+			<![CDATA[<p>What's down What's Up?<br>Everything is relative!</p>]]>
+		</message>
+		<createdAt>
+			2020-07-17T17:04:43Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<thread dsq:id="7133440604" />
+		<parent dsq:id="4993169128" />
+	</post>
+	<post dsq:id="4995711321">
+		<id />
+		<message>
+			<![CDATA[<p>What a statement!</p>]]>
+		</message>
+		<createdAt>
+			2020-07-17T18:20:58Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Aaryan Bhagat
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				aaryan_bhagat
+			</username>
+		</author>
+		<thread dsq:id="7133440604" />
+		<parent dsq:id="4995614198" />
+	</post>
+	<post dsq:id="5098235723">
+		<id />
+		<message>
+			<![CDATA[<p>Awesome</p>]]>
+		</message>
+		<createdAt>
+			2020-10-05T15:22:13Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Shubham Mishra
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				disqus_jYHCD36BXS
+			</username>
+		</author>
+		<thread dsq:id="8227325814" />
+	</post>
+	<post dsq:id="5098338954">
+		<id />
+		<message>
+			<![CDATA[<p><a href="https://media3.giphy.com/media/26mXXqALVqZq3r9vB2/giphy.gif" rel="nofollow noopener" title="https://media3.giphy.com/media/26mXXqALVqZq3r9vB2/giphy.gif">https://media3.giphy.com/me...</a></p>]]>
+		</message>
+		<createdAt>
+			2020-10-05T16:38:30Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Raghavendra Kaushik
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				raghavendrakaushik
+			</username>
+		</author>
+		<thread dsq:id="8227325814" />
+	</post>
+	<post dsq:id="5139342975">
+		<id />
+		<message>
+			<![CDATA[<p>Amazing covers! The Farmhouse one looks absolutely professional!</p>]]>
+		</message>
+		<createdAt>
+			2020-11-05T19:15:06Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Dibya Das
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				disqus_lAWMqraEui
+			</username>
+		</author>
+		<thread dsq:id="8261743483" />
+	</post>
+	<post dsq:id="5140112627">
+		<id />
+		<message>
+			<![CDATA[<p>Corona X16 would be my favourite ❤️</p><p>Also, please enable guest comment posting.</p>]]>
+		</message>
+		<createdAt>
+			2020-11-06T08:21:11Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				SKJ
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				disqus_s25aER6tXp
+			</username>
+		</author>
+		<thread dsq:id="8261743483" />
+	</post>
+	<post dsq:id="5200500280">
+		<id />
+		<message>
+			<![CDATA[<p>I like it! Thank you for your sharing. I also take notes between pc and laptop, sync is very important.</p>]]>
+		</message>
+		<createdAt>
+			2020-12-24T13:40:51Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				grants
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				disqus_M922u3qzFk
+			</username>
+		</author>
+		<thread dsq:id="8221600349" />
+	</post>
+	<post dsq:id="5305947445">
+		<id />
+		<message>
+			<![CDATA[<p>Lovely website! I look forward to reading more of your material.</p>]]>
+		</message>
+		<createdAt>
+			2021-03-16T12:53:43Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Michael D
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				michael_demone
+			</username>
+		</author>
+		<thread dsq:id="7760761448" />
+	</post>
+	<post dsq:id="5392597988">
+		<id />
+		<message>
+			<![CDATA[<p>Good one</p>]]>
+		</message>
+		<createdAt>
+			2021-05-22T06:03:19Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Aaryan Bhagat
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				aaryan_bhagat
+			</username>
+		</author>
+		<thread dsq:id="8419169736" />
+	</post>
+	<post dsq:id="5418348426">
+		<id />
+		<message>
+			<![CDATA[<p>Noice. I switched from Manjaro i3 to Arch just to try it out but Manjaro definitely is very comfortable</p>]]>
+		</message>
+		<createdAt>
+			2021-06-13T14:27:36Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Khun
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				disqus_7QyeHVLnQK
+			</username>
+		</author>
+		<thread dsq:id="8419169736" />
+	</post>
+	<post dsq:id="5419381595">
+		<id />
+		<message>
+			<![CDATA[<p>&gt; Embedding and a live preview with export if needed sealed the deal for me.</p><p>Why do you find the Live Preview useful? I am intrigued by some users who use the WYSISWYG editors with half the screen taken up by the live preview!!!</p><p>(Personally, I get more value from having other text that I have written for reference and idle checking on the whole screen, as much as possible and prevent duplication. So, I want to find the value in a live preview and see if there is a hole in my workflow which can be filled using a live preview)</p><p>I am curious because I am sure you have written Markdown long enough to know what it looks like and VSCode's Markdown editor does the basic formatting for blockquotes, code blocks and headings (I presume, for I have never used it).</p>]]>
+		</message>
+		<createdAt>
+			2021-06-14T13:37:16Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				Siddharth Kannan
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				siddharthkannan
+			</username>
+		</author>
+		<thread dsq:id="8589564904" />
+	</post>
+	<post dsq:id="5419539833">
+		<id />
+		<message>
+			<![CDATA[<p>I write and read my notes 99% of the times in plain text VSCode.</p><p>However, Live Preview comes in handy once in a while, for example, to view an embedded image. Most of the times I avoid embedding images for the reasons that you described: It is better to note down the essence, rather than make the notes a dumping ground with too much information.</p><p>But in a few rare occasions, images are convenient, and I can't open the note in Typora just to view the image. As I usually have a split pane already open, the viewer directly opens to the file at that line. Moreover, It is a simple handy shortcut <code>Cmd+K V</code> away.</p><p>Example of images in my notes I can't remove <a href="https://uploads.disquscdn.com/images/eaef6edcfcbd16b48fb087530ad250552aeffc2e560e305f5ae595748402d669.png" rel="nofollow noopener" title="https://uploads.disquscdn.com/images/eaef6edcfcbd16b48fb087530ad250552aeffc2e560e305f5ae595748402d669.png">https://uploads.disquscdn.c...</a></p>]]>
+		</message>
+		<createdAt>
+			2021-06-14T15:55:08Z
+		</createdAt>
+		<isDeleted>
+			false
+		</isDeleted>
+		<isSpam>
+			false
+		</isSpam>
+		<author>
+			<name>
+				xypnox
+			</name>
+			<isAnonymous>
+				false
+			</isAnonymous>
+			<username>
+				xypnox
+			</username>
+		</author>
+		<thread dsq:id="8589564904" />
+		<parent dsq:id="5419381595" />
+	</post>
+</disqus>

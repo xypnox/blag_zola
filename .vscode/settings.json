@@ -1,5 +1,7 @@
 {
   "files.associations": {
-    "*.html": "tera"
-  }
+    "*.html": "html"
+  },
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true
 }

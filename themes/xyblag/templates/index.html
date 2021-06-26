@@ -5,7 +5,8 @@
 {% endblock navigation %}
 {% block content %}
     <div class="hero">
-        <div class="logo">
+        <div class="title">
+                {{ post_macros::endnote(classname="logo") }}
             <a href="{{ config.base_url }}">{{ config.title }}</a>
         </div>
         <p>
