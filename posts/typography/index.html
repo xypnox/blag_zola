@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta
+        content="text/html; charset=utf-8" http-equiv="content-type"/> <!-- Enable responsiveness on mobile devices-->
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport"/>
+        <title>
+            
+    Typography - Blag
+
+        </title>
+        <link href="https://www.xypnox.com/blag/favicon.ico" rel="icon" type="image/x-icon"/>
+        
+            <link rel="alternate" type= "application/atom+xml"  title="RSS" href="https://www.xypnox.com/blag/atom.xml"/>
+        
+        
+        
+    <meta content="website" property="og:type"/>
+    <meta content="Blag" property="og:site_name"/>
+    <meta content="https://www.xypnox.com/blag/posts/typography/" property="og:url"/>
+    <meta content="https://www.xypnox.com/blag/posts/typography/" property="twitter:url"/>
+    
+        <meta content="Typography" property="og:title"/>
+        <meta content="Typography" property="twitter:title"/>
+    
+    
+        <meta content="A few musings on the discipline of Typography and a few fonts that I like." property="description"/>
+        <meta content="A few musings on the discipline of Typography and a few fonts that I like." property="og:description"/>
+        <meta content="A few musings on the discipline of Typography and a few fonts that I like." property="twitter:description"/>
+    
+    
+        <meta content="summary_large_image" property="twitter:card"/>
+        <meta content="https://www.xypnox.com/blag/images/cover.png" property="og:image"/>
+        <meta content="https://www.xypnox.com/blag/images/cover.png" property="twitter:image"/>
+    
+
+        
+        
+            <script src="https://www.xypnox.com/blag/slideout.min.js" type="text/javascript"></script>
+            
+        
+        
+            <link href="https://www.xypnox.com/blag/site.css" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
+            <link charset="utf-8" href="https://indestructibletype.com/fonts/Jost.css" rel="stylesheet" type="text/css"/>
+            
+        
+        
+    </head>
+    <body>
+        <script>
+            (function initTheme() {
+                let body = document.getElementsByTagName("body")[0];
+                if (window.localStorage.getItem("theme") !== null) {
+                    if (window.localStorage.getItem("theme") === "dark") {
+                        body.setAttribute("data-theme", "dark");
+                    } else {
+                        body.setAttribute("data-theme", "light");
+                    }
+                } else {
+                    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                        body.setAttribute("data-theme", "dark");
+                    }
+                }
+            })();
+        </script>
+        <div class="container">
+            <div class="mobile-navbar" id="mobile-navbar">
+                <div class="mobile-header-logo">
+                    <a class="logo" href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag">Blag</a>
+                </div>
+                <div class="mobile-navbar-icon icon-out">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <nav class="mobile-menu slideout-menu slideout-menu-left" id="mobile-menu">
+                <ul class="mobile-menu-list">
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;categories">
+                                Categories
+                            </a>
+                        </li>
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;tags">
+                                Tags
+                            </a>
+                        </li>
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;quotes">
+                                Quotes
+                            </a>
+                        </li>
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;about">
+                                About
+                            </a>
+                        </li>
+                    
+                    <li class="mobile-menu-item">
+                        <div class="theme-switcher">
+                            
+    <div class="theme-button" onClick="toggleTheme()">
+        <label for="cb1">
+            <svg
+                id="dayIcon"
+                style="enable-background:new 0 0 35 35;"
+                version="1.1"
+                viewBox="0 0 35 35"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <g id="Sun">
+                    <g>
+                        <path
+                            d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5 S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z
+                                M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5
+                                C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6
+                                C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9
+                                c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44
+                                l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5
+                                c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06 L6.439,8.561z
+                                M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z
+                                M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2
+                                C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29
+                                c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7
+                                C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5
+                                c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"
+                            style="fill-rule:evenodd;clip-rule:evenodd;"/>
+                    </g>
+                </g>
+            </svg>
+        </label>
+        <input class="toggle" id="cb1" onClick="toggleTheme()" type="checkbox"/>
+        <label class="toggle-button" for="cb1"></label>
+        <label for="cb1">
+            <svg
+                enable-background="new 0 0 100 100"
+                id="nightIcon"
+                version="1.1"
+                viewBox="0 0 100 100"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571
+                C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23
+                c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369
+                c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65 c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"/>
+            </svg>
+        </label>
+    </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            
+                
+    <header id="header">
+        <div class="logo">
+            <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag">Blag</a>
+        </div>
+        
+    <nav class="menu">
+        <ul>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;categories">
+                        Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;tags">
+                        Tags
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;quotes">
+                        Quotes
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;about">
+                        About
+                    </a>
+                </li>
+            
+            <div class="theme-switcher">
+                
+    <div class="theme-button" onClick="toggleTheme()">
+        <label for="cb1">
+            <svg
+                id="dayIcon"
+                style="enable-background:new 0 0 35 35;"
+                version="1.1"
+                viewBox="0 0 35 35"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <g id="Sun">
+                    <g>
+                        <path
+                            d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5 S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z
+                                M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5
+                                C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6
+                                C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9
+                                c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44
+                                l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5
+                                c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06 L6.439,8.561z
+                                M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z
+                                M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2
+                                C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29
+                                c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7
+                                C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5
+                                c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"
+                            style="fill-rule:evenodd;clip-rule:evenodd;"/>
+                    </g>
+                </g>
+            </svg>
+        </label>
+        <input class="toggle" id="cb1" onClick="toggleTheme()" type="checkbox"/>
+        <label class="toggle-button" for="cb1"></label>
+        <label for="cb1">
+            <svg
+                enable-background="new 0 0 100 100"
+                id="nightIcon"
+                version="1.1"
+                viewBox="0 0 100 100"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571
+                C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23
+                c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369
+                c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65 c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"/>
+            </svg>
+        </label>
+    </div>
+
+            </div>
+        </ul>
+    </nav>
+
+    </header>
+
+            
+            <main>
+                <div class="content" id="mobile-panel"> 
+    
+        <div class="post-toc" id="post-toc">
+            <div class="toc-wrapper">
+                <h2 class="post-toc-title">Contents</h2>
+                <div class="post-toc-content always-active">
+                    <nav id="TableOfContents">
+                        <ul>
+                            
+                                <li>
+                                    <a class="toc-link" href="https://www.xypnox.com/blag/posts/typography/#the-basics">The basics</a>
+                                    
+                                </li>
+                            
+                                <li>
+                                    <a class="toc-link" href="https://www.xypnox.com/blag/posts/typography/#personal-picks">Personal Picks</a>
+                                    
+                                        <ul>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://www.xypnox.com/blag/posts/typography/#inter">Inter</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://www.xypnox.com/blag/posts/typography/#manrope">Manrope</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://www.xypnox.com/blag/posts/typography/#jost">Jost*</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://www.xypnox.com/blag/posts/typography/#iosevka">Iosevka</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://www.xypnox.com/blag/posts/typography/#lato">Lato</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://www.xypnox.com/blag/posts/typography/#hk-grotesk">HK Grotesk</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://www.xypnox.com/blag/posts/typography/#playfair-display">Playfair Display</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://www.xypnox.com/blag/posts/typography/#roboto">Roboto</a>
+                                                </li>
+                                            
+                                        </ul>
+                                    
+                                </li>
+                            
+                                <li>
+                                    <a class="toc-link" href="https://www.xypnox.com/blag/posts/typography/#resources">Resources</a>
+                                    
+                                </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    
+    <article class="post">
+        
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;posts&#x2F;typography&#x2F;">Typography</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">2019-12-12</span>
+            
+                <div class="post__category">
+                    
+                        <a href="https://www.xypnox.com/blag/categories/design/">design</a>
+                    
+                </div>
+            
+        </div>
+    </header>
+
+        <div class="post-content">
+            <div class="cover-image">
+  <img src="&#x2F;blag&#x2F;images&#x2F;typography.png"/>
+  <p class="desc">
+    Cover by xypnox
+  </p>
+</div>
+<p><strong>Typography</strong> is the art and technique of arranging type. It is the method used to make text readable, legible, beautiful and meaningful. Good typography is readable. No matter how stylish and polished your font is, if it isn't readable no one is gonna <em>read</em> it.</p>
+<blockquote>
+<p>The beauty of type lies in its utility; prettiness without readability serves neither the author nor reader. - James Felici</p>
+</blockquote>
+<p>The main way in which we style our texts is with fonts. Fonts are more or less a complete set of glyphs for characters that can be used to render the text.</p>
+<p>Although fonts are the most common way to change the text, it is necessary to note that there are many many ways to make text look different without changing it's font. Some examples are size, weight, kerning, color etc.</p>
+<p>There are a ton of things related to typography including: stroke stem ligature etc. understanding of which is not necessary to make good design. All we need to know is which fonts and what style is necessary for the job at hand.</p>
+<h2 id="the-basics">The basics</h2>
+<p>Use as little as required. This is a general advice while designing anything however this is especially true for typography. Many people go over the board when they discover the plethora of fonts available at their disposition, and they use every font they can find. Which ends up looking quite ugly.</p>
+<blockquote>
+<p>Less is more</p>
+</blockquote>
+<p><em>See which fonts go together, try to use a few or even a single font family. You can use styles such as caps, italics, weight, color etc to differentiate the text.</em></p>
+<p><img src="https://i.imgur.com/LIY4e4p.png" alt="" /></p>
+<p>In comparison look into the same content with same alignment and positioning as before but the use of only Roboto font family:</p>
+<p><img src="https://i.imgur.com/XZ7rId3.png" alt="" /></p>
+<p>Observe that even though it isn't as eye-catching as the previous example, at least the eyes aren't catching fire either i.e. it is far more readable to the user. Also note the usage of weight, color and kerning. They provide a guide for the eyes to follow, the main heading is the largest and bold, attracting the eye towards it. The paragraph then follows. The Navbar that cannot be confused with anything else due to its positioning at the top.</p>
+<p><em>Similar things look similar different things look different.</em> Buttons should have similar look and fonts, Links should be colored and highlighted similarly.</p>
+<p>Simplicity is not just meant for the style, your content should also apply minimalism. You do not need many complicated words to explain something to the user. You can even use icons to make it more understandable. But do not over do it. Provide text wherever required and use clear language.</p>
+<p>Color is a sensitive topic. Some people like this color some that. In typography it isn't quite hard to decide what the colors should be. Firstly, any long form content should have a flat color; gradients and effects reduce legibility. Everything else can be based on the color scheme of the project. Say your blog had a red/warm color scheme, one example of using the color scheme could be:</p>
+<p><img src="https://i.imgur.com/bGjS8Ca.png" alt="" /></p>
+<h2 id="personal-picks">Personal Picks</h2>
+<p>Here are a list of fonts that I really like. They are all free to use for everything.</p>
+<h3 id="inter"><a href="https://rsms.me/inter/">Inter</a></h3>
+<p><img src="https://i.imgur.com/8otQbVs.png" alt="" /></p>
+<p>The time I experienced this font I was in love. It is like a modern version of Helevetica with subtle improvements for visibility. This font can be used everywhere from headings to paragraphs to UI and brand text. The versatility and looks make this one of the best overall fonts out there.</p>
+<h3 id="manrope"><a href="https://github.com/sharanda/manrope">Manrope</a></h3>
+<p><img src="https://i.imgur.com/BrOKvPy.png" alt="" /></p>
+<p>This is a pleasing font at all sizes. It is a mix of geometric and neo-grotesque, which gives it an average look. It is a versatile font and can be used in any situation. Various weights mean more flexibility. It sometimes looks awkward with a few specific characters, let us hope it gets better as it is an ongoing project.</p>
+<h3 id="jost"><a href="https://indestructibletype.com/Jost.html">Jost*</a></h3>
+<p><img src="https://i.imgur.com/0sA3qp7.png" alt="" /></p>
+<p><strong>The</strong> geometric free font. It is a modern take on the classic Futura. It's shape and proportions have a fresh feel to it. One of my most loved fonts. It makes for a great use anywhere font. With the advent of geometric fonts in modern design, Jost is a nice font to consider for your next design.</p>
+<h3 id="iosevka"><a href="https://github.com/be5invis/Iosevka">Iosevka</a></h3>
+<p><img src="https://i.imgur.com/OfyGVbA.png" alt="" /></p>
+<p>With a mechanical and elongated look, Iosevka is beautiful and readable. I use it more that I would like to admit. This is the default monospace font on my system and is used throughout the interface from coding and terminals to everywhere such as status bars. (Customizations on linux are usually referred to ricing. See <a href="https://www.reddit.com/r/unixporn/top/?t=all">r/unixporn</a> for examples.) I also use this in my text editor Typora (<a href="https://theme.typora.io/theme/Xydark/">theme here</a>). In fact, the font used to type this article in is none other than Iosevka!</p>
+<h3 id="lato"><a href="http://www.latofonts.com/">Lato</a></h3>
+<p><img src="https://i.imgur.com/Nxpnupa.png" alt="" /></p>
+<p>Lato is a humanist sans serif font. It's rounded solid nature gives it vibes of summer. It is versatile and looks transparent in body while being distinct in headings. A truly universal typeface with support for several unicode languages, lato deserves the credit for the popularity it has.</p>
+<h3 id="hk-grotesk"><a href="https://hanken.co/products/hk-grotesk">HK Grotesk</a></h3>
+<p><img src="https://i.imgur.com/gEWvPV5.png" alt="" /></p>
+<p>HK Grotesk is a visually attractive and sharp grotesk sans typeface. It brovides a solid and industrial look. All caps looks particularly pleasing. A must use font to spice up the interface.</p>
+<h3 id="playfair-display"><a href="https://github.com/clauseggers/Playfair-Display">Playfair Display</a></h3>
+<p><img src="https://i.imgur.com/ZHJWck8.png" alt="" /></p>
+<p>A stylish and multipurpose heading and banner font. It looks funky and professional at the same time. It is balanced and restrained in a casual fashion. You should be careful not to use it everywhere though.</p>
+<h3 id="roboto"><a href="https://fonts.google.com/specimen/Roboto">Roboto</a></h3>
+<p><img src="https://i.imgur.com/WpvykbE.png" alt="" /></p>
+<p>The classic android font and one of the most used open fonts available. It is Google's take on Helevetica, built for the 2.5 billion android devices, it was designed to be incredibly flexible and readable at the same time. A great font to use when you don't know what to choose. There are other members of Roboto family that you can also check out: <a href="https://fonts.google.com/specimen/Roboto+Slab">Roboto Slab</a>, <a href="https://fonts.google.com/specimen/Roboto+Condensed">Roboto Condensed</a>, and <a href="https://fonts.google.com/specimen/Roboto+Mono">Roboto Mono</a>.</p>
+<h2 id="resources">Resources</h2>
+<p>There are various good places to look through to find both inspiration and advice regarding typography, here are the best ones I know:</p>
+<ul>
+<li><a href="https://material.io/design/typography/understanding-typography.html">Understanding Typography - Material Design</a></li>
+<li><a href="https://www.smashingmagazine.com/typography-guidelines-and-references">Typography guidelines and references - Smashing Magazine</a></li>
+<li><a href="https://www.creativelive.com/blog/typography-tips/">Typography Tips</a></li>
+<li><a href="https://www.canva.com/learn/typography-design/">Typography - Canva</a></li>
+<li><a href="https://www.reddit.com/r/typography">r/typography</a></li>
+<li><a href="https://dribbble.com/shots/popular/typography">Typography Shots - Dribbble</a></li>
+</ul>
+<p>And here are some places you can grab fonts for free:</p>
+<ul>
+<li><a href="https://material.io/design/typography/understanding-typography.html">Google Fonts</a></li>
+<li><a href="https://open-foundry.com/fonts">Open Foundry</a></li>
+<li><a href="https://www.websiteplanet.com/blog/best-free-fonts/">Best free fonts - Website Planet</a></li>
+<li><a href="https://www.dafont.com/">Dafont</a> <em>Warning: Several of these fonts may not be available for commercial projects</em></li>
+<li><a href="https://fontlibrary.org/">Font Library</a></li>
+<li><a href="https://github.com/ryanoasis/nerd-fonts">Nerd Fonts</a></li>
+<li><a href="https://designtheway.com/most-used-fonts-alternative-google-fonts/">Alternative Google fonts for premium fonts</a></li>
+</ul>
+<p>I also have <a href="https://gist.github.com/xypnox/b1364330ef326172b2f84a89d08e5e96">a gist</a> of a list of fonts that I prepared a few months back while searching for fonts. It may turn out useful for some font hunters.</p>
+<hr />
+<p>There are tons of more theory and practice in the field of typography, you can even go ahead and make your own font, <a href="https://github.com/xypnox/Oliver/">like I did</a>. But I feel that I have covered the most important aspects of typography here. And the provided links and resources are enough for a head-start.</p>
+<blockquote>
+<p>“Type is a beautiful group of letters, not a group of beautiful letters.” - Matthew Carter</p>
+</blockquote>
+<p><em>As always, suggestions and additions are welcome.</em></p>
+
+        </div>
+        
+        
+<div class="endnote">
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="32" height="32" fill="#0F111A"/>
+<path d="M24.4007 7.96378C24.4264 7.93093 22.8161 9.28394 20.8224 10.9705C18.5308 12.909 17.2034 14.0523 17.2134 14.0785C17.2222 14.1013 17.4504 14.3778 17.7208 14.6931C17.9911 15.0085 18.2151 15.2675 18.2183 15.2688C18.2241 15.271 24.3063 8.08431 24.4007 7.96378ZM13.7345 17.5026C13.7205 17.5112 12.4015 19.0641 10.8034 20.9534C9.20526 22.8427 7.82151 24.4761 7.7283 24.5833C7.63509 24.6904 7.56656 24.7781 7.57608 24.7781C7.59921 24.7781 14.9686 18.5435 14.9762 18.5175C14.9856 18.4849 13.7626 17.4852 13.7345 17.5026Z" fill="white"/>
+<g filter="url(#filter0_d)">
+<path d="M17.7084 6.12618C17.7028 6.13173 17.8349 6.18975 18.0021 6.255C18.4783 6.44089 19.3557 6.89785 19.8265 7.2052C20.5983 7.70896 21.1194 8.13113 21.7353 8.75128C21.9582 8.97573 22.1546 9.16129 22.1717 9.16356C22.1888 9.16583 22.2725 9.1053 22.3575 9.02914L22.5119 8.89058L22.4043 8.77807C22.2419 8.60855 21.676 8.11812 21.3767 7.88729C20.5212 7.22745 19.5229 6.68378 18.571 6.35971C18.28 6.26061 17.7244 6.11018 17.7084 6.12618ZM9.82532 8.86817C8.54177 9.03085 7.48406 10.0002 6.55125 12.1121C6.08621 13.1649 5.79453 14.2439 5.66131 15.4044C5.61256 15.829 5.61299 17.0425 5.66204 17.4616C5.86094 19.1614 6.39022 20.6289 7.30894 22.028C7.60043 22.472 7.76766 22.6974 8.04349 23.0182L8.22494 23.2293L8.42562 22.9931C8.53599 22.8632 8.62631 22.7466 8.62631 22.7338C8.62631 22.7209 8.54176 22.5471 8.43829 22.3478C8.07957 21.6566 7.84323 21.0156 7.64358 20.1922C7.25385 18.5848 7.2679 16.6476 7.67792 15.4621C8.17684 14.0196 9.09883 13.4728 10.1729 13.9827C10.4728 14.1252 10.6775 14.2686 11.1826 14.6904C11.4141 14.8837 13.1677 16.3468 15.0795 17.9416C16.9913 19.5364 18.9763 21.1928 19.4907 21.6226C20.7204 22.65 21.2097 23.002 21.8714 23.3352C22.1263 23.4636 22.5669 23.6193 22.842 23.6784C23.0856 23.7307 23.4575 23.7383 23.6873 23.6956C23.9497 23.647 24.2985 23.4598 24.4959 23.2617C24.7167 23.0401 24.9711 22.6276 25.2763 21.9969C25.9499 20.6045 26.2476 19.2801 26.25 17.6642C26.2512 16.8619 26.2065 16.3585 26.0671 15.6026C25.7222 13.7332 24.8809 11.8322 23.7044 10.264C23.5815 10.1002 23.4702 9.95197 23.4572 9.93453C23.4344 9.90418 23.357 9.98021 23.1669 10.2192L23.0889 10.3171L23.2884 10.6244C24.2277 12.0718 24.7712 13.522 24.9811 15.1395C25.0459 15.6388 25.0549 16.7983 24.9976 17.2902C24.8821 18.2832 24.5919 19.411 24.2911 20.0363C24.0556 20.5258 23.7141 20.8472 23.3483 20.9232C22.9397 21.0082 22.4668 20.8133 21.989 20.3629C21.9057 20.2844 20.0643 18.1695 17.8969 15.6633C14.9064 12.2054 14.7513 12 13.5901 10.7681C12.429 9.53617 11.2508 8.6875 9.82532 8.86817ZM9.43661 23.8982C9.4265 23.8982 9.35584 23.9521 9.27952 24.0178L9.14069 24.1374L9.29657 24.2793C9.52644 24.4889 10.1672 24.9604 10.5343 25.1901C10.7108 25.3006 11.0657 25.5001 11.3229 25.6335C11.7577 25.8591 11.9036 25.9262 11.7637 25.8366C10.7544 25.1899 10.2491 24.7828 9.70817 24.1802C9.56896 24.0252 9.44672 23.8982 9.43661 23.8982Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d" x="2.84343" y="6.125" width="26.1881" height="25.3131" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="2.78157"/>
+<feGaussianBlur stdDeviation="1.39079"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
+</div>
+
+        <div
+            class="end-post">
+        </div>
+        <div class="post-footer">
+            
+                
+                    <div class="post-tags">
+                        
+                            <a href="https://www.xypnox.com/blag/tags/design/">
+                                <span class="hashtag">#</span>
+                                design</a>
+                        
+                            <a href="https://www.xypnox.com/blag/tags/typography/">
+                                <span class="hashtag">#</span>
+                                typography</a>
+                        
+                    </div>
+                
+                
+                    <div class="post-nav">
+                        
+                            <a class="previous" href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;posts&#x2F;chessproblems&#x2F;">‹ 3D plot on a Chess Board</a>
+                        
+                        
+                            <a class="next" href="https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;posts&#x2F;the-secret-of-life&#x2F;">The Secret of Life ›</a>
+                        
+                        
+                        
+                    </div>
+                
+                
+    
+        <h1>Comments</h1>
+        <script src="https://utteranc.es/client.js"
+            repo="xypnox/blag"
+            issue-term="pathname"
+            label="comments"
+            theme="photon-dark"
+            crossorigin="anonymous"
+            async>
+        </script> 
+    
+
+            
+        </div>
+        
+    </article>
+
+                    
+    <footer>
+        <div class="social_links">
+            
+                <a href="https:&#x2F;&#x2F;twitter.com&#x2F;xypnox">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                </a>
+            
+            
+                <a href="https:&#x2F;&#x2F;github.com&#x2F;xypnox">
+                    <svg
+                        class="feather feather-github"
+                        fill="none"
+                        height="24"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7
+                            0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+            
+            
+                <a href="https:&#x2F;&#x2F;t.me&#x2F;xypnox">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </a>
+            
+            
+                <a href="https:&#x2F;&#x2F;behance.net&#x2F;xypnox">
+                    <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 6L16 6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" />
+                        <path
+                            d="M1 18H5.29819e-07C5.29819e-07 18.5523 0.447716 19 1 19L1 18ZM1 10.4545C0.447715 10.4545 0 10.9023 0 11.4545C0 12.0068 0.447715 12.4545 1 12.4545V10.4545ZM1 6V5C0.447716 5
+                                5.29819e-07 5.44772 5.29819e-07 6H1ZM8.88889 8.72727C8.88889 9.664 8.11033 10.4545 7.11111 10.4545V12.4545C9.18014 12.4545 10.8889 10.803 10.8889 8.72727H8.88889ZM7.11111 7C8.11033
+                                7 8.88889 7.79055 8.88889 8.72727H10.8889C10.8889 6.65154 9.18014 5 7.11111 5V7ZM10 14.7273C10 15.9652 8.97271 17 7.66667 17V19C10.0425 19 12 17.1043 12 14.7273H10ZM7.66667
+                                12.4545C8.97271 12.4545 10 13.4893 10 14.7273H12C12 12.3503 10.0425 10.4545 7.66667 10.4545V12.4545ZM7.66667 17H1V19H7.66667V17ZM7.66667 10.4545H1V12.4545H7.66667V10.4545ZM7.11111
+                                5H1V7H7.11111V5ZM2 18V6H5.29819e-07V18H2Z"
+                            fill="currentColor"/>
+                        <path
+                            d="M14 13.5C14 15.9853 16.0147 18 18.5 18C19.6413 18 20.6833 17.5752 21.4766 16.875M14 13.5C14 11.0147 16.0147 9 18.5 9C20.9853 9 23 11.0147 23 13.5H14Z"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            stroke="currentColor"/>
+                    </svg>
+                </a>
+            
+            <a id="rss_feed_link" href="https://www.xypnox.com/blag/atom.xml">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
+                    Atom Feed
+                </a>
+        </div>
+        <div class="theme_info">
+            <p>
+            &#169;<script>
+                    document.write(new Date().getFullYear());
+                </script>
+                xypnox
+            </p>
+
+            <p>
+                Made with
+                <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a>,
+                <a href="https://github.com/xypnox/blag/tree/master/themes/xyblag" rel="noopener noreferrer" target="_blank">Theme</a>
+                by
+                <a href="https://www.xypnox.com/" rel="noopener noreferrer" target="_blank">xypnox</a>.
+            </p>
+        </div>
+    </footer>
+
+                </div>
+            </main>
+        </div>
+        
+            <script src="https://www.xypnox.com/blag/main.js" type="text/javascript"></script>
+        
+    </body>
+</html>
