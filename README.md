@@ -2,7 +2,9 @@
 
 # The Blag
 
-_Blog of xypnox, a collection of Literature, Computing and Philosophy_
+_Used to be the Blog of xypnox, a collection of Literature, Computing and Philosophy_
+
+> This was a earlier variant of blog, built via zola, the current version doesn't use this, instead it is kept with the same repo as xypnox.com's source.
 
 ![Deployment](https://github.com/xypnox/blag/workflows/Deployment/badge.svg)
 
